@@ -361,43 +361,21 @@
     <key macro="issued-year"/>
   </sort>
   <layout>
-    <choose>
-      <if type="motion_picture graphic" match="any">
-        <group delimiter=" ">
-        <choose>
-          <if variable="dimensions medium" match="any">
-            <text variable="title" form="short" font-style="italic"/>
-            <text macro="issued-year" prefix="(" suffix=")"/>
-          </if>
-          <else>
-            <text variable="title" form="short" font-style="italic"/>
-            <group delimiter=", "  prefix="(" suffix=")">
-              <text macro="author"/>
-              <text macro="issued-year"/>
-            </group>
-          </else>
-        </choose>
-        </group>
-      </if>
-      <else>
-          <group prefix="(" suffix=")" delimiter="; ">
-          <choose>
-            <if variable="dimensions medium" match="any">
-              <text font-variant="small-caps" font-style="normal" macro="title"/>
-              <text prefix=" " macro="issued"/>
-            </if>
-            <else>
-              <text macro="author-short"/>
-              <group delimiter=",">
-                <text macro="issued"/>
-                <text macro="citation-locator"/>
-              </group>
-            </else>
-          </choose>
+    <group prefix="(" suffix=")" delimiter="; ">
+      <choose>
+        <if variable="dimensions medium" match="any">
+          <text font-variant="small-caps" font-style="normal" macro="title"/>
+          <text prefix=" " macro="issued"/>
+        </if>
+        <else>
+          <text macro="author-short"/>
+          <group delimiter=",">
+            <text macro="issued"/>
+            <text macro="citation-locator"/>
           </group>
-
-      </else>
-    </choose>
+        </else>
+      </choose>
+    </group>
   </layout>
 </citation>
 
@@ -409,50 +387,6 @@
     <key macro="issued-year" sort="ascending"/>
   </sort>
   <layout>
-  <choose>
-    <if type="motion_picture graphic" match="any">
-      <group suffix=".">
-      <text macro="title" font-style="italic"/>
-      <text macro="issued" suffix=" "/>
-      <group delimiter=". ">
-      <text macro="author" suffix=""/>
-        <group>
-          <text macro="container-contributors"/>
-          <text macro="secondary-contributors"/>
-          <group delimiter=", ">
-            <text variable="container-title" font-style="italic"/>
-          </group>
-        </group>
-      </group>
-      <choose>
-        <if variable="dimensions">
-          <text variable="dimensions" prefix=". "/>
-        </if>
-      </choose>
-      <group delimiter=", " prefix=". ">
-        <text macro="event"/>
-        <text macro="publisher"/>
-      </group>
-      <text macro="locators"/>
-      <!--
-      Zotero: Angabe spezieller Medieninformationen (Film): [dimensions, medium].
-       -->
-      <choose>
-        <if variable="dimensions medium" match="any">
-          <group prefix=" [" suffix="]">
-          <choose>
-            <if variable="medium">
-              <text variable="medium"/>
-            </if>
-          </choose>
-          </group>
-        </if>
-      </choose>
-      <!-- /[dimensions, medium] -->
-    </group>
-    <text macro="access" prefix=" " suffix="."/>
-    </if>
-    <else>
       <group suffix=".">
         <text macro="author" suffix=""/>
         <text macro="issued" prefix=" (" suffix="). "/>
@@ -507,8 +441,6 @@
         <!-- /[dimensions, medium] -->
       </group>
       <text macro="access" prefix=" " suffix="."/>
-    </else>
-  </choose>
   </layout>
 </bibliography>
 </style>
