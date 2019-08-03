@@ -1,0 +1,11 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  display: grid;
+  grid-template-columns: minmax(250px, 800px);
+  justify-content: center;
+  font-family: 'Vollkorn', serif;
+  font-size: 120%;
+}
