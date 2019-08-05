@@ -32,7 +32,6 @@
     <term name="anonymous" form="short">o.&#8201;A.</term>
     <term name="no date" form="short">o.&#8201;J.</term>
     <term name="editor" form="short">Hg.</term>
-    <term name="issue">Heft</term>
   </terms>
 </locale>
 
@@ -195,23 +194,6 @@
       </group>
     </else-if>
     <else>
-    <!-- from @misc (bibtex) bib2json -> no-type
-      <choose>
-      <if variable="event" match="none">
-        <choose>
-        <if type="no-type">
-          <choose>
-          <if variable="publisher publisher-place genre title title-short" match="all">
-          </if>
-          <else>
-            <text variable="genre" suffix=", "/>
-          </else>
-        </choose>
-        </if>
-        </choose>
-      </if>
-      </choose>
-    -->
       <group delimiter=": ">
         <text variable="publisher-place"/>
         <text variable="publisher"/>
@@ -243,7 +225,6 @@
 <macro name="issued">
   <choose>
     <if variable="issued">
-<!--      <group prefix=" (" suffix=")."> -->
         <group>
         <choose>
           <if variable="original-date">
@@ -307,8 +288,6 @@
 
 <macro name="locators">
   <choose>
-    <!-- Zeitschriftenartikel -->
-    <!-- nur Heft: ", Heft " | Band und Heft-Nr: ", #(#)" -->
     <if type="article-journal">
       <choose>
         <if variable="volume" match="none">
@@ -351,7 +330,6 @@
 
 <citation et-al-min="4" et-al-use-first="1" et-al-subsequent-min="4" et-al-subsequent-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true">
   <sort>
-    <key macro="urauthorortitle"/>
     <key macro="author"/>
     <key macro="issued-year"/>
   </sort>
