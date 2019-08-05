@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="de-DE">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" demote-non-dropping-particle="sort-only" default-locale="de-DE">
 
 <info>
   <title>mw-ur-lit</title>
@@ -17,7 +17,7 @@
     <email>christine.fraunhofer@ur.de</email>
     <uri>https://github.com/cat-mint/</uri>
   </contributor>
-  <category citation-format="author-date"/>
+  <category citation-format="note"/>
   <category field="humanities"/>
   <category field="generic-base"/>
   <summary>Zitationsstil für Literaturverzeichnis und Kurzbelege in der Medienwissenschaft der Universität Regensburg</summary>
