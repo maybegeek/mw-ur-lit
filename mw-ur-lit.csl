@@ -164,11 +164,6 @@
 </macro>
 
 <macro name="urauthorortitle">
-  <choose>
-  <if type="motion_picture graphic" match="any">
-    <text macro="title"/>
-  </if>
-  <else>
     <names variable="author">
       <name name-as-sort-order="all" and="symbol" sort-separator=", " initialize="false" delimiter="; " delimiter-precedes-last="never">
         <name-part name="family" font-variant="small-caps"/>
@@ -360,16 +355,10 @@
     <key macro="author"/>
     <key macro="issued-year"/>
   </sort>
-  <layout>
-    <group prefix="(" suffix=")" delimiter="; ">
-      <choose>
-        <if variable="dimensions medium" match="any">
-          <text font-variant="small-caps" font-style="normal" macro="title"/>
-          <text prefix=" " macro="issued"/>
-        </if>
-        <else>
-          <text macro="author-short"/>
-          <group delimiter=",">
+  <layout delimiter="; ">
+    <group delimiter=" ">
+          <text macro="author-citation"/>
+          <group delimiter="," prefix="(" suffix=")" >
             <text macro="issued"/>
             <text macro="citation-locator"/>
           </group>
@@ -424,9 +413,6 @@
           <text macro="publisher"/>
         </group>
         <text macro="locators"/>
-          <!--
-          Zotero: Angabe spezieller Medieninformationen (Film): [dimensions, medium].
-           -->
         <choose>
           <if variable="dimensions medium" match="any">
             <group prefix=" [" suffix="]">
@@ -438,7 +424,6 @@
             </group>
           </if>
         </choose>
-        <!-- /[dimensions, medium] -->
       </group>
       <text macro="access" prefix=" " suffix="."/>
   </layout>
