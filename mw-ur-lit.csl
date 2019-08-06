@@ -129,9 +129,9 @@
 </macro>
 
 <macro name="series">
-  <group font-style="normal" prefix=" (=&#8202;" suffix=")">
+  <group prefix=" (=&#8202;" suffix=")" delimiter=", ">
     <text variable="collection-title"/>
-    <text variable="collection-number" prefix=", "/>
+    <text variable="collection-number"/>
   </group>
 </macro>
 
