@@ -288,7 +288,7 @@
       <text variable="container-title" prefix=" "/>
       <text variable="page" prefix=" S.&#8201;"/>
     </else-if>
-    <else-if type="bill book graphic legal_case motion_picture report song chapter" match="any">
+    <else-if type="bill book legal_case report song chapter" match="any">
       <group prefix=". " delimiter=". ">
         <group>
           <text term="volume" text-case="capitalize-first" suffix=" "/>
