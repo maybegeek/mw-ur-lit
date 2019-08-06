@@ -277,16 +277,10 @@
 <macro name="locators">
   <choose>
     <if type="article-journal">
-      <choose>
-        <if variable="volume" match="none">
-          <text term="issue" prefix=". " suffix="&#8201;"/>
-          <text variable="issue"/>
-        </if>
-        <else>
-          <text variable="volume" prefix=". "/>
-          <text variable="issue" prefix=", Nr.&#8201;"/>
-        </else>
-      </choose>
+      <group prefix=". " delimiter=", Nr.&#8201;">
+        <text variable="volume"/>
+        <text variable="issue"/>
+      </group>
       <text variable="page" prefix=". S.&#8201;"/>
     </if>
     <else-if type="legal_case">
