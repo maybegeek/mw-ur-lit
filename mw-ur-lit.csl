@@ -148,14 +148,14 @@
       <text variable="title" font-style="italic"/>
       <text macro="series"/>
     </else-if>
-    <else-if type="bill graphic legislation motion_picture report song webpage chapter" match="any">
+    <else-if type="bill graphic legislation report song webpage chapter" match="any">
       <text variable="title"/>
     </else-if>
     <else-if type="article">
       <choose>
         <if variable="archive" match="none">
           <text variable="title" font-style="italic"/>
-	</if>
+        </if>
         <else>
           <text variable="title"/>
         </else>
