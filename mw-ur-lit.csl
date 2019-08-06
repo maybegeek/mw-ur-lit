@@ -243,9 +243,9 @@
 <macro name="issued-year">
   <choose>
     <if variable="original-date">
-        <date variable="original-date" suffix="/">
-          <date-part name="year"/>
-        </date>
+      <date variable="original-date" suffix="/">
+        <date-part name="year"/>
+      </date>
     </if>
   </choose>
   <choose>
