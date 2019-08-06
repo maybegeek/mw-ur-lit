@@ -107,26 +107,18 @@
 
 <macro name="access">
   <group delimiter=". ">
-    <choose>
-      <if variable="DOI">
-        <group>
-          <text value="doi:" suffix=" " font-variant="small-caps"/>
-          <text variable="DOI" suffix="&#8201;"/>
-        </group>
-      </if>
-    </choose>
-    <choose>
-      <if variable="URL">
-        <group>
-          <text value="url:"  suffix=" " font-variant="small-caps"/>
-          <text variable="URL" suffix=" "/>
-        </group>
-      </if>
-    </choose>
+    <group>
+      <text value="doi: " font-variant="small-caps"/>
+      <text variable="DOI"/>
+    </group>
+    <group>
+      <text value="url: " font-variant="small-caps"/>
+      <text variable="URL"/>
+    </group>
   </group>
   <choose>
     <if variable="accessed">
-      <text term="retrieved" prefix="– " suffix=": "/>
+      <text term="retrieved" prefix="&#8201;–&#8201;" suffix=": "/>
       <date variable="accessed">
         <date-part name="day" form="numeric" suffix="."/>
         <date-part name="month" suffix="." form="numeric"/>
