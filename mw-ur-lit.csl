@@ -184,27 +184,10 @@
 </macro>
 
 <macro name="publisher">
-  <choose>
-    <if type="report thesis" match="any">
-      <group delimiter=": ">
-        <text variable="publisher-place"/>
-        <text variable="publisher"/>
-      </group>
-    </if>
-    <else-if type="graphic">
-      <group delimiter=" ">
-        <text variable="publisher-place" suffix=","/>
-        <text variable="publisher"/>
-        <text variable="genre" prefix="[" suffix="]"/>
-      </group>
-    </else-if>
-    <else>
-      <group delimiter=": ">
-        <text variable="publisher-place"/>
-        <text variable="publisher"/>
-      </group>
-    </else>
-  </choose>
+  <group delimiter=": ">
+    <text variable="publisher-place"/>
+    <text variable="publisher"/>
+  </group>
 </macro>
 
 <macro name="event">
