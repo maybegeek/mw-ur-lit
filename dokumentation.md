@@ -135,7 +135,7 @@ Wer dieses Unterfangen dennoch eingehen will, der erhält hier:
 * `Titel:` Sitznachbar
 * `Autor:` Doppelherz
 * `Datum:` 2007
-* `Extra:` ARD Radio-Kreativ-Wettbewerb 2007; Broschüre und CD-Rom. [Werbung]
+* `Extra:` ARD Radio-Kreativ-Wettbewerb 2007; Broschüre und CD-Rom. \[Werbung\]
 
 *Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@gesel:1952.] eigener Text.
 
@@ -147,7 +147,7 @@ Wer dieses Unterfangen dennoch eingehen will, der erhält hier:
 * `Heruntergeladen am:` 2013-09-18
 * `Archiv:` Regensburger Archiv für Werbeforschung
 * `Standort im Archiv:` R-Nummer: 616
-* `Extra:` PROPHOTO vom 12.7.1952, HWA_1_863.mp3. [Werbung, Audio]
+* `Extra:` PROPHOTO vom 12.7.1952, HWA_1_863.mp3. \[Werbung, Audio\]
 
 ## weitere Quellen
 
