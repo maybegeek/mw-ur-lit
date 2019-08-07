@@ -5,8 +5,8 @@
   <title>mw-ur-lit</title>
   <title-short>mw-ur-lit</title-short>
   <id>https://maybegeek.github.io/mw-ur-lit</id>
-  <link href="https://maybegeek.github.io/mw-ur-lit" rel="self"/>
-  <link href="https://maybegeek.github.io/mw-ur-lit" rel="documentation"/>
+  <link href="https://maybegeek.github.io/mw-ur-lit/mw-ur-lit.csl" rel="self"/>
+  <link href="https://maybegeek.github.io/mw-ur-lit/" rel="documentation"/>
   <author>
     <name>Christoph Pfeiffer</name>
     <email>christoph.pfeiffer@ur.de</email>
@@ -21,7 +21,7 @@
   <category field="humanities"/>
   <category field="communications"/>
   <summary>Zitationsstil für Literaturverzeichnis und Kurzbelege (MW UR)</summary>
-  <updated>2019-08-06T14:30:20+02:00</updated>
+  <updated>2019-08-07T14:30:20+02:00</updated>
   <rights license="http://creativecommons.org/licenses/by-sa/4.0/">This work is licensed under a Creative Commons Attributio-ShareAlike 4.0 License (CC BY-SA 4.0)</rights>
 </info>
 
