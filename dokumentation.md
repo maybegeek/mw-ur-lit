@@ -1,12 +1,12 @@
 ---
 lang: de-DE
 bibliography: mw-ur-lit-keys.json
-csl: mw-ur-lit.csl
-css: style.css
+csl: https://maybegeek.github.io/mw-ur-lit/mw-ur-lit.csl
+css: https://maybegeek.github.io/mw-ur-lit/style.css
 pagetitle: mw-ur-lit (CSL für MW UR Gestaltungsrichtlinien)
 ---
 
-<!-- pandoc index.md --filter pandoc-citeproc --lua-filter section-refs.lua -M section-refs-level=2 -o index.htm -s -->
+<!-- pandoc dokumentation.md --filter pandoc-citeproc --lua-filter section-refs.lua -M section-refs-level=2 -o index.htm -s -->
 
 # mw-ur-lit
 
