@@ -155,8 +155,8 @@ Der Vollständigkeit halber noch die weiteren, in den Gestaltungsrichtlinien ver
 
 *Beispiel:* Thema Thema Thema.[Besonders gut zusammengestellt bei @bier:2009.]
 
-*Beispiel:* „Direkte Textübernahme direkte Textübernahme“.[@brink:2013, 159\; Hervorhebungen im Original.]
+*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@brink:2013, 159\; Hervorhebungen im Original.] und eigene Einordnung.
 
-*Beispiel:* „Direkte Textübernahme direkte Textübernahme“.[@ander:2000, 99.]
+*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@ander:2000, 99.] und eigene Einordnung.
 
 *Beispiel:* Thema Thema Thema.[Siehe hierzu einschlägig @zahn:1685, 181.]
