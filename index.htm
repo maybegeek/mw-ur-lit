@@ -1,19 +1,229 @@
-<!DOCTYPE HTML>
-<html lang="de">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de-DE" xml:lang="de-DE">
 <head>
-  <meta charset="utf-8">
-  <title>Zitation</title>
-  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>mw-ur-lit (CSL für MW UR Gestaltungsrichtlinien)</title>
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="style.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
 </head>
 <body>
-  <h1>mw-ur-lit</h1>
-  <p>Zitationsstil für Literaturverzeichnis und Kurzbelege (MW UR). Zur Verwendung in Literaturverwaltungsprogrammen wie Zotero oder Mendeley und zur weiteren Unterstützung im akademischen Schreiben mit Word, Writer, Pandoc &hellip;</p>
-  <main>
+<!-- pandoc index.md --filter pandoc-citeproc --lua-filter section-refs.lua -M section-refs-level=2 -o index.htm -s -->
+<h1 id="mw-ur-lit">mw-ur-lit</h1>
+<p>Kurzbelege und Vollbelege im Stile der <a href="https://www.uni-regensburg.de/sprache-literatur-kultur/medienwissenschaft/medien/pdfs/studium-materialien/mw-gestaltungsrichtlinien.pdf">Gestaltungsrichtlinien der Medienwissenschaft</a> an der Universität Regensburg. Zur Verwendung in Literaturverwaltungsprogrammen wie <a href="https://www.zotero.org/">Zotero</a> oder <a href="https://www.mendeley.com/">Mendeley</a> und zur weiteren Unterstützung im akademischen Schreiben mit Word, Writer, Pandoc …</p>
+<div id="refs-1" class="references">
 
-  </main>
-  <footer>
-  </footer>
+</div>
+<h2 id="literaturverwaltung">Literaturverwaltung</h2>
+<p>Kein System papierner oder softwaregestützter Literaturverwaltung kommt ohne Sorgfalt aus. Keine wissenschaftliche Arbeit wird sich unter Zuhilfenahme eines dieser Verwaltungssysteme von alleine schreiben. Die Verwendung eines Literaturverwaltungssystems mit korrespondierenden Zitationsstil-Dateien setzt vielleicht sogar noch mehr ein Interesse oder die behände Auseinandersetzung mit den Traditionen hinsichtlich des akademischen Schreibens und Veröffentlichens des jeweiligen Fachs voraus; und manchmal werden Synergieeffekte sich erst nach langem, steinigen Verwendungsweg zeigen.</p>
+<p>Wer dieses Unterfangen dennoch eingehen will, der erhält hier:</p>
+<ul>
+<li>die vorgefertigte <a href="https://maybegeek.github.io/mw-ur-lit/mw-ur-lit.csl">CSL-Datei (mw-ur-lit.csl)</a>,</li>
+<li>wie auch die <a href="https://maybegeek.github.io/mw-ur-lit/mw-ur-lit.json">verzeichneten Quellen aus den Gestaltungsrichtlinien</a> und</li>
+<li>die <a href="https://maybegeek.github.io/mw-ur-lit/mw-ur-lit-keys.json">verzeichneten Quellen aus den Gestaltungsrichtlinien (mit BBT keys)</a></li>
+</ul>
+<div id="refs-2" class="references">
+
+</div>
+<h2 id="monografie">Monografie</h2>
+<p><em>Beispiel:</em> Paraphrase Paraphrase Paraphrase.<span class="citation" data-cites="dotzl:2017"><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></span></p>
+<ul>
+<li><code>Eintragsart:</code> Buch</li>
+<li><code>Titel:</code> Mediengeschichte als Historische Techno-Logie</li>
+<li><code>Autor:</code> Dotzler, Bernhard J.</li>
+<li><code>Autor:</code> Roesler-Keilholz, Silke</li>
+<li><code>Ort:</code> Baden-Baden</li>
+<li><code>Verlag:</code> Nomos</li>
+<li><code>Datum:</code> 2017</li>
+</ul>
+<div id="refs-3" class="references">
+<div id="ref-dotzl:2017">
+<p>Dotzler, Bernhard J. &amp; Roesler-Keilholz, Silke (2017). <em>Mediengeschichte als Historische Techno-Logie</em>. Baden-Baden: Nomos.</p>
+</div>
+</div>
+<h2 id="herausgeberschaft">Herausgeberschaft</h2>
+<p><em>Beispiel:</em> Wie schon mit der herausgebenden Autorenschaft zum Thema gezeigt.<span class="citation" data-cites="heiba:2015"><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></span></p>
+<ul>
+<li><code>Eintragsart:</code> Buch</li>
+<li><code>Titel:</code> Ästhetik der Materialität</li>
+<li><code>Herausgeber:</code> Heibach, Christiane</li>
+<li><code>Herausgeber:</code> Rohde, Carsten</li>
+<li><code>Reihe:</code> HfG Forschung</li>
+<li><code>Nummer der Reihe:</code> 6</li>
+<li><code>Ort:</code> München</li>
+<li><code>Verlag:</code> Fink</li>
+<li><code>Datum:</code> 2015</li>
+</ul>
+<div id="refs-4" class="references">
+<div id="ref-heiba:2015">
+<p>Heibach, Christiane &amp; Rohde, Carsten (Hg.) (2015). <em>Ästhetik der Materialität</em> (= HfG Forschung, 6). München: Fink.</p>
+</div>
+</div>
+<h2 id="wissenschaftliche-fachzeitschrift">Wissenschaftliche Fachzeitschrift</h2>
+<p><em>Beispiel:</em> „Direkte Textübernahme direkte Textübernahme“<span class="citation" data-cites="stegb:2001"><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></span> eigener Text.</p>
+<ul>
+<li><code>Eintragsart:</code> Zeitschriftenartikel</li>
+<li><code>Titel:</code> Die schweigende Mehrheit – „Lurker“ in internetbasierten Diskussionsforen</li>
+<li><code>Autor:</code> Stegbauer, Christian</li>
+<li><code>Autor:</code> Rausch, Alexander</li>
+<li><code>Band:</code> 30</li>
+<li><code>Ausgabe:</code> 1</li>
+<li><code>Seiten:</code> 48-64</li>
+<li><code>Datum:</code> 2001</li>
+</ul>
+<div id="refs-5" class="references">
+<div id="ref-stegb:2001">
+<p>Stegbauer, Christian &amp; Rausch, Alexander (2001). Die schweigende Mehrheit – „Lurker“ in internetbasierten Diskussionsforen. In: <em>Zeitschrift für Soziologie</em>. 30, Nr. 1. S. 48–64.</p>
+</div>
+</div>
+<h2 id="sammelband">Sammelband</h2>
+<p><em>Beispiel:</em> Paraphrase Paraphrase Paraphrase.<span class="citation" data-cites="gerha:1993"><a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></span></p>
+<ul>
+<li><code>Eintragsart:</code> Buchteil</li>
+<li><code>Titel:</code> Strukturen und Funktionen moderner Öffentlichkeit</li>
+<li><code>Autor:</code> Gerhards, Jürgen</li>
+<li><code>Autor:</code> Neidhardt, Friedhelm</li>
+<li><code>Herausgeber:</code> Langenbucher, Wolfgang R.</li>
+<li><code>Buchtitel:</code> Politische Kommunikation. Grundlagen, Strukturen, Prozesse</li>
+<li><code>Reihe:</code> Studienbücher zur Publizistik- und Kommunikationswissenschaft</li>
+<li><code>Nummer der Reihe:</code> 2</li>
+<li><code>Auflage:</code> 2., überarb. Auflage</li>
+<li><code>Ort:</code> Wien</li>
+<li><code>Verlag:</code> Braumüller</li>
+<li><code>Datum:</code> 1993</li>
+<li><code>Seiten:</code> 52-89</li>
+</ul>
+<p><em>Beispiel:</em> „Direkte Textübernahme direkte Textübernahme“<span class="citation" data-cites="ament:2003"><a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></span> eigener Text.</p>
+<ul>
+<li><code>Eintragsart:</code> Zeitschriftenartikel</li>
+<li><code>Titel:</code> Experiments in social data mining: The TopicShop system</li>
+<li><code>Autor:</code> Amento, Brian</li>
+<li><code>Autor:</code> Terveen, Loren G.</li>
+<li><code>Autor:</code> Hill, William C.</li>
+<li><code>Autor:</code> Hix, Deborah</li>
+<li><code>Autor:</code> Schulman, Robert</li>
+<li><code>Publikation:</code> ACM Transactions on Computer-Human Interaction (TOCHI)</li>
+<li><code>Band:</code> 10</li>
+<li><code>Ausgabe:</code> 1</li>
+<li><code>Seiten:</code> 54-85</li>
+<li><code>Datum:</code> 2003</li>
+<li><code>Zeitschriften-Abkürzung:</code> ACM Trans. Comput.-Hum. Interact.</li>
+<li><code>DOI:</code> 10.1145/606658.606661</li>
+</ul>
+<div id="refs-6" class="references">
+<div id="ref-ament:2003">
+<p>Amento, Brian; Terveen, Loren G.; Hill, William C.; Hix, Deborah &amp; Schulman, Robert S. (2003). Experiments in social data mining: The TopicShop system. In: <em>ACM Transactions on Computer-Human Interaction (TOCHI)</em>. 10, Nr. 1. S. 54–85. <span class="smallcaps">doi:</span> <a href="https://doi.org/10.1145/606658.606661">10.1145/606658.606661</a>.</p>
+</div>
+<div id="ref-gerha:1993">
+<p>Gerhards, Jürgen &amp; Neidhardt, Friedhelm (1993). Strukturen und Funktionen moderner Öffentlichkeit. In: Langenbucher, Wolfgang R. (Hg.). <em>Politische Kommunikation. Grundlagen, Strukturen, Prozesse</em> (= Studienbücher zur Publizistik- und Kommunikationswissenschaft, 2). 2., überarb. Auflage. Wien: Braumüller. S. 52–89.</p>
+</div>
+</div>
+<h2 id="webseite">Webseite</h2>
+<p><em>Beispiel:</em> „Direkte Textübernahme direkte Textübernahme“<span class="citation" data-cites="orei:2005"><a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></span> eigener Text.</p>
+<ul>
+<li><code>Eintragsart:</code> Webseite</li>
+<li><code>Titel:</code> What Is Web 2.0. Design Patterns and Business Models for the Next Generation of Software</li>
+<li><code>Autor:</code> O’Reilly, Tim</li>
+<li><code>Datum:</code> 2003</li>
+<li><code>URL:</code> https://www.oreilly.com/pub/a/web2/archive/what-is-web-20.html</li>
+<li><code>Heruntergeladen am:</code> 2019-06-29</li>
+</ul>
+<div id="refs-7" class="references">
+<div id="ref-orei:2005">
+<p>O’Reilly, Tim (2005). <em>What Is Web 2.0. Design Patterns and Business Models for the Next Generation of Software</em>. <span class="smallcaps">url:</span> <a href="https://www.oreilly.com/pub/a/web2/archive/what-is-web-20.html">https://www.oreilly.com/pub/a/web2/archive/what-is-web-20.html</a> – Zugriff: 29.6.2019.</p>
+</div>
+</div>
+<h2 id="wikipedia">Wikipedia</h2>
+<p><em>Beispiel:</em> Paraphrase Paraphrase Paraphrase.<span class="citation" data-cites="wikip:2019"><a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></span></p>
+<ul>
+<li><code>Eintragsart:</code> Enzyklopädieartikel</li>
+<li><code>Titel:</code> Universität Regensburg</li>
+<li><code>Autor:</code> Wikipedia</li>
+<li><code>Titel der Enzyklopädie:</code> Wikipedia, Die freie Enzyklopädie</li>
+<li><code>Datum:</code> 2019-07-11</li>
+<li><code>URL:</code> https://de.wikipedia.org/w/index.php?title=Universit%C3%A4t_Regensburg&amp;oldid=190335453</li>
+<li><code>Heruntergeladen am:</code> 2019-07-22</li>
+</ul>
+<div id="refs-8" class="references">
+<div id="ref-wikip:2019">
+<p>Wikipedia (11. Juli 2019). Universität Regensburg. In: <em>Wikipedia, Die freie Enzyklopädie</em>. <span class="smallcaps">url:</span> <a href="https://de.wikipedia.org/w/index.php?title=Universit%C3%A4t_Regensburg&amp;oldid=190335453">https://de.wikipedia.org/w/index.php?title=Universit%C3%A4t_Regensburg&amp;oldid=190335453</a> – Zugriff: 22.7.2019.</p>
+</div>
+</div>
+<h2 id="werbung">Werbung</h2>
+<p><em>Beispiel:</em> „Direkte Textübernahme direkte Textübernahme“<span class="citation" data-cites="doppe:2007"><a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></span> eigener Text.</p>
+<ul>
+<li><code>Eintragsart:</code> Dokument</li>
+<li><code>Titel:</code> Sitznachbar</li>
+<li><code>Autor:</code> Doppelherz</li>
+<li><code>Datum:</code> 2007</li>
+<li><code>Extra:</code> ARD Radio-Kreativ-Wettbewerb 2007; Broschüre und CD-Rom. <a href="#werbung">Werbung</a></li>
+</ul>
+<p><em>Beispiel:</em> „Direkte Textübernahme direkte Textübernahme“<span class="citation" data-cites="gesel:1952"><a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a></span> eigener Text.</p>
+<ul>
+<li><code>Eintragsart:</code> Dokument</li>
+<li><code>Titel:</code> Oh die herrlichen Berge</li>
+<li><code>Autor:</code> Gesellschaft zur Förderung der Photographie</li>
+<li><code>Datum:</code> 1952</li>
+<li><code>URL:</code> https://raw.uni-regensburg.de/details.php?r=616</li>
+<li><code>Heruntergeladen am:</code> 2013-09-18</li>
+<li><code>Archiv:</code> Regensburger Archiv für Werbeforschung</li>
+<li><code>Standort im Archiv:</code> R-Nummer: 616</li>
+<li><code>Extra:</code> PROPHOTO vom 12.7.1952, HWA_1_863.mp3. [Werbung, Audio]</li>
+</ul>
+<div id="refs-9" class="references">
+<div id="ref-doppe:2007">
+<p>Doppelherz (2007). <em>Sitznachbar</em>. ARD Radio-Kreativ-Wettbewerb 2007; Broschüre und CD-Rom. [Werbung].</p>
+</div>
+<div id="ref-gesel:1952">
+<p>Gesellschaft zur Förderung der Photographie (1952). Oh die herrlichen Berge. In: <em>Regensburger Archiv für Werbeforschung</em>. R-Nummer: 616. PROPHOTO vom 12.7.1952, HWA_1_863.mp3. [Werbung, Audio]. <span class="smallcaps">url:</span> <a href="https://raw.uni-regensburg.de/details.php?r=616">https://raw.uni-regensburg.de/details.php?r=616</a> – Zugriff: 18.9.2013.</p>
+</div>
+</div>
+<h2 id="weitere-quellen">weitere Quellen</h2>
+<p>Der Vollständigkeit halber noch die weiteren, in den Gestaltungsrichtlinien verwendeten, Quellen, welche mit dem Zitationsstil der CSL-Datei umgesetzt werden können:</p>
+<p><em>Beispiel:</em> Thema Thema Thema.<span class="citation" data-cites="bier:2009"><a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a></span></p>
+<p><em>Beispiel:</em> „Direkte Textübernahme direkte Textübernahme“.<span class="citation" data-cites="brink:2013"><a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a></span></p>
+<p><em>Beispiel:</em> „Direkte Textübernahme direkte Textübernahme“.<span class="citation" data-cites="ander:2000"><a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a></span></p>
+<p><em>Beispiel:</em> Thema Thema Thema.<span class="citation" data-cites="zahn:1685"><a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a></span></p>
+<div id="refs-10" class="references">
+<div id="ref-ander:2000">
+<p>Andermann, Ulrich; Drees, Martin &amp; Grätz, Frank (2000). <em>Duden. Wie verfasst man wissenschaftliche Arbeiten? Ein Leitfaden für das Studium und die Promotion</em>. Mainz: Verlag Hermann Schmidt.</p>
+</div>
+<div id="ref-bier:2009">
+<p>Bier, Christoph (2009). <em>Typokurz – Einige wichtige typografische Regeln</em>. <span class="smallcaps">url:</span> <a href="https://zvisionwelt.files.wordpress.com/2012/01/typokurz.pdf">https://zvisionwelt.files.wordpress.com/2012/01/typokurz.pdf</a> – Zugriff: 29.6.2019.</p>
+</div>
+<div id="ref-brink:2013">
+<p>Brink, Alfred (2013). <em>Anfertigung wissenschaftlicher Arbeiten. Ein prozessorientierter Leitfaden zur Erstellung von Bachelor-, Master- und Diplomarbeiten</em>. 4., korr. und akt. Auflage. Wiesbaden: Springer Fachmedien.</p>
+</div>
+<div id="ref-zahn:1685">
+<p>Zahn, Johannes (1685). <em>Oculus Artificialis Teledioptricus Sive Telescopium</em>. Würzburg: Quirin Heil.</p>
+</div>
+</div>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>Vgl. Dotzler &amp; Roesler-Keilholz (2017, S. 22).<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>Siehe hierzu Heibach &amp; Rohde (2015).<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>Stegbauer &amp; Rausch (2001, S. 48).<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>Vgl. Gerhards &amp; Neidhardt (1993, S. 60).<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5" role="doc-endnote"><p>Amento et al. (2003, S. 60).<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6" role="doc-endnote"><p>O’Reilly (2005).<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7" role="doc-endnote"><p>Vgl. Wikipedia (11. Juli 2019).<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8" role="doc-endnote"><p>Doppelherz (2007).<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9" role="doc-endnote"><p>Gesellschaft zur Förderung der Photographie (1952).<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10" role="doc-endnote"><p>Besonders gut zusammengestellt bei Bier (2009).<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11" role="doc-endnote"><p>Brink (2013, S. 159); Hervorhebungen im Original.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12" role="doc-endnote"><p>Andermann; Drees &amp; Grätz (2000, S. 99).<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13" role="doc-endnote"><p>Siehe hierzu einschlägig Zahn (1685, S. 181).<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
 </body>
 </html>
