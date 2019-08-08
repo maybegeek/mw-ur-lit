@@ -90,16 +90,16 @@ h2::before {
   display: none; */
 }
 
-ol {
+.footnotes ol {
   list-style-type: none;
   margin-left: 0;
 }
 
-ol > li {
+.footnotes ol > li {
   counter-increment: customlistcounter;
 }
 
-ol > li:before {
+.footnotes ol > li:before {
   content: counter(customlistcounter) " ";
   font-weight: bold;
   float: left;
@@ -111,5 +111,8 @@ ol > li:before {
 @media (max-width:550px) {
   html {
     font-size: 98%;
+  }
+  .footnotes ol {
+  padding-left: 0;
   }
 }
