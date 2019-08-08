@@ -4,20 +4,31 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>mw-ur-lit (CSL für MW UR Gestaltungsrichtlinien)</title>
+  <title>mw-ur-lit (CSL für MW-UR-Gestaltungsrichtlinien)</title>
   <style>
       code{white-space: pre-wrap;}
       span.smallcaps{font-variant: small-caps;}
       span.underline{text-decoration: underline;}
       div.column{display: inline-block; vertical-align: top; width: 50%;}
   </style>
-  <link rel="stylesheet" href="https://maybegeek.github.io/mw-ur-lit/style.css" />
+  <link rel="stylesheet" href="template/style.css" />
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
+  <meta name="author" content="erstellt von Christine Fraunhofer und CHristoph Pfeiffer">
+  <meta name="description" content="CSL-Datei für Kurzbelege und Vollbelege im Stile der Gestaltungsrichtlinien der Medienwissenschaft an der Universität Regensburg.">
+  <meta name="keywords" content="CSL, mw-ur-lit, Medienwissenschaft Regenburg, Citation, Zitation">
+  <meta property="og:title" content="mw-ur-lit (CSL für MW-UR-Gestaltungsrichtlinien)">
+  <meta property="og:site_name" content="mw-ur-lit">
+  <meta property="og:description" content="CSL-Datei für Kurzbelege und Vollbelege im Stile der Gestaltungsrichtlinien der Medienwissenschaft an der Universität Regensburg.">
+  <meta property="og:image" content="template/mw-ur-lit.jpg">
 </head>
 <body>
-<!-- pandoc dokumentation.md --filter pandoc-citeproc --lua-filter section-refs.lua -M section-refs-level=2 -o index.htm -s -->
+<!--
+```
+pandoc dokumentation.md --filter pandoc-citeproc --lua-filter template/section-refs.lua --metadata=section-refs-level:2 --include-in-header=template/dokumentation-meta.htm --output=index.htm -s
+```
+-->
 <h1 id="mw-ur-lit">mw-ur-lit</h1>
 <p>Kurzbelege und Vollbelege im Stile der <a href="https://www.uni-regensburg.de/sprache-literatur-kultur/medienwissenschaft/medien/pdfs/studium-materialien/mw-gestaltungsrichtlinien.pdf">Gestaltungsrichtlinien der Medienwissenschaft</a> an der Universität Regensburg. Zur Verwendung in Literaturverwaltungsprogrammen wie <a href="https://www.zotero.org/">Zotero</a> oder <a href="https://www.mendeley.com/">Mendeley</a> und zur weiteren Unterstützung im akademischen Schreiben mit Word, Writer, Pandoc …</p>
 <div id="refs-1" class="references">
@@ -158,7 +169,7 @@
 <p>Wikipedia (11. Juli 2019). Universität Regensburg. In: <em>Wikipedia, Die freie Enzyklopädie</em>. <span class="smallcaps">url:</span> <a href="https://de.wikipedia.org/w/index.php?title=Universit%C3%A4t_Regensburg&amp;oldid=190335453">https://de.wikipedia.org/w/index.php?title=Universit%C3%A4t_Regensburg&amp;oldid=190335453</a> – Zugriff: 22.7.2019.</p>
 </div>
 </div>
-<h2 id="werbung">Werbung</h2>
+<h2 id="werbung-raw">Werbung / RAW</h2>
 <p><em>Beispiel:</em> „Direkte Textübernahme direkte Textübernahme“<span class="citation" data-cites="doppe:2007"><a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></span> eigener Text.</p>
 <ul>
 <li><code>Eintragsart:</code> Dokument</li>

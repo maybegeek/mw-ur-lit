@@ -1,12 +1,16 @@
 ---
 lang: de-DE
 bibliography: mw-ur-lit-keys.json
-csl: https://maybegeek.github.io/mw-ur-lit/mw-ur-lit.csl
-css: https://maybegeek.github.io/mw-ur-lit/style.css
-pagetitle: mw-ur-lit (CSL für MW UR Gestaltungsrichtlinien)
+csl: mw-ur-lit.csl
+css: template/style.css
+pagetitle: mw-ur-lit (CSL für MW-UR-Gestaltungsrichtlinien)
 ---
 
-<!-- pandoc dokumentation.md --filter pandoc-citeproc --lua-filter section-refs.lua -M section-refs-level=2 -o index.htm -s -->
+<!--
+```
+pandoc dokumentation.md --filter pandoc-citeproc --lua-filter template/section-refs.lua --metadata=section-refs-level:2 --include-in-header=template/dokumentation-meta.htm --output=index.htm -s
+```
+-->
 
 # mw-ur-lit
 
@@ -127,7 +131,7 @@ Wer dieses Unterfangen dennoch eingehen will, der erhält hier:
 * `Heruntergeladen am:` 2019-07-22
 
 
-## Werbung
+## Werbung / RAW
 
 *Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@doppe:2007.] eigener Text.
 
