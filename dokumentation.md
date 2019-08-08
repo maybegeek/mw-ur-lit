@@ -16,6 +16,8 @@ pandoc dokumentation.md --filter pandoc-citeproc --lua-filter template/section-r
 
 Kurzbelege und Vollbelege im Stile der [Gestaltungsrichtlinien der Medienwissenschaft](https://www.uni-regensburg.de/sprache-literatur-kultur/medienwissenschaft/medien/pdfs/studium-materialien/mw-gestaltungsrichtlinien.pdf) an der Universität Regensburg. Zur Verwendung in Literaturverwaltungsprogrammen wie [Zotero](https://www.zotero.org/) oder [Mendeley](https://www.mendeley.com/) und zur weiteren Unterstützung im akademischen Schreiben mit Word, Writer, Pandoc &hellip;
 
+Stand: August 2019.
+
 
 ## Literaturverwaltung
 
