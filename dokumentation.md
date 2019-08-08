@@ -23,9 +23,13 @@ Kein System papierner oder softwaregestützter Literaturverwaltung kommt ohne So
 
 Wer dieses Unterfangen dennoch eingehen will, der erhält hier:
 
-* die vorgefertigte [CSL-Datei (mw-ur-lit.csl)](https://maybegeek.github.io/mw-ur-lit/mw-ur-lit.csl),
-* wie auch die [verzeichneten Quellen aus den Gestaltungsrichtlinien](https://maybegeek.github.io/mw-ur-lit/mw-ur-lit.json) und
-* die [verzeichneten Quellen aus den Gestaltungsrichtlinien (mit BBT keys)](https://maybegeek.github.io/mw-ur-lit/mw-ur-lit-keys.json)
+* die vorgefertigte [CSL-Datei (mw-ur-lit.csl)](https://maybegeek.github.io/mw-ur-lit/mw-ur-lit.csl)
+
+Zur weiteren Verwendung hier beispielhaft die Quellen für den Import  und der Link zur Github-Seite dieses Projekts:
+
+* die [verzeichneten Quellen aus den Gestaltungsrichtlinien](https://maybegeek.github.io/mw-ur-lit/mw-ur-lit.json) für die Verwendung mit Zotero und Word oder Writer,
+* die [verzeichneten Quellen aus den Gestaltungsrichtlinien (mit BBT keys)](https://maybegeek.github.io/mw-ur-lit/mw-ur-lit-keys.json) zur Verwendung mit Pandoc und Markdown-formatiertem Text,
+* sowie die Projektseite von [mw-ur-lit bei Github](https://github.com/maybegeek/mw-ur-lit)
 
 
 ## Monografie
