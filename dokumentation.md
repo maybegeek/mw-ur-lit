@@ -30,8 +30,10 @@ Wer dieses Unterfangen dennoch eingehen will, der erhält hier:
 Zur weiteren Verwendung hier beispielhaft die Quellen für den Import  und der Link zur Github-Seite dieses Projekts:
 
 * die [verzeichneten Quellen aus den Gestaltungsrichtlinien](https://maybegeek.github.io/mw-ur-lit/mw-ur-lit.json) für die Verwendung mit Zotero und Word oder Writer,
-* die [verzeichneten Quellen aus den Gestaltungsrichtlinien (mit BBT keys)](https://maybegeek.github.io/mw-ur-lit/mw-ur-lit-keys.json) zur Verwendung mit Pandoc und Markdown-formatiertem Text,
+* die [verzeichneten Quellen aus den Gestaltungsrichtlinien (mit BBT keys)](https://maybegeek.github.io/mw-ur-lit/mw-ur-lit-keys.json) zur Verwendung mit Pandoc und Markdown-formatiertem Text
 * sowie die Projektseite von [mw-ur-lit bei Github](https://github.com/maybegeek/mw-ur-lit)
+
+Beispielhaft nun die unterstützten Quellentypen, die jeweils zu befüllenden Felder in Zotero sowie ein Beispielsatz mit Kurzbeleg in der Fußnote (Fußnotenapparat am Ende der Seite) und Vollbeleg im heidenelkenroten Kästchen. Die Beispiele sind den Gestaltungsrichtlinien entnommen.
 
 
 ## Monografie
