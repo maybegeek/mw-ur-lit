@@ -1,0 +1,5 @@
+/.git export-ignore
+/template export-ignore
+/.gitattributes export-ignore
+/dokumentation.md export-ignore
+/index.htm export-ignore
