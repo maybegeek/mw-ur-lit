@@ -9,6 +9,7 @@ html {
   font-family: 'Noto Serif', serif;
   font-size: 120%;
   background-color: rgba(236, 240, 241,1.0);
+  hyphens: auto;
 }
 
 a {
