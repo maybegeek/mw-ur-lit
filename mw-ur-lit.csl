@@ -170,20 +170,6 @@
   </choose>
 </macro>
 
-<macro name="urauthorortitle">
-    <names variable="author">
-      <name name-as-sort-order="all" and="symbol" sort-separator=", " initialize="false" delimiter="; " delimiter-precedes-last="never">
-        <name-part name="family"/>
-      </name>
-      <label prefix=" (" suffix=".)" text-case="capitalize-first" strip-periods="true"/>
-        <substitute>
-          <names variable="editor"/>
-          <names variable="translator"/>
-          <text macro="title"/>
-        </substitute>
-    </names>
-</macro>
-
 <macro name="publisher">
   <group delimiter=": ">
     <text variable="publisher-place"/>
