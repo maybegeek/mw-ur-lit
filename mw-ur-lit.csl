@@ -60,29 +60,42 @@
 </macro>
 
 <macro name="author">
-  <names variable="author">
-    <name name-as-sort-order="all" and="symbol" sort-separator=", " delimiter="; " delimiter-precedes-last="never">
-      <name-part name="family" font-variant="normal"/>
-    </name>
-    <label prefix=" (" suffix=".)" text-case="capitalize-first" strip-periods="true" form="short"/>
-    <substitute>
-      <names variable="editor"/>
-      <names variable="translator"/>
-      <text macro="title"/>
-    </substitute>
-  </names>
+  <choose>
+    <if variable="author">
+      <names variable="author">
+        <name name-as-sort-order="all" and="symbol" sort-separator=", " delimiter="; " delimiter-precedes-last="never">
+          <name-part name="family" font-variant="normal"/>
+        </name>
+        <label prefix=" (" suffix=".)" text-case="capitalize-first" strip-periods="true" form="short"/>
+        <substitute>
+          <names variable="editor"/>
+          <names variable="translator"/>
+        </substitute>
+      </names>
+    </if>
+    <else>
+      <text term="anonymous" form="short"/>
+    </else>
+  </choose>
 </macro>
 
 <macro name="author-citation">
-  <names variable="author">
-    <name  form="short" name-as-sort-order="all" and="symbol" sort-separator=", " initialize="false" delimiter="; " delimiter-precedes-last="never">
-      <name-part name="family"/>
-    </name>
-    <substitute>
-      <names variable="editor"/>
-      <names variable="translator"/>
-    </substitute>
-  </names>
+  <choose>
+    <if variable="author">
+      <names variable="author">
+        <name  form="short" name-as-sort-order="all" and="symbol" sort-separator=", " initialize="false" delimiter="; " delimiter-precedes-last="never">
+          <name-part name="family"/>
+        </name>
+        <substitute>
+          <names variable="editor"/>
+          <names variable="translator"/>
+        </substitute>
+      </names>
+    </if>
+    <else>
+      <text term="anonymous" form="short"/>
+    </else>
+  </choose>
 </macro>
 
 <macro name="author-short">
