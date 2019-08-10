@@ -107,7 +107,7 @@
       <names variable="editor"/>
       <names variable="translator"/>
       <choose>
-      <if type="bill book graphic legal_case motion_picture report song" match="any">
+      <if type="bill book legal_case report song" match="any">
         <text variable="title" font-style="italic"/>
       </if>
       <else>
@@ -161,7 +161,7 @@
       <text variable="title" font-style="italic"/>
       <text macro="series"/>
     </else-if>
-    <else-if type="bill graphic legislation report song webpage chapter" match="any">
+    <else-if type="bill legislation report song webpage chapter" match="any">
       <text variable="title"/>
     </else-if>
     <else-if type="article">
