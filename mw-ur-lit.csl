@@ -317,11 +317,11 @@
   </sort>
   <layout delimiter="; ">
     <group delimiter=" ">
-          <text macro="author-citation"/>
-          <group delimiter="," prefix="(" suffix=")" >
-            <text macro="issued"/>
-            <text macro="citation-locator"/>
-          </group>
+      <text macro="author-citation"/>
+      <group delimiter="," prefix="(" suffix=")" >
+        <text macro="issued"/>
+        <text macro="citation-locator"/>
+      </group>
     </group>
   </layout>
 </citation>
