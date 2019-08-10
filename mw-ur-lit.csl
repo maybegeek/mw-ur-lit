@@ -29,8 +29,8 @@
   <terms>
     <term name="et-al">et al.</term>
     <term name="retrieved">Zugriff</term>
-    <term name="anonymous" form="short">o.&#8201;A.</term>
-    <term name="no date" form="short">o.&#8201;J.</term>
+    <term name="anonymous" form="short">o.&#8239;A.</term>
+    <term name="no date" form="short">o.&#8239;J.</term>
     <term name="editor" form="short">Hg.</term>
   </terms>
 </locale>
@@ -142,7 +142,7 @@
 </macro>
 
 <macro name="series">
-  <group prefix=" (=&#8202;" suffix=")" delimiter=", ">
+  <group prefix=" (=&#8239;" suffix=")" delimiter=", ">
     <text variable="collection-title"/>
     <text variable="collection-number"/>
   </group>
@@ -277,16 +277,16 @@
 <macro name="locators">
   <choose>
     <if type="article-journal">
-      <group prefix=". " delimiter=", Nr.&#8201;">
+      <group prefix=". " delimiter=", Nr.&#8239;">
         <text variable="volume"/>
         <text variable="issue"/>
       </group>
-      <text variable="page" prefix=". S.&#8201;"/>
+      <text variable="page" prefix=". S.&#8239;"/>
     </if>
     <else-if type="legal_case">
       <text variable="volume" prefix=", "/>
       <text variable="container-title" prefix=" "/>
-      <text variable="page" prefix=" S.&#8201;"/>
+      <text variable="page" prefix=" S.&#8239;"/>
     </else-if>
     <else-if type="bill book legal_case report song chapter" match="any">
       <group prefix=". " delimiter=". ">
@@ -298,7 +298,7 @@
           <number variable="number-of-volumes" form="numeric"/>
           <text term="volume" prefix=" " plural="true"/>
         </group>
-        <text variable="page" prefix=" S.&#8201;"/>
+        <text variable="page" prefix=" S.&#8239;"/>
       </group>
     </else-if>
   </choose>
@@ -306,7 +306,7 @@
 
 <macro name="citation-locator">
   <group>
-    <text variable="locator" prefix=" S.&#8201;"/>
+    <text variable="locator" prefix=" S.&#8239;"/>
   </group>
 </macro>
 
