@@ -98,26 +98,6 @@
   </choose>
 </macro>
 
-<macro name="author-short">
-  <names variable="author">
-    <name and="symbol" delimiter="; " initialize-with=". " delimiter-precedes-last="never">
-      <name-part name="family" font-variant="normal"/>
-    </name>
-    <substitute>
-      <names variable="editor"/>
-      <names variable="translator"/>
-      <choose>
-      <if type="bill book legal_case report song" match="any">
-        <text variable="title" font-style="italic"/>
-      </if>
-      <else>
-        <text variable="title" font-style="italic" quotes="true"/>
-      </else>
-      </choose>
-    </substitute>
-  </names>
-</macro>
-
 <macro name="access">
   <group delimiter=". ">
     <group>
