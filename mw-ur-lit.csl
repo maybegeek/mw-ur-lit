@@ -2,7 +2,7 @@
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" demote-non-dropping-particle="sort-only" default-locale="de-DE">
 
 <info>
-  <title>mw-ur-lit (im Stile der Gestaltungsrichtlinien Medienwissenschaft UR)</title>
+  <title>mw-ur-lit (nach den Gestaltungsrichtlinien der Medienwissenschaft der Universität Regensburg)</title>
   <title-short>mw-ur-lit</title-short>
   <id>https://maybegeek.github.io/mw-ur-lit</id>
   <link href="https://maybegeek.github.io/mw-ur-lit/mw-ur-lit.csl" rel="self"/>
@@ -21,7 +21,7 @@
   <category field="humanities"/>
   <category field="communications"/>
   <summary>mw-ur-lit: Kurz- und Vollbelege im Stile der Gestaltungsrichtlinien der Medienwissenschaft an der Universität Regensburg.</summary>
-  <updated>2019-08-10T20:30:20+02:00</updated>
+  <updated>2019-08-12T20:30:20+02:00</updated>
   <rights license="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 License (CC BY-SA 4.0)</rights>
 </info>
 
