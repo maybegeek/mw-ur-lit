@@ -21,7 +21,7 @@
   <category field="humanities"/>
   <category field="communications"/>
   <summary>mw-ur-lit: Kurz- und Vollbelege im Stile der Gestaltungsrichtlinien der Medienwissenschaft an der Universität Regensburg.</summary>
-  <updated>2019-08-12T20:30:40+02:00</updated>
+  <updated>2019-08-13T13:20:00+02:00</updated>
   <rights license="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 License (CC BY-SA 4.0)</rights>
 </info>
 
@@ -261,13 +261,11 @@
         <text variable="volume"/>
         <text variable="issue"/>
       </group>
-      <text variable="page" prefix=". S.&#8239;"/>
+      <group prefix=". " delimiter=". ">
+        <text macro="access"/>
+        <text variable="page" prefix="S.&#8239;"/>
+      </group>
     </if>
-    <else-if type="legal_case">
-      <text variable="volume" prefix=", "/>
-      <text variable="container-title" prefix=" "/>
-      <text variable="page" prefix=" S.&#8239;"/>
-    </else-if>
     <else-if type="bill book legal_case report song chapter" match="any">
       <group prefix=". " delimiter=". ">
         <group>
@@ -278,9 +276,18 @@
           <number variable="number-of-volumes" form="numeric"/>
           <text term="volume" prefix=" " plural="true"/>
         </group>
-        <text variable="page" prefix=" S.&#8239;"/>
+        <group delimiter=". ">
+          <text macro="access"/>
+          <text variable="page" prefix="S.&#8239;"/>
+        </group>
       </group>
     </else-if>
+    <else>
+      <group prefix=". " delimiter=". ">
+        <text macro="access"/>
+        <text variable="page" prefix="S.&#8239;"/>
+      </group>
+    </else>
   </choose>
 </macro>
 
@@ -348,7 +355,6 @@
           <text macro="event"/>
           <text macro="publisher"/>
         </group>
-        <text macro="locators"/>
         <choose>
           <if variable="dimensions medium" match="any">
             <group prefix=" [" suffix="]">
@@ -361,7 +367,7 @@
           </if>
         </choose>
       </group>
-      <text macro="access" prefix=" " suffix="."/>
+      <text macro="locators" suffix="."/>
   </layout>
 </bibliography>
 </style>
