@@ -12,25 +12,9 @@ html {
   hyphens: auto;
 }
 
-a {
-  color: rgba(156, 0, 75, 0.8);
-}
-
 body {
   margin:0;
   padding: 1.2em;
-}
-
-ul li {
-  margin-bottom: 0.4em;
-}
-code {
-  border: 1px dashed gray;
-  padding: 1px 5px;
-}
-
-.citation a {
-  text-decoration: none;
 }
 
 h1::after {
@@ -45,6 +29,33 @@ h2 {
 h2::before {
   content: "❦ ";
   color: rgba(156, 0, 75, 0.6);
+}
+
+a {
+  color: rgba(156, 0, 75, 0.8);
+}
+
+a.button {
+  background-color: rgba(156, 0, 75, 0.66);
+  color: white;
+  padding: 0.3em 0.6em;
+  border-radius: 6px;
+}
+
+a.button:hover {
+  background-color: rgba(156, 0, 75, 0.8);
+}
+
+ul li {
+  margin-bottom: 0.4em;
+}
+code {
+  border: 1px dashed gray;
+  padding: 1px 5px;
+}
+
+.citation a {
+  text-decoration: none;
 }
 
 .references div {

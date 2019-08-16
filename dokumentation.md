@@ -25,7 +25,7 @@ Kein System papierner oder softwaregestützter Literaturverwaltung kommt ohne So
 
 Wer dieses Unterfangen dennoch eingehen will, der erhält hier:
 
-* die vorgefertigte [CSL-Datei (mw-ur-lit.csl)](https://maybegeek.github.io/mw-ur-lit/mw-ur-lit.csl)
+* die vorgefertigte [CSL-Datei (mw-ur-lit.csl)](https://maybegeek.github.io/mw-ur-lit/mw-ur-lit.csl){.button}
 
 Zur weiteren Verwendung hier beispielhaft die Quellen für den Import  und der Link zur Github-Seite dieses Projekts:
 
