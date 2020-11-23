@@ -21,7 +21,7 @@
   <category field="humanities"/>
   <category field="communications"/>
   <summary>mw-ur-lit: Kurz- und Vollbelege im Stile der Gestaltungsrichtlinien der Medienwissenschaft an der Universität Regensburg.</summary>
-  <updated>2019-08-13T13:20:00+02:00</updated>
+  <updated>2020-11-23T12:20:00+02:00</updated>
   <rights license="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 License (CC BY-SA 4.0)</rights>
 </info>
 
@@ -257,9 +257,9 @@
 <macro name="locators">
   <choose>
     <if type="article-journal">
-      <group prefix=". " delimiter=", Nr.&#8239;">
+      <group prefix=". " delimiter=", ">
         <text variable="volume"/>
-        <text variable="issue"/>
+        <text variable="issue" prefix="Nr.&#8239;"/>
       </group>
       <group prefix=". " delimiter=". ">
         <text macro="access"/>
