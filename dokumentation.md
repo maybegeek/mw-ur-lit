@@ -45,36 +45,7 @@ Beispielhaft nun die unterstützten Quellentypen, die jeweils zu befüllenden Fe
 * `Datum:` 2017
 
 
-## Herausgeberschaft
-
-*Beispiel:* Wie schon mit der herausgebenden Autorenschaft zum Thema gezeigt.[Siehe hierzu @heiba:2015.]
-
-* `Eintragsart:` Buch
-* `Titel:` Ästhetik der Materialität
-* `Herausgeber:` Heibach, Christiane
-* `Herausgeber:` Rohde, Carsten
-* `Reihe:` HfG Forschung
-* `Nummer der Reihe:` 6
-* `Ort:` München
-* `Verlag:` Fink
-* `Datum:` 2015
-
-
-## Wissenschaftliche Fachzeitschrift
-
-*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@stegb:2001, 48.] eigener Text.
-
-* `Eintragsart:` Zeitschriftenartikel
-* `Titel:` Die schweigende Mehrheit – „Lurker“ in internetbasierten Diskussionsforen
-* `Autor:` Stegbauer, Christian
-* `Autor:` Rausch, Alexander
-* `Band:` 30
-* `Ausgabe:` 1
-* `Seiten:` 48-64
-* `Datum:` 2001
-
-
-## Sammelband
+## Sammelband, Herausgeberschaft
 
 *Beispiel:* Paraphrase Paraphrase Paraphrase.[Vgl. @gerha:1993, 60.]
 
@@ -108,6 +79,32 @@ Beispielhaft nun die unterstützten Quellentypen, die jeweils zu befüllenden Fe
 * `Datum:` 2003
 * `Zeitschriften-Abkürzung:` ACM Trans. Comput.-Hum. Interact.
 * `DOI:` 10.1145/606658.606661
+
+*Beispiel:* Wie schon mit der herausgebenden Autorenschaft zum Thema gezeigt.[Siehe hierzu @heiba:2015.]
+
+* `Eintragsart:` Buch
+* `Titel:` Ästhetik der Materialität
+* `Herausgeber:` Heibach, Christiane
+* `Herausgeber:` Rohde, Carsten
+* `Reihe:` HfG Forschung
+* `Nummer der Reihe:` 6
+* `Ort:` München
+* `Verlag:` Fink
+* `Datum:` 2015
+
+
+## Wissenschaftliche Fachzeitschrift
+
+*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@stegb:2001, 48.] eigener Text.
+
+* `Eintragsart:` Zeitschriftenartikel
+* `Titel:` Die schweigende Mehrheit – „Lurker“ in internetbasierten Diskussionsforen
+* `Autor:` Stegbauer, Christian
+* `Autor:` Rausch, Alexander
+* `Band:` 30
+* `Ausgabe:` 1
+* `Seiten:` 48-64
+* `Datum:` 2001
 
 
 ## Webseite
