@@ -261,8 +261,55 @@ Der Vollständigkeit halber noch die weiteren, in den Gestaltungsrichtlinien ver
 
 *Beispiel:* Thema Thema Thema.[Besonders gut zusammengestellt bei @bier:typoku:2009.]
 
+::: {.zotero-fields}
+
+* `Eintragsart:` `Buch`
+* `Titel:` `Typokurz – Einige wichtige typografische Regeln`
+* `Autor:` `Bier, Christoph`
+* `Datum:` `2009`
+* `URL:` `https://zvisionwelt.files.wordpress.com/2012/01/typokurz.pdf`
+* `Heruntergeladen am:` `2019-06-29`
+
+:::
+
 *Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@brink:anfert:2013, 159\; Hervorhebungen im Original.] und eigene Einordnung.
+
+::: {.zotero-fields}
+
+* `Eintragsart:` `Buch`
+* `Titel:` `Anfertigung wissenschaftlicher Arbeiten. Ein prozessorientierter Leitfaden zur Erstellung von Bachelor-, Master- und Diplomarbeiten`
+* `Autor:` `Brink, Alfred`
+* `Auflage:` `4., korr. und akt. Auflage`
+* `Ort:` `Wiesbaden`
+* `Verlag:` `Springer Fachmedien`
+* `Datum:` `2013`
+
+:::
 
 *Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@anderm:duden:2000, 99.] und eigene Einordnung.
 
+::: {.zotero-fields}
+
+* `Eintragsart:` `Buch`
+* `Titel:` `Duden. Wie verfasst man wissenschaftliche Arbeiten? Ein Leitfaden für das Studium und die Promotion`
+* `Autor:` `Andermann, Ulrich`
+* `Autor:` `Drees, Martin`
+* `Autor:` `Grätz, Frank`
+* `Ort:` `Mainz`
+* `Verlag:` `Verlag Hermann Schmidt`
+* `Datum:` `2000`
+
+:::
+
 *Beispiel:* Thema Thema Thema.[Siehe hierzu einschlägig @zahn:oculus:1685, 181.]
+
+::: {.zotero-fields}
+
+* `Eintragsart:` `Buch`
+* `Titel:` `Oculus Artificialis Teledioptricus Sive Telescopium`
+* `Autor:` `Zahn, Johannes`
+* `Ort:` `Würzburg`
+* `Verlag:` `Quirin Heil`
+* `Datum:` `1685`
+
+:::
