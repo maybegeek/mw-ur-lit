@@ -8,13 +8,16 @@ html {
   justify-content: center;
   font-family: 'Noto Serif', serif;
   font-size: 120%;
-  background-color: rgba(236, 240, 241,1.0);
-  hyphens: auto;
+  background-color: rgba(236, 240, 241, 1.0);
 }
 
 body {
   margin:0;
   padding: 1.2em;
+}
+
+p {
+  hyphens: auto;
 }
 
 h1::after {
