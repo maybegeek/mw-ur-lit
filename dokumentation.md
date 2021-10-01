@@ -34,15 +34,20 @@ Beispielhaft nun die unterstützten Quellentypen, die jeweils zu befüllenden Fe
 
 ## Monografie
 
-*Beispiel:* Paraphrase Paraphrase Paraphrase.[Vgl. @dotzl:2017, 22.]
+*Beispiel:* Paraphrase Paraphrase Paraphrase.[Vgl. @dotzle:medien:2017, 22.]
 
-* `Eintragsart:` Buch
-* `Titel:` Mediengeschichte als Historische Techno-Logie
-* `Autor:` Dotzler, Bernhard J.
-* `Autor:` Roesler-Keilholz, Silke
-* `Ort:` Baden-Baden
-* `Verlag:` Nomos
-* `Datum:` 2017
+::: {.zotero-fields}
+
+* `Eintragsart:` `Buch`
+* `Titel:` `Mediengeschichte als Historische Techno-Logie`
+* `Autor:` `Dotzler, Bernhard J.`
+* `Autor:` `Roesler-Keilholz, Silke`
+* `Ort:` `Baden-Baden`
+* `Verlag:` `Nomos`
+* `Datum:` `2017`
+
+:::
+
 
 
 ## Sammelband, Herausgeberschaft
@@ -95,73 +100,132 @@ Beispielhaft nun die unterstützten Quellentypen, die jeweils zu befüllenden Fe
 
 ## Wissenschaftliche Fachzeitschrift
 
-*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@stegb:2001, 48.] eigener Text.
+*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@stegba:diesc:2001, 48.] eigener Text.
 
-* `Eintragsart:` Zeitschriftenartikel
-* `Titel:` Die schweigende Mehrheit – „Lurker“ in internetbasierten Diskussionsforen
-* `Autor:` Stegbauer, Christian
-* `Autor:` Rausch, Alexander
-* `Band:` 30
-* `Ausgabe:` 1
-* `Seiten:` 48-64
-* `Datum:` 2001
+::: {.zotero-fields}
+
+* `Eintragsart:` `Zeitschriftenartikel`
+* `Titel:` `Die schweigende Mehrheit – „Lurker“ in internetbasierten Diskussionsforen`
+* `Autor:` `Stegbauer, Christian`
+* `Autor:` `Rausch, Alexander`
+* `Band:` `30`
+* `Ausgabe:` `1`
+* `Seiten:` `48-64`
+* `Datum:` `2001`
+
+:::
+
 
 
 ## Webseite
 
-*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@orei:2005.] eigener Text.
+*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@oreill:whati:2005.] eigener Text.
 
-* `Eintragsart:` Webseite
-* `Titel:` What Is Web 2.0. Design Patterns and Business Models for the Next Generation of Software
-* `Autor:` O’Reilly, Tim
-* `Datum:` 2003
-* `URL:` https://www.oreilly.com/pub/a/web2/archive/what-is-web-20.html
-* `Heruntergeladen am:` 2019-06-29
+::: {.zotero-fields}
+
+* `Eintragsart:` `Webseite`
+* `Titel:` `What Is Web 2.0. Design Patterns and Business Models for the Next Generation of Software`
+* `Autor:` `O’Reilly, Tim`
+* `Datum:` `2003`
+* `URL:` `https://www.oreilly.com/pub/a/web2/archive/what-is-web-20.html`
+* `Heruntergeladen am:` `2019-06-29`
+
+:::
+
 
 
 ## Wikipedia
 
-*Beispiel:* Paraphrase Paraphrase Paraphrase.[Vgl. @wikip:2019.]
+*Beispiel:* Paraphrase Paraphrase Paraphrase.[Vgl. @wikipe:univer:2019.]
 
-* `Eintragsart:` Enzyklopädieartikel
-* `Titel:` Universität Regensburg
-* `Autor:` Wikipedia
-* `Titel der Enzyklopädie:` Wikipedia, Die freie Enzyklopädie
-* `Datum:` 2019-07-11
-* `URL:` https://de.wikipedia.org/w/index.php?title=Universit%C3%A4t_Regensburg&oldid=190335453
-* `Heruntergeladen am:` 2019-07-22
+::: {.zotero-fields}
+
+* `Eintragsart:` `Enzyklopädieartikel`
+* `Titel:` `Universität Regensburg`
+* `Autor:` `Wikipedia`
+* `Titel der Enzyklopädie:` `Wikipedia, Die freie Enzyklopädie`
+* `Datum:` `2019-07-11`
+* `URL:` `https://de.wikipedia.org/w/index.php?title=Universit%C3%A4t_Regensburg&oldid=190335453`
+* `Heruntergeladen am:` `2019-07-22`
+
+:::
+
+
+
+## Twitter, Facebook, …
+
+*Beispiel:* Paraphrase Paraphrase Paraphrase.[Vgl. @ur.reg:furda:2021.]
+
+::: {.zotero-fields}
+
+* `Eintragsart:` `Webseite`
+* `Titel:` `Animal study shows sleeping brain behaves as if it's remembering: http://stan.md/RrqyEt #sleep #neuroscience #research`
+* `Autor:` `@StanfordMed`
+* `Datum:` `2012-10-09`
+* `URL:` `https://twitter.com/StanfordMed/status/255644688630046720`
+* `Heruntergeladen am:` `2021-09-28`
+* `Extra:` `[Twitter, Tweet]`
+
+:::
+
+
+*Beispiel:* Paraphrase Paraphrase Paraphrase.[Vgl. @stanfo:animal:2012.]
+
+::: {.zotero-fields}
+
+* `Eintragsart:` `Webseite`
+* `Titel:` `Für das Wintersemester 2021/22 ist die lang erwartete Rückkehr zu einem möglichst weitreichenden Präsenzlehrbetrieb geplant`
+* `Autor:` `UR.Regensburg`
+* `Datum:` `2021-09-23`
+* `URL:` `https://www.facebook.com/UR.Regensburg/photos/a.714984458891629/1739632266426838/`
+* `Heruntergeladen am:` `2021-09-26`
+* `Extra:` `[Facebook, Status Update]`
+
+:::
+
 
 
 ## Werbung / RAW
 
-*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@doppe:2007.] eigener Text.
+*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@doppel:sitzna:2007.] eigener Text.
 
-* `Eintragsart:` Dokument
-* `Titel:` Sitznachbar
-* `Autor:` Doppelherz
-* `Datum:` 2007
-* `Extra:` ARD Radio-Kreativ-Wettbewerb 2007; Broschüre und CD-Rom. \[Werbung\]
+::: {.zotero-fields}
 
-*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@gesel:1952.] eigener Text.
+* `Eintragsart:` `Dokument`
+* `Titel:` `Sitznachbar`
+* `Autor:` `Doppelherz`
+* `Datum:` `2007`
+* `Extra:` `ARD Radio-Kreativ-Wettbewerb 2007; Broschüre und CD-Rom. [Werbung]`
 
-* `Eintragsart:` Dokument
-* `Titel:` Oh die herrlichen Berge
-* `Autor:` Gesellschaft zur Förderung der Photographie
-* `Datum:` 1952
-* `URL:` https://raw.uni-regensburg.de/details.php?r=616
-* `Heruntergeladen am:` 2013-09-18
-* `Archiv:` Regensburger Archiv für Werbeforschung
-* `Standort im Archiv:` R-Nummer: 616
-* `Extra:` PROPHOTO vom 12.7.1952, HWA_1_863.mp3. \[Werbung, Audio\]
+:::
+
+
+*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@gesell:ohdie:1952.] eigener Text.
+
+::: {.zotero-fields}
+
+* `Eintragsart:` `Dokument`
+* `Titel:` `Oh die herrlichen Berge`
+* `Autor:` `Gesellschaft zur Förderung der Photographie`
+* `Datum:` `1952`
+* `URL:` `https://raw.uni-regensburg.de/details.php?r=616`
+* `Heruntergeladen am:` `2013-09-18`
+* `Archiv:` `Regensburger Archiv für Werbeforschung`
+* `Standort im Archiv:` `R-Nummer: 616`
+* `Extra:` `PROPHOTO vom 12.7.1952. [Werbung, Audio]`
+
+:::
+
+
 
 ## weitere Quellen
 
 Der Vollständigkeit halber noch die weiteren, in den Gestaltungsrichtlinien verwendeten, Quellen, welche mit dem Zitationsstil der CSL-Datei umgesetzt werden können:
 
-*Beispiel:* Thema Thema Thema.[Besonders gut zusammengestellt bei @bier:2009.]
+*Beispiel:* Thema Thema Thema.[Besonders gut zusammengestellt bei @bier:typoku:2009.]
 
-*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@brink:2013, 159\; Hervorhebungen im Original.] und eigene Einordnung.
+*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@brink:anfert:2013, 159\; Hervorhebungen im Original.] und eigene Einordnung.
 
-*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@ander:2000, 99.] und eigene Einordnung.
+*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@anderm:duden:2000, 99.] und eigene Einordnung.
 
-*Beispiel:* Thema Thema Thema.[Siehe hierzu einschlägig @zahn:1685, 181.]
+*Beispiel:* Thema Thema Thema.[Siehe hierzu einschlägig @zahn:oculus:1685, 181.]
