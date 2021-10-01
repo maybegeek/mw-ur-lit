@@ -86,21 +86,15 @@ code {
 .references div {
   background-color: rgba(156, 0, 75, 0.6);
   color: white;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-  padding: 0.2em 1em;
+  border-radius: 4px;
   margin-bottom: 0.8em;
-}
-
-.references div p {
-  padding-left: 1.4em;
+  padding: 1.6em 2em 1.6em 3.2em;
   text-indent: -1.4em;
-  line-height: 1.48;
-  font-size: 0.9em;
+  line-height: 1.41;
+  font-size: 80%;
 }
 
-.references div p a {
+.references div a {
   color: white;
   text-decoration: none;
 }
