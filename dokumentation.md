@@ -1,6 +1,6 @@
 ---
 lang: de-DE
-bibliography: mw-ur-lit-keys.json
+bibliography: mw-ur-lit.json
 csl: mw-ur-lit.csl
 css: template/style.css
 pagetitle: mw-ur-lit (CSL für MW-UR-Gestaltungsrichtlinien)
