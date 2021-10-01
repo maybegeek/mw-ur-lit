@@ -4,7 +4,7 @@
 
 html {
   display: grid;
-  grid-template-columns: minmax(250px, 800px);
+  grid-template-columns: minmax(250px, 780px);
   justify-content: center;
   font-family: 'Noto Serif', serif;
   font-size: 120%;
