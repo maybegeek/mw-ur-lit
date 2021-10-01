@@ -153,7 +153,14 @@ code {
 
 @media (max-width:550px) {
   html {
-    font-size: 98%;
+    font-size: 92%;
+  }
+  .references {
+    width: calc(100% + 2.4em);
+    margin-left: -1.2em
+  }
+  .references div {
+    border-radius: 0;
   }
   .footnotes ol {
     padding-left: 0;
