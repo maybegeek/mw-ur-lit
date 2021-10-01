@@ -21,7 +21,7 @@
   <category field="humanities"/>
   <category field="communications"/>
   <summary>mw-ur-lit: Kurz- und Vollbelege im Stile der Gestaltungsrichtlinien der Medienwissenschaft an der Universität Regensburg.</summary>
-  <updated>2020-11-23T12:20:00+02:00</updated>
+  <updated>2021-10-01T10:01:00+02:00</updated>
   <rights license="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 License (CC BY-SA 4.0)</rights>
 </info>
 
@@ -195,13 +195,6 @@
     <if variable="issued">
         <group>
         <choose>
-          <if variable="original-date">
-            <date variable="original-date" suffix="/">
-              <date-part name="year"/>
-            </date>
-          </if>
-        </choose>
-        <choose>
           <if type="bill book legal_case report song article-journal paper-conference" match="none">
             <date variable="issued">
               <date-part prefix="" suffix="." name="day"/>
@@ -212,6 +205,13 @@
         <date variable="issued">
           <date-part name="year"/>
         </date>
+        <choose>
+          <if variable="original-date">
+            <date variable="original-date" prefix=" [" suffix="]">
+              <date-part name="year"/>
+            </date>
+          </if>
+        </choose>
       </group>
     </if>
     <else>
@@ -222,13 +222,6 @@
 
 <macro name="issued-year">
   <choose>
-    <if variable="original-date">
-      <date variable="original-date" suffix="/">
-        <date-part name="year"/>
-      </date>
-    </if>
-  </choose>
-  <choose>
     <if variable="issued">
       <date variable="issued">
         <date-part name="year"/>
@@ -237,6 +230,13 @@
     <else>
       <text term="no date" form="short"/>
     </else>
+  </choose>
+  <choose>
+    <if variable="original-date">
+      <date variable="original-date" prefix=" [" suffix="]">
+        <date-part name="year"/>
+      </date>
+    </if>
   </choose>
 </macro>
 
