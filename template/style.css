@@ -92,6 +92,7 @@ code {
   text-indent: -1.4em;
   line-height: 1.41;
   font-size: 80%;
+  box-shadow: 1px 1px 4px rgba(80, 80, 80, .6);
 }
 
 .references div a {
