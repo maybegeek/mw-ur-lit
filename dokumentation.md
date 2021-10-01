@@ -12,7 +12,7 @@ pagetitle: mw-ur-lit (CSL für MW-UR-Gestaltungsrichtlinien)
 
 Kurzbelege und Vollbelege im Stile der [Gestaltungsrichtlinien der Medienwissenschaft](https://www.uni-regensburg.de/sprache-literatur-kultur/medienwissenschaft/medien/pdfs/studium-materialien/mw-gestaltungsrichtlinien.pdf) an der Universität Regensburg. Zur Verwendung in Literaturverwaltungsprogrammen wie [Zotero](https://www.zotero.org/) oder [Mendeley](https://www.mendeley.com/) und zur weiteren Unterstützung im akademischen Schreiben mit Word, Writer, Pandoc &hellip;
 
-Stand: August 2019.
+Stand: 1. Oktober 2021.
 
 
 ## Literaturverwaltung
