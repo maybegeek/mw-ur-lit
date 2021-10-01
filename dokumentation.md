@@ -52,50 +52,87 @@ Beispielhaft nun die unterstützten Quellentypen, die jeweils zu befüllenden Fe
 
 ## Sammelband, Herausgeberschaft
 
-*Beispiel:* Paraphrase Paraphrase Paraphrase.[Vgl. @gerha:1993, 60.]
+*Beispiel:* Paraphrase Paraphrase Paraphrase.[Vgl. @gerhar:strukt:1993, 60.]
 
-* `Eintragsart:` Buchteil
-* `Titel:` Strukturen und Funktionen moderner Öffentlichkeit
-* `Autor:` Gerhards, Jürgen
-* `Autor:` Neidhardt, Friedhelm
-* `Herausgeber:` Langenbucher, Wolfgang R.
-* `Buchtitel:` Politische Kommunikation. Grundlagen, Strukturen, Prozesse
-* `Reihe:` Studienbücher zur Publizistik- und Kommunikationswissenschaft
-* `Nummer der Reihe:` 2
-* `Auflage:` 2., überarb. Auflage
-* `Ort:` Wien
-* `Verlag:` Braumüller
-* `Datum:` 1993
-* `Seiten:` 52-89
+::: {.zotero-fields}
 
-*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@ament:2003, 60.] eigener Text.
+* `Eintragsart:` `Buchteil`
+* `Titel:` `Strukturen und Funktionen moderner Öffentlichkeit`
+* `Autor:` `Gerhards, Jürgen`
+* `Autor:` `Neidhardt, Friedhelm`
+* `Herausgeber:` `Langenbucher, Wolfgang R.`
+* `Buchtitel:` `Politische Kommunikation. Grundlagen, Strukturen, Prozesse`
+* `Reihe:` `Studienbücher zur Publizistik- und Kommunikationswissenschaft`
+* `Nummer der Reihe:` `2`
+* `Auflage:` `2., überarb. Auflage`
+* `Ort:` `Wien`
+* `Verlag:` `Braumüller`
+* `Datum:` `1993`
+* `Seiten:` `52-89`
 
-* `Eintragsart:` Zeitschriftenartikel
-* `Titel:` Experiments in social data mining: The TopicShop system
-* `Autor:` Amento, Brian
-* `Autor:` Terveen, Loren G.
-* `Autor:` Hill, William C.
-* `Autor:` Hix, Deborah
-* `Autor:` Schulman, Robert
-* `Publikation:` ACM Transactions on Computer-Human Interaction (TOCHI)
-* `Band:` 10
-* `Ausgabe:` 1
-* `Seiten:` 54-85
-* `Datum:` 2003
-* `Zeitschriften-Abkürzung:` ACM Trans. Comput.-Hum. Interact.
-* `DOI:` 10.1145/606658.606661
+:::
 
-*Beispiel:* Wie schon mit der herausgebenden Autorenschaft zum Thema gezeigt.[Siehe hierzu @heiba:2015.]
 
-* `Eintragsart:` Buch
-* `Titel:` Ästhetik der Materialität
-* `Herausgeber:` Heibach, Christiane
-* `Herausgeber:` Rohde, Carsten
-* `Reihe:` HfG Forschung
-* `Nummer der Reihe:` 6
-* `Ort:` München
-* `Verlag:` Fink
-* `Datum:` 2015
+*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@amento:experi:2003, 60.] eigener Text.
+
+::: {.zotero-fields}
+
+* `Eintragsart:` `Zeitschriftenartikel`
+* `Titel:` `Experiments in social data mining: The TopicShop system`
+* `Autor:` `Amento, Brian`
+* `Autor:` `Terveen, Loren G.`
+* `Autor:` `Hill, William C.`
+* `Autor:` `Hix, Deborah`
+* `Autor:` `Schulman, Robert`
+* `Publikation:` `ACM Transactions on Computer-Human Interaction (TOCHI)`
+* `Band:` `10`
+* `Ausgabe:` `1`
+* `Seiten:` `54-85`
+* `Datum:` `2003`
+* `Zeitschriften-Abkürzung:` `ACM Trans. Comput.-Hum. Interact.`
+* `DOI:` `10.1145/606658.606661`
+
+:::
+
+
+*Beispiel:* Wie schon mit der herausgebenden Autorenschaft zum Thema gezeigt.[Siehe hierzu @heibac:asthet:2015.]
+
+::: {.zotero-fields}
+
+* `Eintragsart:` `Buch`
+* `Titel:` `Ästhetik der Materialität`
+* `Herausgeber:` `Heibach, Christiane`
+* `Herausgeber:` `Rohde, Carsten`
+* `Reihe:` `HfG Forschung`
+* `Nummer der Reihe:` `6`
+* `Ort:` `München`
+* `Verlag:` `Fink`
+* `Datum:` `2015`
+
+:::
+
+
+
+## Gesammelte Schriften, Anthologien
+
+*Beispiel:* Dinge und Sachen besonders bei Benjamin [Vgl. @benjam:kleine:1977, 370.].
+
+::: {.zotero-fields}
+
+* `Eintragsart:` `Buchteil`
+* `Titel:` `Kleine Geschichte der Photographie`
+* `Autor:` `Benjamin, Walter`
+* `Herausgeber:` `Tiedemann, Rolf`
+* `Herausgeber:` `Schweppenhäuser, Rolf`
+* `Buchtitel:` `Walter Benjamin: Gesammelte Schriften. Bd. II, 1. Aufsätze, Essays, Vorträge`
+* `Ort:` `Frankfurt am Main`
+* `Verlag:` `Suhrkamp`
+* `Datum:` `1977`
+* `Seiten:` `368-385`
+* `Extra:` `Original Date: 1931`
+
+:::
+
 
 
 ## Wissenschaftliche Fachzeitschrift
