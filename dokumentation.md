@@ -333,6 +333,25 @@ Film Film Film Bewegtbild Bewegtbild Bewegtbild Film Film Film. Film Film Film B
 :::
 
 
+
+## Serie
+
+Serie Serienfolge Serie Serienfolge.[Besonders gut gelungen bei @simon:thewi:2002.]
+
+::: {.zotero-fields}
+
+* `Eintragsart:` `Film`
+* `Titel:` `The Wire: „The Target“`
+* `Regisseur:` `Simon, David`
+* `Regisseur:` `Colesberry, Robert F.`
+* `Verleih:` `S01E01; HBO`
+* `Datum:` `2002`
+* `Format:` `[DVD/2010]`
+* `Extra:` `Publisher Place: US`
+
+:::
+
+
 ::: {.kommentar}
 
 * In Anlehnung an die willentliche Unterscheidung aller Bewegtbild/Kunstwerk-Quellen im Gegensatz zur Notation konventioneller Quellentypen führt hier der Titel die Kurz- und Vollbelege an.*
