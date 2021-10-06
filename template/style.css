@@ -76,6 +76,11 @@ a.button:hover {
   text-align: right;
 }
 
+.kommentar {
+  visibility: hidden;
+  display: none;
+}
+
 code {
   padding: 1px 3px;
 }
