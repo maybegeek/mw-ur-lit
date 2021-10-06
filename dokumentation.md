@@ -215,7 +215,7 @@ Paraphrase Paraphrase Dinge und Sachen Paraphrase Dinge und Sachen.[Vgl. @stanfo
 
 
 
-## Werbung
+## Werbung, RAW
 
 „Direkte Textübernahme direkte Textübernahme“[@doppel:sitzna:2007.] eigener Text.
 
