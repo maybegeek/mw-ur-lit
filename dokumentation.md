@@ -352,11 +352,30 @@ Serie Serienfolge Serie Serienfolge.[Besonders gut gelungen bei @simon:thewi:200
 :::
 
 
+
+## Video (auf bspw. Youtube, Vimeo, ...)
+
+Ein Video auf der Plattform Youtube.[Video zu SpaceX und der Übertragung der Landung; Technisches zum Thema: @primal:howsp:2021.]
+
+
 ::: {.kommentar}
 
 * In Anlehnung an die willentliche Unterscheidung aller Bewegtbild/Kunstwerk-Quellen im Gegensatz zur Notation konventioneller Quellentypen führt hier der Titel die Kurz- und Vollbelege an.*
 
 :::
+
+::: {.zotero-fields}
+
+* `Eintragsart:` `Videoaufnahme`
+* `Titel:` `How SpaceX Fixed Its Drone Ship Camera`
+* `Regisseur:` `Primal Space`
+* `URL:` `https://youtu.be/Bf4rPsS_fwA`
+* `Heruntergeladen am:` `2021-09-26`
+* `Extra:` `[Youtube, Video]`
+
+:::
+
+
 ::: {.kommentar}
 
 * Die spezielle Variante -- und Zuspitzung zu vorherigem Beispiel --; beim deutlich kunstvolleren Video wird die Künstlerin, der Künstler, die Band, die Urheberin, der Urheber ... im Klammernausdruck des Kurzbelegs mitbenannt. Zur Eingabe in Zotero kann das Extra-Feld verwendet werden und dort mittels Artist: Name oder Artist: Bezeichner1; Bezeichner2 & Bezeichner3 diese Information eingegeben werden. Ebenfalls weitere Informationen können mit neuer Zeile beginnend dort abgelegt werden. Die Unterscheidung zum oberen Beleg erreichen wir, indem das dedizierte Regisseur-Feld in Zotero hier nicht belegt wird, sondern diese Informationen im Freitext eingegeben werden.*
