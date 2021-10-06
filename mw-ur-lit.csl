@@ -86,7 +86,23 @@
       </names>
     </if>
     <else>
-      <text term="anonymous" form="short"/>
+      <choose>
+        <if variable="author editor translator" match="any">
+          <names variable="author">
+            <name name-as-sort-order="all" and="symbol" sort-separator=", " delimiter="; " delimiter-precedes-last="never">
+              <name-part name="family" font-variant="normal"/>
+            </name>
+            <label prefix=" (" suffix=".)" text-case="capitalize-first" strip-periods="true" form="short"/>
+            <substitute>
+              <names variable="editor"/>
+              <names variable="translator"/>
+            </substitute>
+          </names>
+        </if>
+        <else>
+          <text term="anonymous" form="short"/>
+        </else>
+      </choose>
     </else>
   </choose>
 </macro>
