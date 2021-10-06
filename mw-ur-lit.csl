@@ -59,6 +59,18 @@
   </choose>
 </macro>
 
+<macro name="citation_author_in_movie_and_art">
+  <choose>
+    <if type="motion_picture graphic" match="any">
+      <choose>
+        <if variable="author" match="any">
+          <names variable="author"/>
+        </if>
+      </choose>
+    </if>
+  </choose>
+</macro>
+
 <macro name="author">
   <choose>
     <if variable="author editor translator" match="any">
@@ -299,13 +311,15 @@
 
 <citation et-al-min="4" et-al-use-first="1" et-al-subsequent-min="4" et-al-subsequent-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true">
   <sort>
+    <key macro="urauthorortitle"/>
     <key macro="author"/>
     <key macro="issued-year"/>
   </sort>
   <layout delimiter="; ">
     <group delimiter=" ">
-      <text macro="author-citation"/>
-      <group delimiter="," prefix="(" suffix=")" >
+      <text macro="urauthorortitle"/>
+      <group delimiter=", " prefix="(" suffix=")">
+        <text macro="citation_author_in_movie_and_art"/>
         <text macro="issued"/>
         <text macro="citation-locator"/>
       </group>
