@@ -240,7 +240,7 @@ In eckige Klammern kommt der Dienstanbietername und die dortige Rubrik.
 
 
 
-## Werbung / RAW
+## Werbung, RAW
 
 „Direkte Textübernahme direkte Textübernahme“[@doppel:sitzna:2007.] eigener Text.
 
