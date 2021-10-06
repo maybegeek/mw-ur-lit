@@ -313,6 +313,26 @@ Abc defg hi Jklm nop qr St.[Vgl. beispielsweise besonders trefflich realisiert i
 
 :::
 
+
+
+## Film
+
+Film Film Film Bewegtbild Bewegtbild Bewegtbild Film Film Film. Film Film Film Bewegtbild Bewegtbild Bewegtbild Film Film Film.[Besonders gut gelungen bei @cukor:awoma:1941.]
+
+::: {.zotero-fields}
+
+* `Eintragsart:` `Film`
+* `Titel:` `A Woman's Face [Die Frau mit der Narbe]`
+* `Regisseur:` `Cukor, Georges`
+* `Verleih:` `MGM`
+* `Datum:` `1941`
+* `Format:` `[DVD/2017]`
+* `Kurztitel:` `A Woman's Face`
+* `Extra:` `Publisher Place: US`
+
+:::
+
+
 ::: {.kommentar}
 
 * In Anlehnung an die willentliche Unterscheidung aller Bewegtbild/Kunstwerk-Quellen im Gegensatz zur Notation konventioneller Quellentypen führt hier der Titel die Kurz- und Vollbelege an.*
