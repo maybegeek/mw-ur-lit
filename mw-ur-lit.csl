@@ -21,7 +21,7 @@
   <category field="humanities"/>
   <category field="communications"/>
   <summary>mw-ur-lit: Kurz- und Vollbelege im Stile der Gestaltungsrichtlinien der Medienwissenschaft an der Universität Regensburg.</summary>
-  <updated>2021-10-01T11:37:53+02:00</updated>
+  <updated>2021-10-06T18:20:00+02:00</updated>
   <rights license="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 License (CC BY-SA 4.0)</rights>
 </info>
 
@@ -386,55 +386,86 @@
   </sort>
 
   <layout>
-      <group suffix=".">
-        <text macro="author" suffix=""/>
+    <choose>
+      <if type="motion_picture graphic" match="any">
+        <group suffix=".">
+        <text macro="title" font-style="italic"/>
         <text macro="issued" prefix=" (" suffix="). "/>
         <group delimiter=". ">
-          <text macro="title"/>
+        <text macro="author" suffix=""/>
           <group>
-            <text term="in" text-case="capitalize-first" suffix=": "/>
             <text macro="container-contributors"/>
             <text macro="secondary-contributors"/>
-            <group delimiter=" ">
+            <group delimiter=", ">
               <text variable="container-title" font-style="italic"/>
-              <text variable="archive" font-style="italic"/>
-              <choose>
-                <if variable="container-title" match="any">
-                  <text macro="series"/>
-                </if>
-              </choose>
             </group>
-            <choose>
-              <if variable="archive_location">
-                <text variable="archive_location" prefix=". "/>
-              </if>
-            </choose>
           </group>
-          <text macro="edition"/>
-          <text variable="note"/>
         </group>
-        <choose>
-          <if variable="dimensions">
-            <text variable="dimensions" prefix=". "/>
-          </if>
-        </choose>
         <group delimiter=", " prefix=". ">
           <text macro="event"/>
           <text macro="publisher"/>
         </group>
-        <choose>
-          <if variable="dimensions medium" match="any">
-            <group prefix=" [" suffix="]">
-            <choose>
-              <if variable="medium">
-                <text variable="medium"/>
-              </if>
-            </choose>
-            </group>
-          </if>
-        </choose>
+        <group delimiter=". " prefix=". ">
+          <text variable="archive"/>
+          <text variable="medium"/>
+          <text variable="dimensions"/>
+          <text variable="note"/>
+        </group>
       </group>
       <text macro="locators" suffix="."/>
+      </if>
+      <else>
+        <group suffix=".">
+          <text macro="author" suffix=""/>
+          <text macro="issued" prefix=" (" suffix="). "/>
+          <group delimiter=". ">
+            <text macro="title"/>
+            <group>
+              <text term="in" text-case="capitalize-first" suffix=": "/>
+              <text macro="container-contributors"/>
+              <text macro="secondary-contributors"/>
+              <group delimiter=" ">
+                <text variable="container-title" font-style="italic"/>
+                <text variable="archive" font-style="italic"/>
+                <choose>
+                  <if variable="container-title" match="any">
+                    <text macro="series"/>
+                  </if>
+                </choose>
+              </group>
+              <choose>
+                <if variable="archive_location">
+                  <text variable="archive_location" prefix=". "/>
+                </if>
+              </choose>
+            </group>
+            <text macro="edition"/>
+            <text variable="note"/>
+          </group>
+          <choose>
+            <if variable="dimensions">
+              <text variable="dimensions" prefix=". "/>
+            </if>
+          </choose>
+          <group delimiter=", " prefix=". ">
+            <text macro="event"/>
+            <text macro="publisher"/>
+          </group>
+          <choose>
+            <if variable="dimensions medium" match="any">
+              <group prefix=" " suffix="">
+              <choose>
+                <if variable="medium">
+                  <text variable="medium"/>
+                </if>
+              </choose>
+              </group>
+            </if>
+          </choose>
+        </group>
+        <text macro="locators" suffix="."/>
+      </else>
+    </choose>
   </layout>
 </bibliography>
 </style>
