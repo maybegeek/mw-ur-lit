@@ -227,6 +227,17 @@ Paraphrase Paraphrase Dinge und Sachen Paraphrase Dinge und Sachen.[Vgl. @stanfo
 
 :::
 
+::: {.kommentar}
+
+Inhalte bei Dienstanbietern aus dem Microblogging-Bereich weisen oftmals keine dedizierte(n) Überschrift/Titel auf. Hierzu bediene man sich dann einer sinntragenden Anzahl der ersten dort verwendeten Wörter.
+
+
+Oftmals gibt es ein Kürzel für Verfasserin/Verfasser, dies soll hier dann auch verwendet werden.
+
+In eckige Klammern kommt der Dienstanbietername und die dortige Rubrik.
+
+:::
+
 
 
 ## Werbung / RAW
@@ -261,6 +272,21 @@ Paraphrase Paraphrase Dinge und Sachen Paraphrase Dinge und Sachen.[Vgl. @stanfo
 :::
 
 
+::: {.kommentar}
+
+Hier gibt es eine kleine Abweichung zur PDF-Version der Gestaltungsrichtlinien. Die `R-Nummer` wurde auch im Vollbeleg visuell näher zum `Regensburger Archiv für Werbeforschung` positioniert. Im `Extra`-Feld kann darüberhinaus und in anderen Fällen noch genügend weiter wichtige Information dann auch komma- oder punktsepariert angegeben werden.
+
+:::
+::: {.kommentar}
+
+* In Anlehnung an die willentliche Unterscheidung aller Bewegtbild/Kunstwerk-Quellen im Gegensatz zur Notation konventioneller Quellentypen führt hier der Titel die Kurz- und Vollbelege an.*
+
+:::
+::: {.kommentar}
+
+* Die spezielle Variante -- und Zuspitzung zu vorherigem Beispiel --; beim deutlich kunstvolleren Video wird die Künstlerin, der Künstler, die Band, die Urheberin, der Urheber ... im Klammernausdruck des Kurzbelegs mitbenannt. Zur Eingabe in Zotero kann das Extra-Feld verwendet werden und dort mittels Artist: Name oder Artist: Bezeichner1; Bezeichner2 & Bezeichner3 diese Information eingegeben werden. Ebenfalls weitere Informationen können mit neuer Zeile beginnend dort abgelegt werden. Die Unterscheidung zum oberen Beleg erreichen wir, indem das dedizierte Regisseur-Feld in Zotero hier nicht belegt wird, sondern diese Informationen im Freitext eingegeben werden.*
+
+:::
 
 ## weitere Quellen
 
