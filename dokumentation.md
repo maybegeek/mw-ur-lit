@@ -376,6 +376,23 @@ Ein Video auf der Plattform Youtube.[Video zu SpaceX und der Übertragung der La
 :::
 
 
+
+## Musikvideo, Kunst-Video
+
+Abc Defg Hijk Lmno Pqrs.[Besonders bei @bjork:human:2019.]
+
+::: {.zotero-fields}
+
+* `Eintragsart:` `Film`
+* `Titel:` `Human Behaviour (HD)`
+* `Datum:` `2019`
+* `URL:` `https://youtu.be/p0mRIhK9seg`
+* `Heruntergeladen am:` `2021-09-26`
+* `Extra:` `Artist: Björk`
+* `Extra:` `. Mitautorin: Nellee Hooper; Regisseur: Michel Gondry; Release: 1993; One Little Indian Records. [Youtube, Musikvideo]`
+
+:::
+
 ::: {.kommentar}
 
 * Die spezielle Variante -- und Zuspitzung zu vorherigem Beispiel --; beim deutlich kunstvolleren Video wird die Künstlerin, der Künstler, die Band, die Urheberin, der Urheber ... im Klammernausdruck des Kurzbelegs mitbenannt. Zur Eingabe in Zotero kann das Extra-Feld verwendet werden und dort mittels Artist: Name oder Artist: Bezeichner1; Bezeichner2 & Bezeichner3 diese Information eingegeben werden. Ebenfalls weitere Informationen können mit neuer Zeile beginnend dort abgelegt werden. Die Unterscheidung zum oberen Beleg erreichen wir, indem das dedizierte Regisseur-Feld in Zotero hier nicht belegt wird, sondern diese Informationen im Freitext eingegeben werden.*
