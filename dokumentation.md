@@ -41,7 +41,7 @@ Beispielhaft nun die unterstützten Quellentypen, die jeweils zu befüllenden Fe
 
 ## Monografie
 
-*Beispiel:* Paraphrase Paraphrase Paraphrase.[Vgl. @dotzle:medien:2017, 22.]
+Paraphrase Paraphrase Paraphrase Paraphrase Paraphrase Paraphrase Paraphrase Paraphrase Paraphrase Paraphrase Paraphrase.[Vgl. beispielsweise bei @dotzle:medien:2017, 22.]
 
 ::: {.zotero-fields}
 
@@ -59,7 +59,7 @@ Beispielhaft nun die unterstützten Quellentypen, die jeweils zu befüllenden Fe
 
 ## Sammelband, Herausgeberschaft
 
-*Beispiel:* Paraphrase Paraphrase Paraphrase.[Vgl. @gerhar:strukt:1993, 60.]
+Beispiel Beispiel Beispiel Beispiel Beispiel Beispiel Beispiel Beispiel Beispiel Beispiel Beispiel Beispiel Beispiel.[Vgl. die Argumentation diesbezüglich bei @gerhar:strukt:1993, 60-61.]
 
 ::: {.zotero-fields}
 
@@ -80,7 +80,7 @@ Beispielhaft nun die unterstützten Quellentypen, die jeweils zu befüllenden Fe
 :::
 
 
-*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@amento:experi:2003, 60.] eigener Text.
+Hier nun die „[d]irekte Textübernahme direkte Textübernahme Textübernahme Textübernahme Textübernahme“[@amento:experi:2003, 60.] eigener Text.
 
 ::: {.zotero-fields}
 
@@ -102,7 +102,7 @@ Beispielhaft nun die unterstützten Quellentypen, die jeweils zu befüllenden Fe
 :::
 
 
-*Beispiel:* Wie schon mit der herausgebenden Autorenschaft zum Thema gezeigt.[Siehe hierzu @heibac:asthet:2015.]
+Wie schon mit der herausgebenden Autorenschaft zum Thema meisterhaft ausgewiesen.[Siehe hierzu @heibac:asthet:2015.]
 
 ::: {.zotero-fields}
 
@@ -122,7 +122,7 @@ Beispielhaft nun die unterstützten Quellentypen, die jeweils zu befüllenden Fe
 
 ## Gesammelte Schriften, Anthologien
 
-*Beispiel:* Dinge und Sachen besonders bei Benjamin [Vgl. @benjam:kleine:1977, 370.].
+Dinge und Sachen Dinge und Sachen Dinge und Sachen Dinge und Sachen besonders bei Benjamin.[Vgl. hierzu @benjam:kleine:1977, 370.]
 
 ::: {.zotero-fields}
 
@@ -144,7 +144,7 @@ Beispielhaft nun die unterstützten Quellentypen, die jeweils zu befüllenden Fe
 
 ## Wissenschaftliche Fachzeitschrift
 
-*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@stegba:diesc:2001, 48.] eigener Text.
+„Direkte Textübernahme direkte Textübernahme“[@stegba:diesc:2001, 48.] eigener Text.
 
 ::: {.zotero-fields}
 
@@ -163,7 +163,7 @@ Beispielhaft nun die unterstützten Quellentypen, die jeweils zu befüllenden Fe
 
 ## Webseite
 
-*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@oreill:whati:2005.] eigener Text.
+„Direkte Textübernahme direkte Textübernahme“[@oreill:whati:2005.] eigener Text.
 
 ::: {.zotero-fields}
 
@@ -180,7 +180,7 @@ Beispielhaft nun die unterstützten Quellentypen, die jeweils zu befüllenden Fe
 
 ## Wikipedia
 
-*Beispiel:* Paraphrase Paraphrase Paraphrase.[Vgl. @wikipe:univer:2019.]
+Paraphrase Paraphrase Paraphrase Paraphrase Paraphrase Paraphrase Paraphrase Paraphrase Paraphrase Paraphrase Paraphrase Paraphrase Paraphrase Paraphrase Paraphrase.[Vgl. hierzu @wikipe:univer:2019.]
 
 ::: {.zotero-fields}
 
@@ -198,7 +198,7 @@ Beispielhaft nun die unterstützten Quellentypen, die jeweils zu befüllenden Fe
 
 ## Twitter, Facebook, …
 
-*Beispiel:* Paraphrase Paraphrase Paraphrase.[Vgl. @ur.reg:furda:2021.]
+Paraphrase Paraphrase Dinge und Sachen Paraphrase Dinge und Sachen.[Vgl. @ur.reg:furda:2021.]
 
 ::: {.zotero-fields}
 
@@ -213,7 +213,7 @@ Beispielhaft nun die unterstützten Quellentypen, die jeweils zu befüllenden Fe
 :::
 
 
-*Beispiel:* Paraphrase Paraphrase Paraphrase.[Vgl. @stanfo:animal:2012.]
+Paraphrase Paraphrase Dinge und Sachen Paraphrase Dinge und Sachen.[Vgl. @stanfo:animal:2012.]
 
 ::: {.zotero-fields}
 
@@ -231,7 +231,7 @@ Beispielhaft nun die unterstützten Quellentypen, die jeweils zu befüllenden Fe
 
 ## Werbung / RAW
 
-*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@doppel:sitzna:2007.] eigener Text.
+„Direkte Textübernahme direkte Textübernahme“[@doppel:sitzna:2007.] eigener Text.
 
 ::: {.zotero-fields}
 
@@ -244,7 +244,7 @@ Beispielhaft nun die unterstützten Quellentypen, die jeweils zu befüllenden Fe
 :::
 
 
-*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@gesell:ohdie:1952.] eigener Text.
+„Direkte Textübernahme direkte Textübernahme“[@gesell:ohdie:1952.] eigener Text.
 
 ::: {.zotero-fields}
 
@@ -266,7 +266,7 @@ Beispielhaft nun die unterstützten Quellentypen, die jeweils zu befüllenden Fe
 
 Der Vollständigkeit halber noch die weiteren, in den Gestaltungsrichtlinien verwendeten, Quellen, welche mit dem Zitationsstil der CSL-Datei umgesetzt werden können:
 
-*Beispiel:* Thema Thema Thema.[Besonders gut zusammengestellt bei @bier:typoku:2009.]
+Thema Thema Thema.[Besonders gut zusammengestellt bei @bier:typoku:2009.]
 
 ::: {.zotero-fields}
 
@@ -293,7 +293,7 @@ Der Vollständigkeit halber noch die weiteren, in den Gestaltungsrichtlinien ver
 
 :::
 
-*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@anderm:duden:2000, 99.] und eigene Einordnung.
+„Direkte Textübernahme direkte Textübernahme“[@anderm:duden:2000, 99.] und eigene Einordnung.
 
 ::: {.zotero-fields}
 
@@ -308,7 +308,7 @@ Der Vollständigkeit halber noch die weiteren, in den Gestaltungsrichtlinien ver
 
 :::
 
-*Beispiel:* Thema Thema Thema.[Siehe hierzu einschlägig @zahn:oculus:1685, 181.]
+Thema Thema Thema.[Siehe hierzu einschlägig @zahn:oculus:1685, 181.]
 
 ::: {.zotero-fields}
 
