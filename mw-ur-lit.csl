@@ -176,10 +176,17 @@
 </macro>
 
 <macro name="publisher">
-  <group delimiter=": ">
-    <text variable="publisher-place"/>
-    <text variable="publisher"/>
-  </group>
+  <choose>
+    <if type="motion_picture">
+      <text variable="publisher" suffix="."/>
+    </if>
+    <else>
+      <group delimiter=": ">
+        <text variable="publisher-place"/>
+        <text variable="publisher"/>
+      </group>
+    </else>
+  </choose>
 </macro>
 
 <macro name="event">
@@ -212,6 +219,11 @@
               <date-part prefix="" suffix="." name="day"/>
               <date-part prefix=" " suffix=" " name="month"/>
             </date>
+          </if>
+        </choose>
+        <choose>
+          <if type="motion_picture">
+            <text variable="publisher-place" suffix=" "/>
           </if>
         </choose>
         <date variable="issued">
