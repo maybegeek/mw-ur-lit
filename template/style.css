@@ -68,12 +68,15 @@ a.button:hover {
   align-self: start;
   justify-self: left;
   text-align: left;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 2px;
 }
 
 .zotero-fields > ul li > code:first-child {
   align-self: start;
   justify-self: right;
   text-align: right;
+  background-color: rgba(236, 240, 241, 1.0);
 }
 
 .kommentar {
