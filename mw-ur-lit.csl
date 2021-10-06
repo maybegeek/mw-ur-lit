@@ -304,9 +304,16 @@
 </macro>
 
 <macro name="citation-locator">
-  <group>
-    <text variable="locator" prefix=" S.&#8239;"/>
-  </group>
+  <choose>
+    <if type="motion_picture">
+      <text variable="locator"/>
+    </if>
+    <else>
+      <group>
+        <text variable="locator" prefix=" S.&#8239;"/>
+      </group>
+    </else>
+  </choose>
 </macro>
 
 <citation et-al-min="4" et-al-use-first="1" et-al-subsequent-min="4" et-al-subsequent-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true">

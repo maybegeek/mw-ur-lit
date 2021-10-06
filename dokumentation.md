@@ -355,7 +355,7 @@ Serie Serienfolge Serie Serienfolge.[Besonders gut gelungen bei @simon:thewi:200
 
 ## Video (auf bspw. Youtube, Vimeo, ...)
 
-Ein Video auf der Plattform Youtube.[Video zu SpaceX und der Übertragung der Landung; Technisches zum Thema: @primal:howsp:2021.]
+Ein Video auf der Plattform Youtube.[Video zu SpaceX und der Übertragung der Landung; Technisches zum Thema: @primal:howsp:2021, 00:02:50--00:04:10.]
 
 
 ::: {.kommentar}
