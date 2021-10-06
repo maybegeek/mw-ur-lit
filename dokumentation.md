@@ -277,6 +277,42 @@ In eckige Klammern kommt der Dienstanbietername und die dortige Rubrik.
 Hier gibt es eine kleine Abweichung zur PDF-Version der Gestaltungsrichtlinien. Die `R-Nummer` wurde auch im Vollbeleg visuell näher zum `Regensburger Archiv für Werbeforschung` positioniert. Im `Extra`-Feld kann darüberhinaus und in anderen Fällen noch genügend weiter wichtige Information dann auch komma- oder punktsepariert angegeben werden.
 
 :::
+
+
+
+## Bild/Gemälde und Fotografie
+
+
+Abc defg hi Jklm nop qr St.[Vgl. beispielsweise besonders trefflich realisiert in @friedr:mannu:1818.]
+
+::: {.zotero-fields}
+
+* `Eintragsart:` `Kunstwerk`
+* `Titel:` `Mann und Frau den Mond betrachtend [Mann und Frau in Betrachtung des Mondes]`
+* `Künstler:` `Friedrich, Caspar David`
+* `Medium:` `[Öl auf Leinwand]`
+* `Datum:` `1818/1824`
+* `Kurztitel:` `Mann und Frau den Mond betrachtend`
+* `Archiv:` `Alte Nationalgalerie Berlin`
+* `URL:` `https://w.wiki/6eW`
+* `Heruntergeladen am:` `2019-07-22`
+* `Extra:` `. In: Wikipedia, Die freie Enzyklopädie`
+
+:::
+
+Abc defg hi Jklm nop qr St.[Vgl. beispielsweise besonders trefflich realisiert in @ray:larmes:1930.]
+
+::: {.zotero-fields}
+
+* `Eintragsart:` `Kunstwerk`
+* `Titel:` `Larmes [Tränen]`
+* `Künstler:` `Ray, Man`
+* `Datum:` `1930`
+* `Kurztitel:` `Larmes`
+* `Extra:` `. In: Rosalind Krauss & Jane Livingston (Hg.) (1985). L'amour fou. Photography and Surrealism. Washington: Abbeville Press. S. 118`
+
+:::
+
 ::: {.kommentar}
 
 * In Anlehnung an die willentliche Unterscheidung aller Bewegtbild/Kunstwerk-Quellen im Gegensatz zur Notation konventioneller Quellentypen führt hier der Titel die Kurz- und Vollbelege an.*
