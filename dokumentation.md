@@ -288,6 +288,8 @@ Hier gibt es eine kleine Abweichung zur PDF-Version der Gestaltungsrichtlinien. 
 
 :::
 
+
+
 ## weitere Quellen
 
 Der Vollständigkeit halber noch die weiteren, in den Gestaltungsrichtlinien verwendeten, Quellen, welche mit dem Zitationsstil der CSL-Datei umgesetzt werden können:
@@ -305,7 +307,7 @@ Thema Thema Thema.[Besonders gut zusammengestellt bei @bier:typoku:2009.]
 
 :::
 
-*Beispiel:* „Direkte Textübernahme direkte Textübernahme“[@brink:anfert:2013, 159\; Hervorhebungen im Original.] und eigene Einordnung.
+„Direkte Textübernahme direkte Textübernahme“[@brink:anfert:2013, 159\; Hervorhebungen im Original.] und eigene Einordnung.
 
 ::: {.zotero-fields}
 
