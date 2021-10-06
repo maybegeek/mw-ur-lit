@@ -6,7 +6,15 @@ css: template/style.css
 pagetitle: mw-ur-lit (CSL für MW-UR-Gestaltungsrichtlinien)
 ---
 
-[//]: # (pandoc dokumentation.md --citeproc --lua-filter template/section-refs.lua --metadata=section-refs-level:2 --include-in-header=template/dokumentation-meta.htm --output=index.htm -s)
+[//]: # (
+  pandoc -s \
+  dokumentation.md \
+  output=index.htm \
+  --citeproc \
+  --lua-filter template/section-refs.lua \
+  --metadata=section-refs-level:2 \
+  --include-in-header=template/dokumentation-meta.htm
+  )
 
 # mw-ur-lit
 
