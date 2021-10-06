@@ -110,6 +110,17 @@
   </choose>
 </macro>
 
+<macro name="urauthorortitle">
+  <choose>
+  <if type="motion_picture graphic" match="any">
+    <text variable="title" form="short" font-style="italic"/>
+  </if>
+  <else>
+    <text macro="author-citation"/>
+  </else>
+  </choose>
+</macro>
+
 <macro name="access">
   <group delimiter=". ">
     <group>
