@@ -334,9 +334,11 @@
   entry-spacing="1">
 
   <sort>
+    <key macro="urauthorortitle"/>
     <key macro="author"/>
     <key macro="issued-year" sort="ascending"/>
   </sort>
+
   <layout>
       <group suffix=".">
         <text macro="author" suffix=""/>
