@@ -70,6 +70,12 @@ a.button:hover {
   text-align: left;
   background-color: rgba(255,255,255,0.5);
   border-radius: 2px;
+  border: 1px dashed transparent;
+}
+
+.zotero-fields > ul li > code:hover {
+  background-color: rgba(255,255,255,1);
+  border: 1px dashed gray;
 }
 
 .zotero-fields > ul li > code:first-child {
