@@ -21,7 +21,7 @@
   <category field="humanities"/>
   <category field="communications"/>
   <summary>mw-ur-lit: Kurz- und Vollbelege im Stile der Gestaltungsrichtlinien der Medienwissenschaft an der Universität Regensburg.</summary>
-  <updated>2021-10-24T22:44:00+02:00</updated>
+  <updated>2021-10-25T00:01:00+02:00</updated>
   <rights license="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 License (CC BY-SA 4.0)</rights>
 </info>
 
@@ -38,7 +38,7 @@
 <macro name="container-contributors">
   <choose>
     <if type="chapter paper-conference article-journal" match="any">
-      <names variable="container-author editor translator editor-translator" suffix=". " delimiter=". ">
+      <names variable="container-author editor translator" suffix=". " delimiter=". ">
         <name name-as-sort-order="all" and="symbol" sort-separator=", " delimiter="; " delimiter-precedes-last="never">
           <name-part name="family" font-variant="normal"/>
         </name>
@@ -425,8 +425,6 @@
                 <if variable="container-title archive" match="any">
                   <text term="in" text-case="capitalize-first" suffix=": "/>
                 </if>
-                <else>
-                </else>
               </choose>
 
               <text macro="container-contributors"/>
