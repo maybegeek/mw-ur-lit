@@ -377,8 +377,7 @@
   hanging-indent="true"
   et-al-min="7"
   et-al-use-first="6"
-  entry-spacing="1"
->
+  entry-spacing="1">
 
   <sort>
     <key macro="urauthorortitle"/>
