@@ -38,7 +38,7 @@
 <macro name="container-contributors">
   <choose>
     <if type="chapter paper-conference article-journal" match="any">
-      <names variable="editor translator" suffix=". ">
+      <names variable="container-author editor translator editor-translator" suffix=". " delimiter=". ">
         <name name-as-sort-order="all" and="symbol" sort-separator=", " delimiter="; " delimiter-precedes-last="never">
           <name-part name="family" font-variant="normal"/>
         </name>
@@ -51,9 +51,11 @@
 <macro name="secondary-contributors">
   <choose>
     <if type="chapter paper-conference article-journal" match="none">
-      <names variable="editor translator" delimiter=", " prefix=" (" suffix=")">
-        <name and="symbol" delimiter=", " delimiter-precedes-last="never"/>
-        <label form="short" prefix=", " text-case="capitalize-first"/>
+      <names variable="editor translator" suffix="" delimiter=". ">
+        <name name-as-sort-order="all" and="symbol" sort-separator=", " delimiter="; " delimiter-precedes-last="never">
+          <name-part name="family" font-variant="normal"/>
+        </name>
+        <label form="short" prefix=" (" text-case="capitalize-first" suffix=")"/>
       </names>
     </if>
   </choose>
@@ -420,9 +422,17 @@
           <group delimiter=". ">
             <text macro="title"/>
             <group>
-              <text term="in" text-case="capitalize-first" suffix=": "/>
+              <choose>
+                <if variable="container-title archive" match="any">
+                  <text term="in" text-case="capitalize-first" suffix=": "/>
+                </if>
+                <else>
+                </else>
+              </choose>
+
               <text macro="container-contributors"/>
               <text macro="secondary-contributors"/>
+
               <group delimiter=" ">
                 <text variable="container-title" font-style="italic"/>
                 <text variable="archive" font-style="italic"/>
