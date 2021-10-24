@@ -1,15 +1,14 @@
 ---
 lang: de-DE
-bibliography: mw-ur-lit.json
+bibliography: mw-ur-lit.yaml
 csl: mw-ur-lit.csl
 css: template/style.css
 pagetitle: mw-ur-lit (CSL für MW-UR-Gestaltungsrichtlinien)
 ---
 
 [//]: # (
-  pandoc -s \
-  dokumentation.md \
-  output=index.htm \
+  pandoc --from=markdown dokumentation.md \
+  --to=html5 output=index.htm -s \
   --citeproc \
   --lua-filter template/section-refs.lua \
   --metadata=section-refs-level:2 \
@@ -20,7 +19,7 @@ pagetitle: mw-ur-lit (CSL für MW-UR-Gestaltungsrichtlinien)
 
 Kurzbelege und Vollbelege im Stile der [Gestaltungsrichtlinien der Medienwissenschaft](https://www.uni-regensburg.de/sprache-literatur-kultur/medienwissenschaft/medien/pdfs/studium-materialien/mw-gestaltungsrichtlinien.pdf) an der Universität Regensburg. Zur Verwendung in Literaturverwaltungsprogrammen wie [Zotero](https://www.zotero.org/) oder [Mendeley](https://www.mendeley.com/) und zur weiteren Unterstützung im akademischen Schreiben mit Word, Writer, Pandoc &hellip;
 
-Stand: 7. Oktober 2021.
+Stand: 24. Oktober 2021.
 
 
 ## Literaturverwaltung
@@ -33,7 +32,7 @@ Wer dieses Unterfangen dennoch eingehen will, der erhält hier:
 
 Zur weiteren Verwendung hier beispielhaft die Quellen für den Import  und der Link zur Github-Seite dieses Projekts:
 
-* die [verzeichneten Quellen der Gestaltungsrichtlinien](https://maybegeek.github.io/mw-ur-lit/mw-ur-lit.json) als *Better CSL JSON*
+* die [verzeichneten Quellen der Gestaltungsrichtlinien](https://maybegeek.github.io/mw-ur-lit/mw-ur-lit.yaml) als *Better CSL YAML*
 * sowie die Projektseite von [mw-ur-lit bei Github](https://github.com/maybegeek/mw-ur-lit)
 
 Beispielhaft nun die unterstützten Quellentypen, die jeweils zu befüllenden Felder in Zotero sowie ein Beispielsatz mit Kurzbeleg in der Fußnote (Fußnotenapparat am Ende der Seite) und Vollbeleg im heidenelkenroten Kästchen. Die Beispiele sind den Gestaltungsrichtlinien entnommen.
@@ -264,7 +263,7 @@ Abc defg hi Jklm nop qr St.[Vgl. beispielsweise besonders trefflich realisiert i
 * `Archiv:` `Alte Nationalgalerie Berlin`
 * `URL:` `https://w.wiki/6eW`
 * `Heruntergeladen am:` `2019-07-22`
-* `Extra:` `. In: Wikipedia, Die freie Enzyklopädie`
+* `Extra:` `In: Wikipedia, Die freie Enzyklopädie`
 :::
 
 Abc defg hi Jklm nop qr St.[Vgl. beispielsweise besonders trefflich realisiert in @ray:larmes:1930.]
@@ -275,7 +274,7 @@ Abc defg hi Jklm nop qr St.[Vgl. beispielsweise besonders trefflich realisiert i
 * `Künstler:` `Ray, Man`
 * `Datum:` `1930`
 * `Kurztitel:` `Larmes`
-* `Extra:` `. In: Rosalind Krauss & Jane Livingston (Hg.) (1985). L'amour fou. Photography and Surrealism. Washington: Abbeville Press. S. 118`
+* `Extra:` `In: Rosalind Krauss & Jane Livingston (Hg.) (1985). L'amour fou. Photography and Surrealism. Washington: Abbeville Press. S. 118`
 :::
 
 
@@ -345,7 +344,7 @@ Abc Defg Hijk Lmno Pqrs.[Besonders bei @bjork:human:2019.]
 * `URL:` `https://youtu.be/p0mRIhK9seg`
 * `Heruntergeladen am:` `2021-09-26`
 * `Extra:` `Artist: Björk`
-* `Extra:` `. Mitautorin: Nellee Hooper; Regisseur: Michel Gondry; Release: 1993; One Little Indian Records. [Youtube, Musikvideo]`
+* `Extra:` `Mitautorin: Nellee Hooper; Regisseur: Michel Gondry; Release: 1993; One Little Indian Records. [Youtube, Musikvideo]`
 :::
 
 ::: {.kommentar}
