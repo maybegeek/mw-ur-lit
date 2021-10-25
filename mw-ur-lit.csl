@@ -41,25 +41,33 @@
 
 <macro name="container-contributors">
   <choose>
-    <if type="chapter paper-conference article-journal" match="any">
-      <names variable="container-author editor translator" suffix=". " delimiter=". ">
-        <name name-as-sort-order="all" and="symbol" sort-separator=", " delimiter="; " delimiter-precedes-last="never">
-          <name-part name="family" font-variant="normal"/>
-        </name>
-        <label form="short" prefix=" (" text-case="capitalize-first" suffix=")"/>
-      </names>
+    <if type="chapter entry-dictionary entry-encyclopedia paper-conference article-journal" match="any">
+      <group suffix=". " delimiter=". ">
+        <names variable="container-author">
+          <name name-as-sort-order="all" and="symbol" sort-separator=", " delimiter="; " delimiter-precedes-last="never">
+            <name-part name="family"/>
+          </name>
+          <label form="short" prefix=" (" suffix=")"/>
+        </names>
+        <names variable="editor translator" delimiter=". ">
+          <name name-as-sort-order="all" and="symbol" sort-separator=", " delimiter="; " delimiter-precedes-last="never">
+            <name-part name="family"/>
+          </name>
+          <label form="short" prefix=" (" suffix=")"/>
+        </names>
+      </group>
     </if>
   </choose>
 </macro>
 
 <macro name="secondary-contributors">
   <choose>
-    <if type="chapter paper-conference article-journal" match="none">
-      <names variable="editor translator" suffix="" delimiter=". ">
+    <if type="chapter entry-dictionary entry-encyclopedia paper-conference article-journal" match="none">
+      <names variable="editor translator" delimiter=". ">
         <name name-as-sort-order="all" and="symbol" sort-separator=", " delimiter="; " delimiter-precedes-last="never">
-          <name-part name="family" font-variant="normal"/>
+          <name-part name="family"/>
         </name>
-        <label form="short" prefix=" (" text-case="capitalize-first" suffix=")"/>
+        <label form="short" prefix=" (" suffix=")"/>
       </names>
     </if>
   </choose>
