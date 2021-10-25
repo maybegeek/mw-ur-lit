@@ -21,13 +21,14 @@
   <category field="humanities"/>
   <category field="communications"/>
   <summary>mw-ur-lit: Kurz- und Vollbelege im Stile der Gestaltungsrichtlinien der Medienwissenschaft an der Universität Regensburg.</summary>
-  <updated>2021-10-25T00:01:00+02:00</updated>
+  <updated>2021-10-25T10:10:00+02:00</updated>
   <rights license="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 License (CC BY-SA 4.0)</rights>
 </info>
 
 <locale xml:lang="de">
   <terms>
     <term name="et-al">et al.</term>
+    <term name="and">und </term>
     <term name="retrieved">Zugriff</term>
     <term name="anonymous" form="short">o.&#8239;A.</term>
     <term name="no date" form="short">o.&#8239;J.</term>
