@@ -33,6 +33,9 @@
     <term name="anonymous" form="short">o.&#8239;A.</term>
     <term name="no date" form="short">o.&#8239;J.</term>
     <term name="editor" form="short">Hg.</term>
+    <term name="collection-editor" form="short">Hg.</term>
+    <term name="editorial-director" form="short">Hg.</term>
+    <term name="editortranslator" form="short">Hg. und Übers.</term>
   </terms>
 </locale>
 
