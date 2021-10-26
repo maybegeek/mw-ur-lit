@@ -1,0 +1,21 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  display: grid;
+  grid-template-columns: minmax(250px, 860px);
+  justify-content: center;
+  font-family: serif;
+  font-size: 180%;
+  background-color: rgba(236, 240, 241, 1.0);
+}
+
+body {
+  margin:0;
+  padding: 1.2em;
+}
+
+div.csl-entry {
+  margin: 1em 0;
+}
