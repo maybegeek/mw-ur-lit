@@ -40,6 +40,138 @@ references:
     Studium und die Promotion
   type: book
 
+- id: autore:buchti:2000
+  author:
+    - family: Autorenname
+      given: Autorvorname
+  collection-number: '2'
+  collection-title: Dingsreihe
+  edition: 2., akt. und verb. Auflage
+  event-place: Orthausen
+  issued:
+    - year: 2000
+  note: Nochwas, Nochwas, Nochwas
+  publisher: Derverlag
+  publisher-place: Orthausen
+  title: Buchtitel
+  type: book
+
+- id: autore:buchti:2001
+  author:
+    - family: Autorenname
+      given: Autorvorname
+  issued:
+    - year: 2001
+  publisher: Derverlag
+  title: Buchtitel
+  type: book
+
+- id: autore:buchti:2002
+  author:
+    - family: Autorenname
+      given: Autorvorname
+  collection-number: '2'
+  collection-title: Dingsreihe
+  edition: '4'
+  event-place: Orthausen
+  issued:
+    - year: 2002
+  note: Nochwas, Nochwas, Nochwas
+  publisher: Derverlag
+  publisher-place: Orthausen
+  title: Buchtitel
+  type: book
+
+- id: autore:buchti:2010
+  author:
+    - family: Autorenname
+      given: Autorvorname
+  event-place: Orthausen
+  issued:
+    - year: 2010
+  publisher-place: Orthausen
+  title: Buchtitel
+  type: book
+
+- id: autore:buchti:2017
+  author:
+    - family: Autorenname
+      given: Autorvorname
+    - family: Person2
+      given: Maria
+    - family: Person3
+      given: Hans
+    - family: Person4
+      given: Eva
+  collection-number: '12'
+  collection-title: Reihenname
+  event-place: Orthausen
+  issued:
+    - year: 2017
+  note: Dinge und Sachen. [Nochwas]
+  publisher: Derverlag
+  publisher-place: Orthausen
+  title: Buchtitel
+  type: book
+
+- id: autore:buchti:2018
+  author:
+    - family: Autorenname
+      given: Autorvorname
+    - family: Person2
+      given: Maria
+    - family: Person3
+      given: Hans
+  collection-number: '12'
+  collection-title: Reihenname
+  event-place: Orthausen
+  issued:
+    - year: 2018
+  note: Dinge und Sachen. [Nochwas]
+  publisher: Derverlag
+  publisher-place: Orthausen
+  title: Buchtitel
+  type: book
+
+- id: autore:buchti:2019
+  author:
+    - family: Autorenname
+      given: Autorvorname
+  collection-number: '12'
+  collection-title: Reihenname
+  event-place: Orthausen
+  issued:
+    - year: 2019
+  publisher: Derverlag
+  publisher-place: Orthausen
+  title: Buchtitel
+  type: book
+
+- id: autore:buchti:2020
+  author:
+    - family: Autorenname
+      given: Autorvorname
+  collection-title: Reihenname
+  event-place: Orthausen
+  issued:
+    - year: 2020
+  publisher: Derverlag
+  publisher-place: Orthausen
+  title: Buchtitel
+  type: book
+
+- id: autore:buchti:2021
+  author:
+    - family: Autorenname
+      given: Autorvorname
+  event-place: Orthausen
+  issued:
+    - year: 2021
+  publisher: Derverlag
+  publisher-place: Orthausen
+  title: Buchtitel
+  type: book
+
 - id: benjam:kleine:1977
   author:
     - family: Benjamin
@@ -189,7 +321,7 @@ references:
     - year: 2017
   publisher: Nomos
   publisher-place: Baden-Baden
-  title: Mediengeschichte als Historische Techno-Logie
+  title: Mediengeschichte als Historische Techno-Logie (mit 5 Autoren)
   type: book
 
 - id: dotzle:medien:2017g
@@ -589,6 +721,26 @@ references:
     of Software
   type: webpage
   URL: https://www.oreilly.com/pub/a/web2/archive/what-is-web-20.html
+
+- id: person:dinge:2021
+  author:
+    - family: Person1
+      given: Hans
+    - family: Person2
+      given: Karl
+    - family: Person3
+      given: Maria
+    - family: Person4
+      given: Eva
+    - family: Person5
+      given: Klara
+  event-place: Orthausen
+  issued:
+    - year: 2021
+  publisher: Derverlag
+  publisher-place: Orthausen
+  title: Dinge und Sachen
+  type: book
 
 - id: primal:howsp:2021
   accessed:
