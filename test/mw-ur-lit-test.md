@@ -15,57 +15,57 @@ Folgende Beispiele sollen Varianten des Belegens/Zitierens aufzeigen, fixieren u
 
 ## Monografie + Varianten
 
-Buch, ein Autor, Ort und Verlag.[Buch, ein Autor, Ort und Verlag: @autore:buchti:2021.]
+Buch, ein Autor, Ort und Verlag.[Buch, ein Autor, Ort und Verlag:<br>⇉ @autore:buchti:2021.]
 
-Buch, ein Autor, Ort und Verlag, mit Seite.[Buch, ein Autor, Ort und Verlag, mit Seite: @autore:buchti:2021, 21.]
+Buch, ein Autor, Ort und Verlag, mit Seite.[Buch, ein Autor, Ort und Verlag, mit Seite:<br>⇉ @autore:buchti:2021, 21.]
 
-Buch, ein Autor, Ort und Verlag, mit Seiten.[Buch, ein Autor, Ort und Verlag, mit Seiten: @autore:buchti:2021, 21-22.]
+Buch, ein Autor, Ort und Verlag, mit Seiten.[Buch, ein Autor, Ort und Verlag, mit Seiten:<br>⇉ @autore:buchti:2021, 21-22.]
 
-Buch, ein Autor, mit Reihe, Ort und Verlag, mit Seiten.[Buch, ein Autor, mit Reihe, Ort und Verlag, mit Seiten: @autore:buchti:2020, 21-22.]
+Buch, ein Autor, mit Reihe, Ort und Verlag, mit Seiten.[Buch, ein Autor, mit Reihe, Ort und Verlag, mit Seiten:<br>⇉ @autore:buchti:2020, 21-22.]
 
-Buch, ein Autor, mit Reihe und Reihennummer, Ort und Verlag, mit Seiten.[Buch, ein Autor, mit Reihe und Reihennummer, Ort und Verlag, mit Seiten: @autore:buchti:2019, 21-22.]
+Buch, ein Autor, mit Reihe und Reihennummer, Ort und Verlag, mit Seiten.[Buch, ein Autor, mit Reihe und Reihennummer, Ort und Verlag, mit Seiten:<br>⇉ @autore:buchti:2019, 21-22.]
 
-Buch, mehrere Autoren, mit Reihe und Reihennummer, Ort und Verlag, mit Seiten und Zusatz.[Buch, mehrere Autoren, mit Reihe und Reihennummer, Ort und Verlag, mit Seiten und Zusatz: @autore:buchti:2018, 21-22.]
+Buch, mehrere Autoren, mit Reihe und Reihennummer, Ort und Verlag, mit Seiten und Zusatz.[Buch, mehrere Autoren, mit Reihe und Reihennummer, Ort und Verlag, mit Seiten und Zusatz:<br>⇉ @autore:buchti:2018, 21-22.]
 
-Buch, ab vier Autoren, mit Reihe und Reihennummer, Ort und Verlag, mit Seiten und Zusatz.[Buch, ab vier Autoren, mit Reihe und Reihennummer, Ort und Verlag, mit Seiten und Zusatz: @autore:buchti:2017, 21-22.]
+Buch, ab vier Autoren, mit Reihe und Reihennummer, Ort und Verlag, mit Seiten und Zusatz.[Buch, ab vier Autoren, mit Reihe und Reihennummer, Ort und Verlag, mit Seiten und Zusatz:<br>⇉ @autore:buchti:2017, 21-22.]
 
-Buch, ein Autor, Reihe und Reihennummer, Auflagendetails mit Nummer und Text, Zusatz.[Buch, ein Autor, Reihe und Reihennummer, Auflagendetails mit Nummer und Text, Zusatz: @autore:buchti:2000, 21-22.]
+Buch, ein Autor, Reihe und Reihennummer, Auflagendetails mit Nummer und Text, Zusatz.[Buch, ein Autor, Reihe und Reihennummer, Auflagendetails mit Nummer und Text, Zusatz:<br>⇉ @autore:buchti:2000, 21-22.]
 
-Buch, ein Autor, ohne Ort.[Buch, ein Autor, ohne Ort: @autore:buchti:2001, 21-22.]
+Buch, ein Autor, ohne Ort.[Buch, ein Autor, ohne Ort:<br>⇉ @autore:buchti:2001, 21-22.]
 
-Buch, ein Autor, Reihe und Reihennummer, Auflagendetails mit nur Ziffer in der Eingabe, Zusatz.[Buch, ein Autor, Reihe und Reihennummer, Auflagendetails mit nur Ziffer in der Eingabe, Zusatz: @autore:buchti:2002, 21-22.]
+Buch, ein Autor, Reihe und Reihennummer, Auflagendetails mit nur Ziffer in der Eingabe, Zusatz.[Buch, ein Autor, Reihe und Reihennummer, Auflagendetails mit nur Ziffer in der Eingabe, Zusatz:<br>⇉ @autore:buchti:2002, 21-22.]
 
-Buch, ein Autor, ohne Verlag.[Buch, ein Autor, ohne Verlag: @autore:buchti:2010, 21-22.]
+Buch, ein Autor, ohne Verlag.[Buch, ein Autor, ohne Verlag:<br>⇉ @autore:buchti:2010, 21-22.]
 
-Zwei Autoren.[Zwei Autoren: @dotzle:medien:2017, 22.]
+Zwei Autoren.[Zwei Autoren:<br>⇉ @dotzle:medien:2017, 22.]
 
-Vier Autoren.[Vier Autoren: @dotzle:medien:2017e, 22.]
+Vier Autoren.[Vier Autoren:<br>⇉ @dotzle:medien:2017e, 22.]
 
-Fünf Autoren, leicht abgeänderter Titel, aber wegen Unterscheidbarkeit im Kurzbeleg (*disambiguation*) wird hier nicht mit *et al.* abgekürzt.[Fünf Autoren, leicht abgeänderter Titel, aber wegen Unterscheidbarkeit im Kurzbeleg (*disambiguation*) wird hier nicht mit *et al.* abgekürzt: @dotzle:medien:2017f, 22.]
+Fünf Autoren, leicht abgeänderter Titel, aber wegen Unterscheidbarkeit im Kurzbeleg (*disambiguation*) wird hier nicht mit *et al.* abgekürzt.[Fünf Autoren, leicht abgeänderter Titel, aber wegen Unterscheidbarkeit im Kurzbeleg (*disambiguation*) wird hier nicht mit *et al.* abgekürzt:<br>⇉ @dotzle:medien:2017f, 22.]
 
-Zwei Autoren, ein Hg.[Zwei Autoren, ein Hg.: @dotzle:medien:2017g, 22.]
+Zwei Autoren, ein Hg.[Zwei Autoren, ein Hg.:<br>⇉ @dotzle:medien:2017g, 22.]
 
-Zwei Autoren, zwei Hg.[Zwei Autoren, zwei Hg.: @dotzle:medien:2017h, 22.]
+Zwei Autoren, zwei Hg.[Zwei Autoren, zwei Hg.:<br>⇉ @dotzle:medien:2017h, 22.]
 
-Zwei Autoren, drei Hg.[Zwei Autoren, drei Hg.: @dotzle:medien:2017i, 22.]
+Zwei Autoren, drei Hg.[Zwei Autoren, drei Hg.:<br>⇉ @dotzle:medien:2017i, 22.]
 
-Zwei Autoren, vier Hg., zwei Übers., ein Übers. gleichzeitig Hg.[Zwei Autoren, vier Hg., zwei Übers., ein Übers. gleichzeitig Hg.: @dotzle:medien:2017j, 22.]
+Zwei Autoren, vier Hg., zwei Übers., ein Übers. gleichzeitig Hg.[Zwei Autoren, vier Hg., zwei Übers., ein Übers. gleichzeitig Hg.:<br>⇉ @dotzle:medien:2017j, 22.]
 
-Zwei Autoren, ein Übs. und gleichzeitig Hg.[Zwei Autoren, ein Übs. und gleichzeitig Hg.: @dotzle:medien:2017k, 22.]
+Zwei Autoren, ein Übs. und gleichzeitig Hg.[Zwei Autoren, ein Übs. und gleichzeitig Hg.:<br>⇉ @dotzle:medien:2017k, 22.]
 
-Zwei Autoren, ein Übs. und gleichzeitig Hg, Auflagennummer.[Zwei Autoren, ein Übs. und gleichzeitig Hg, Auflagennummer: @dotzle:medien:2017l, 22.]
+Zwei Autoren, ein Übs. und gleichzeitig Hg, Auflagennummer.[Zwei Autoren, ein Übs. und gleichzeitig Hg, Auflagennummer:<br>⇉ @dotzle:medien:2017l, 22.]
 
-ISBN wird nicht angezeigt.[ISBN wird nicht angezeigt: @dotzle:medien:2017n, 22.]
+ISBN wird nicht angezeigt.[ISBN wird nicht angezeigt:<br>⇉ @dotzle:medien:2017n, 22.]
 
-Test mit Zotero-Extra-Feld.[Test mit Zotero-Extra-Feld: @dotzle:medien:2017q, 22.]
+Test mit Zotero-Extra-Feld.[Test mit Zotero-Extra-Feld:<br>⇉ @dotzle:medien:2017q, 22.]
 
-Test mit Zotero-Extra-Feld 2.[Test mit Zotero-Extra-Feld 2: @dotzle:medien:2017r, 22.]
+Test mit Zotero-Extra-Feld 2.[Test mit Zotero-Extra-Feld 2:<br>⇉ @dotzle:medien:2017r, 22.]
 
-Test mit Zotero-Edition-Feld.[Test mit Zotero-Edition-Feld: @dotzle:medien:2017s, 22.]
+Test mit Zotero-Edition-Feld.[Test mit Zotero-Edition-Feld:<br>⇉ @dotzle:medien:2017s, 22.]
 
-Test mit Zotero-Extra-Feld, DOI.[Test mit Zotero-Extra-Feld, DOI: @dotzle:medien:2017t, 22.]
+Test mit Zotero-Extra-Feld, DOI.[Test mit Zotero-Extra-Feld, DOI:<br>⇉ @dotzle:medien:2017t, 22.]
 
-Fünf Autoren, hier mit *et al.*, da keine weiteren Ununterscheidbarkeiten dadurch hervorgerufen werden.[Fünf Autoren, hier mit *et al.*, da keine weiteren Ununterscheidbarkeiten dadurch hervorgerufen werden: @person:dinge:2021, 20.]
+Fünf Autoren, hier mit *et al.*, da keine weiteren Ununterscheidbarkeiten dadurch hervorgerufen werden.[Fünf Autoren, hier mit *et al.*, da keine weiteren Ununterscheidbarkeiten dadurch hervorgerufen werden:<br>⇉ @person:dinge:2021, 20.]
 
 
 ## Sammelband, Herausgeberschaft
@@ -146,7 +146,7 @@ Serie Serienfolge Serie Serienfolge.[Besonders gut gelungen bei @simon:thewi:200
 
 ## Video (auf bspw. Youtube, Vimeo, ...)
 
-Ein Video auf der Plattform Youtube.[Video zu SpaceX und der Übertragung der Landung; Technisches zum Thema: @primal:howsp:2021, 00:02:50--00:04:10.]
+Ein Video auf der Plattform Youtube.[Video zu SpaceX und der Übertragung der Landung; Technisches zum Thema:<br>⇉ @primal:howsp:2021, 00:02:50--00:04:10.]
 
 
 
