@@ -10,11 +10,7 @@ pagetitle: mw-ur-lit.csl tests
 
 # mw-ur-lit.csl tests
 
-Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks oder Handgloves, um Schriften zu testen.
-
-Manchmal Sätze, die alle Buchstaben des Alphabets enthalten - man nennt diese Sätze »Pangrams«. Sehr bekannt ist dieser: The quick brown fox jumps over the lazy old dog.
-
-Oft werden in Typoblindtexte auch fremdsprachige Satzteile eingebaut (AVAIL® and Wefox™ are testing aussi la Kerning), um die Wirkung in anderen Sprachen zu testen. In Lateinisch sieht zum Beispiel fast jede Schrift gut aus.
+Folgende Beispiele sollen Varianten des Belegens/Zitierens aufzeigen, fixieren und für Veränderungen am `.csl`-Stil nachvollziehbar machen.
 
 
 ## Monografie + Varianten
@@ -41,45 +37,36 @@ Buch, ein Autor, Reihe und Reihennummer, Auflagendetails mit nur Ziffer in der E
 
 Buch, ein Autor, ohne Verlag.[Buch, ein Autor, ohne Verlag: @autore:buchti:2010, 21-22.]
 
-Fünf Autoren, aber wegen *disambiguation* wird hier nicht mit *et al.* abgekürzt.[Fünf Autoren, aber wegen *disambiguation* wird hier nicht mit *et al.* abgekürzt: @dotzle:medien:2017f, 22.]
+Zwei Autoren.[Zwei Autoren: @dotzle:medien:2017, 22.]
 
-Text.[Vgl. beispielsweise bei @dotzle:medien:2017, 22.]
+Vier Autoren.[Vier Autoren: @dotzle:medien:2017e, 22.]
 
-Text.[Vgl. beispielsweise bei @person:dinge:2021, 20.]
+Fünf Autoren, leicht abgeänderter Titel, aber wegen Unterscheidbarkeit im Kurzbeleg (*disambiguation*) wird hier nicht mit *et al.* abgekürzt.[Fünf Autoren, leicht abgeänderter Titel, aber wegen Unterscheidbarkeit im Kurzbeleg (*disambiguation*) wird hier nicht mit *et al.* abgekürzt: @dotzle:medien:2017f, 22.]
 
-Text.[Vgl. beispielsweise bei @dotzle:medien:2017d, 22.]
+Zwei Autoren, ein Hg.[Zwei Autoren, ein Hg.: @dotzle:medien:2017g, 22.]
 
-Text.[Vgl. beispielsweise bei @dotzle:medien:2017e, 22.]
+Zwei Autoren, zwei Hg.[Zwei Autoren, zwei Hg.: @dotzle:medien:2017h, 22.]
 
-Text.[Vgl. beispielsweise bei @dotzle:medien:2017f, 22.]
+Zwei Autoren, drei Hg.[Zwei Autoren, drei Hg.: @dotzle:medien:2017i, 22.]
 
-Text.[Vgl. beispielsweise bei @dotzle:medien:2017g, 22.]
+Zwei Autoren, vier Hg., zwei Übers., ein Übers. gleichzeitig Hg.[Zwei Autoren, vier Hg., zwei Übers., ein Übers. gleichzeitig Hg.: @dotzle:medien:2017j, 22.]
 
-Text.[Vgl. beispielsweise bei @dotzle:medien:2017h, 22.]
+Zwei Autoren, ein Übs. und gleichzeitig Hg.[Zwei Autoren, ein Übs. und gleichzeitig Hg.: @dotzle:medien:2017k, 22.]
 
-Text.[Vgl. beispielsweise bei @dotzle:medien:2017i, 22.]
+Zwei Autoren, ein Übs. und gleichzeitig Hg, Auflagennummer.[Zwei Autoren, ein Übs. und gleichzeitig Hg, Auflagennummer: @dotzle:medien:2017l, 22.]
 
-Text.[Vgl. beispielsweise bei @dotzle:medien:2017j, 22.]
+ISBN wird nicht angezeigt.[ISBN wird nicht angezeigt: @dotzle:medien:2017n, 22.]
 
-Text.[Vgl. beispielsweise bei @dotzle:medien:2017k, 22.]
+Test mit Zotero-Extra-Feld.[Test mit Zotero-Extra-Feld: @dotzle:medien:2017q, 22.]
 
-Text.[Vgl. beispielsweise bei @dotzle:medien:2017l, 22.]
+Test mit Zotero-Extra-Feld 2.[Test mit Zotero-Extra-Feld 2: @dotzle:medien:2017r, 22.]
 
-Text.[Vgl. beispielsweise bei @dotzle:medien:2017m, 22.]
+Test mit Zotero-Edition-Feld.[Test mit Zotero-Edition-Feld: @dotzle:medien:2017s, 22.]
 
-Text.[Vgl. beispielsweise bei @dotzle:medien:2017n, 22.]
+Test mit Zotero-Extra-Feld, DOI.[Test mit Zotero-Extra-Feld, DOI: @dotzle:medien:2017t, 22.]
 
-Text.[Vgl. beispielsweise bei @dotzle:medien:2017o, 22.]
+Fünf Autoren, hier mit *et al.*, da keine weiteren Ununterscheidbarkeiten dadurch hervorgerufen werden.[Fünf Autoren, hier mit *et al.*, da keine weiteren Ununterscheidbarkeiten dadurch hervorgerufen werden: @person:dinge:2021, 20.]
 
-Text.[Vgl. beispielsweise bei @dotzle:medien:2017p, 22.]
-
-Text.[Vgl. beispielsweise bei @dotzle:medien:2017q, 22.]
-
-Text.[Vgl. beispielsweise bei @dotzle:medien:2017r, 22.]
-
-Text.[Vgl. beispielsweise bei @dotzle:medien:2017s, 22.]
-
-Text.[Vgl. beispielsweise bei @dotzle:medien:2017t, 22.]
 
 ## Sammelband, Herausgeberschaft
 
