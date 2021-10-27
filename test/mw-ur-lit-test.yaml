@@ -450,77 +450,12 @@ references:
       given: Übsv2
   type: book
 
-- id: dotzle:medien:2017m
-  author:
-    - family: Dotzler
-      given: Bernhard J.
-    - family: Roesler-Keilholz
-      given: Silke
-  edition: '3'
-  event-place: Baden-Baden
-  issued:
-    - year: 2017
-  publisher: Nomos
-  publisher-place: Baden-Baden
-  title: Mediengeschichte als Historische Techno-Logie
-  translator:
-    - family: Übsn2
-      given: Übsv2
-    - family: Übsn22
-      given: Übsv22
-  type: book
-
 - id: dotzle:medien:2017n
   author:
     - family: Dotzler
       given: Bernhard J.
     - family: Roesler-Keilholz
       given: Silke
-  edition: '3'
-  event-place: Baden-Baden
-  ISBN: 123-123-123
-  issued:
-    - year: 2017
-  publisher: Nomos
-  publisher-place: Baden-Baden
-  title: Mediengeschichte als Historische Techno-Logie
-  translator:
-    - family: Übsn2
-      given: Übsv2
-    - family: Übsn22
-      given: Übsv22
-  type: book
-
-- id: dotzle:medien:2017o
-  author:
-    - family: Dotzler
-      given: Bernhard J.
-    - family: Roesler-Keilholz
-      given: Silke
-  collection-title: Blablablareihe
-  edition: '3'
-  event-place: Baden-Baden
-  ISBN: 123-123-123
-  issued:
-    - year: 2017
-  publisher: Nomos
-  publisher-place: Baden-Baden
-  title: Mediengeschichte als Historische Techno-Logie
-  translator:
-    - family: Übsn2
-      given: Übsv2
-    - family: Übsn22
-      given: Übsv22
-  type: book
-
-- id: dotzle:medien:2017p
-  author:
-    - family: Dotzler
-      given: Bernhard J.
-    - family: Roesler-Keilholz
-      given: Silke
-  collection-number: '7'
-  collection-title: Blablablareihe
   edition: '3'
   event-place: Baden-Baden
   ISBN: 123-123-123
