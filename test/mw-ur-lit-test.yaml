@@ -217,7 +217,7 @@ references:
   issued:
     - year: 2019
   note: >-
-    Mitautorin: Nellee Hooper; Regisseur: Michel Gondry; Release: 1993; One
+    Mitautorin: Nellee Hooper. Regisseur: Michel Gondry. Release: 1993. One
     Little Indian Records. [Youtube, Musikvideo]
   title: Human Behaviour (HD)
   type: motion_picture
@@ -250,6 +250,15 @@ references:
   title: A Woman's Face [Die Frau mit der Narbe]
   title-short: A Woman's Face
   type: motion_picture
+
+- id: dampf:kunstw
+  author:
+    - family: Dampf
+      given: Hans
+    - family: Musterfrau
+      given: Monika
+  title: Kunstwerkstitel
+  type: graphic
 
 - id: doppel:sitzna:2007
   author:
@@ -641,6 +650,41 @@ references:
   title: Ästhetik der Materialität
   type: book
 
+- id: nna:titel:2021
+  accessed:
+    - year: 2021
+      month: 10
+      day: 28
+  archive: Archivinformationen
+  archive_location: Archivstandortinformationen
+  author:
+    - family: Künstlernamea
+      given: Künstlervornamea
+    - family: Künstlernachnameb
+      given: Künstlervornameb
+  call-number: Signaturinformation
+  dimensions: Laufzeitinformationen
+  editor:
+    - family: Nna
+      given: Vna
+    - family: Nnb
+      given: Vnb
+    - family: Nnc
+      given: Vnc
+  genre: Genreinformationen
+  issued:
+    - year: 2021
+  language: Sprachinformationen
+  medium: Formatinformationen
+  note: >-
+    Bezeichner: Vornamea Nachnamea; Vornameb Nachnameb & Vornamec Nachnamec.
+    Weitererbezeichner: Dinge und Sachen
+  source: Bibliothekskataloginformationen
+  title: Titel des künstlerisch hochwertigen Werkes
+  title-short: Kurztitel
+  type: motion_picture
+  URL: https://youtu.be/p0mRIhK9seg
+
 - id: oreill:whati:2005
   accessed:
     - year: 2019
@@ -703,6 +747,44 @@ references:
   title: Larmes [Tränen]
   title-short: Larmes
   type: graphic
+
+- id: regina:titel:2021
+  accessed:
+    - year: 2021
+      month: 10
+      day: 28
+  archive: Archivinformationen
+  archive_location: Archivstandortinformationen
+  author:
+    - family: Künstlernamea
+      given: Künstlervornamea
+    - family: Künstlernachnameb
+      given: Künstlervornameb
+  call-number: Signaturinformation
+  dimensions: Laufzeitinformationen
+  director:
+    - family: Reginame
+      given: Regivorname
+  editor:
+    - family: Nna
+      given: Vna
+    - family: Nnb
+      given: Vnb
+    - family: Nnc
+      given: Vnc
+  genre: Genreinformationen
+  issued:
+    - year: 2021
+  language: Sprachinformationen
+  medium: Formatinformationen
+  note: >-
+    Bezeichner: Vornamea Nachnamea; Vornameb Nachnameb & Vornamec Nachnamec.
+    Weitererbezeichner: Dinge und Sachen
+  source: Bibliothekskataloginformationen
+  title: Titel des künstlerisch hochwertigen Werkes
+  title-short: Kurztitel
+  type: motion_picture
+  URL: https://youtu.be/p0mRIhK9seg
 
 - id: simon:thewi:2002
   director:
@@ -798,4 +880,42 @@ references:
   publisher-place: Würzburg
   title: Oculus Artificialis Teledioptricus Sive Telescopium
   type: book
+
+- id: zahn:oculus:1685e
+  archive: Supertolles Archiv
+  archive_location: Blubbarchivstandort
+  author:
+    - family: Zahn
+      given: Johannes
+  event-place: Würzburg
+  issued:
+    - year: 1685
+  publisher: Quirin Heil
+  publisher-place: Würzburg
+  source: Superbibliothekskatalogangabe
+  title: Oculus Artificialis Teledioptricus Sive Telescopium
+  title-short: Oculus
+  type: book
+
+- id: zahn:oculus:1685f
+  accessed:
+    - year: 2021
+      month: 10
+      day: 28
+  archive: Supertolles Archiv
+  archive_location: Blubbarchivstandort
+  author:
+    - family: Zahn
+      given: Johannes
+  DOI: 1234-1234-1234
+  event-place: Würzburg
+  issued:
+    - year: 1685
+  publisher: Quirin Heil
+  publisher-place: Würzburg
+  source: Superbibliothekskatalogangabe
+  title: Oculus Artificialis Teledioptricus Sive Telescopium
+  title-short: Oculus
+  type: book
+  URL: https://fakeurl.org
 ...

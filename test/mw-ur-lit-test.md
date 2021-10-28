@@ -152,19 +152,28 @@ Ein Video auf der Plattform Youtube.[Video zu SpaceX und der Übertragung der La
 
 ## Musikvideo, Kunst-Video
 
-Abc Defg Hijk Lmno Pqrs.[Besonders bei @bjork:human:2019.]
+Besondere Videos ... .[Besondere Videos:<br>⇉  @bjork:human:2019.]
 
+Video mit vielen bibliogr. Informationen.[@nna:titel:2021.]
+
+[@regina:titel:2021]
 
 
 ## weitere Quellen
 
 Der Vollständigkeit halber noch die weiteren, in den Gestaltungsrichtlinien verwendeten, Quellen, welche mit dem Zitationsstil der CSL-Datei umgesetzt werden können:
 
-Thema Thema Thema.[Besonders gut zusammengestellt bei @bier:typoku:2009.]
+Thema Thema Thema.[Besonders gut zusammengestellt bei:<br>⇉  @bier:typoku:2009.]
 
-„Direkte Textübernahme direkte Textübernahme“[@brink:anfert:2013, 159\; Hervorhebungen im Original.] und eigene Einordnung.
+„Direkte Textübernahme direkte Textübernahme ... Test wegen pandoc markdown Seitensuffix und weiterer Ausführung nach `\;` escaped Strichpunkt“[Test wegen pandoc markdown Seitensuffix und weiterer Ausführung nach `\;` escaped Strichpunkt:<br>⇉  @brink:anfert:2013, 159\; Hervorhebungen im Original.] und eigene Einordnung.
 
-„Direkte Textübernahme direkte Textübernahme“[@anderm:duden:2000, 99.] und eigene Einordnung.
+„Direkte Textübernahme direkte Textübernahme“[... :<br>⇉ @anderm:duden:2000, 99.] und eigene Einordnung.
 
 
-Thema Thema Thema.[Siehe hierzu einschlägig @zahn:oculus:1685, 181.]
+Thema Thema Thema.[Siehe hierzu einschlägig:<br>⇉  @zahn:oculus:1685, 181.]
+
+Buch mit Kurztitelangabe, Angabe zu Archiv, Archivstandort und Bibliothekskatalog.[Buch mit Kurztitelangabe, Angabe zu Archiv, Archivstandort und Bibliothekskatalog:<br>⇉  @zahn:oculus:1685e.]
+
+Buch mit Kurztitelangabe, Angabe zu Archiv, Archivstandort, Bibliothekskatalog und Seiten. TODO Kursivierung bei Archivname überprüfen TODO.[Buch mit Kurztitelangabe, Angabe zu Archiv, Archivstandort, Bibliothekskatalog und Seiten. TODO Kursivierung bei Archivname überprüfen TODO:<br>⇉  @zahn:oculus:1685e, 99-100.]
+
+Buch mit Kurztitelangabe, Angabe zu Archiv, Archivstandort, Bibliothekskatalog und Seiten. Zudem Fake-DOI und Fake-URL. TODO Kursivierung bei Archivname überprüfen TODO.[Buch mit Kurztitelangabe, Angabe zu Archiv, Archivstandort, Bibliothekskatalog und Seiten. Zudem Fake-DOI und Fake-URL. TODO Kursivierung bei Archivname überprüfen TODO:<br>⇉  @zahn:oculus:1685f, 99-100.]
