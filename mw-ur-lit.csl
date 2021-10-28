@@ -21,7 +21,7 @@
   <category field="humanities"/>
   <category field="communications"/>
   <summary>mw-ur-lit: Kurz- und Vollbelege im Stile der Gestaltungsrichtlinien der Medienwissenschaft an der Universität Regensburg.</summary>
-  <updated>2021-10-25T13:30:00+02:00</updated>
+  <updated>2021-10-28T18:40:00+02:00</updated>
   <rights license="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 License (CC BY-SA 4.0)</rights>
 </info>
 
@@ -385,7 +385,10 @@
       <text macro="urauthorortitle"/>
       <group delimiter=", " prefix="(" suffix=")">
         <text macro="citation_author_in_movie_and_art"/>
-        <text macro="issued"/>
+        <group>
+          <text macro="issued"/>
+          <text variable="year-suffix"/>
+        </group>
         <text macro="citation-locator"/>
       </group>
     </group>
@@ -409,7 +412,10 @@
       <if type="motion_picture graphic" match="any">
         <group suffix=".">
         <text macro="title" font-style="italic"/>
-        <text macro="issued" prefix=" (" suffix="). "/>
+        <group prefix=" (" suffix="). ">
+          <text macro="issued"/>
+          <text variable="year-suffix"/>
+        </group>
         <group delimiter=". ">
         <text macro="author" suffix=""/>
           <group>
@@ -436,7 +442,10 @@
       <else>
         <group suffix=".">
           <text macro="author" suffix=""/>
-          <text macro="issued" prefix=" (" suffix="). "/>
+          <group prefix=" (" suffix="). ">
+            <text macro="issued"/>
+            <text variable="year-suffix"/>
+          </group>
           <group delimiter=". ">
             <text macro="title"/>
             <group>
