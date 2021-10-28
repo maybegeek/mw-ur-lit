@@ -39,6 +39,19 @@
   </terms>
 </locale>
 
+<macro name="secondary-contributors">
+  <choose>
+    <if type="chapter entry-dictionary entry-encyclopedia paper-conference article-journal" match="none">
+      <names variable="editor translator" delimiter=". ">
+        <name name-as-sort-order="all" and="symbol" sort-separator=", " delimiter="; " delimiter-precedes-last="never">
+          <name-part name="family"/>
+        </name>
+        <label form="short" prefix=" (" suffix=")"/>
+      </names>
+    </if>
+  </choose>
+</macro>
+
 <macro name="container-contributors">
   <choose>
     <if type="chapter entry-dictionary entry-encyclopedia paper-conference article-journal" match="any">
@@ -56,19 +69,6 @@
           <label form="short" prefix=" (" suffix=")"/>
         </names>
       </group>
-    </if>
-  </choose>
-</macro>
-
-<macro name="secondary-contributors">
-  <choose>
-    <if type="chapter entry-dictionary entry-encyclopedia paper-conference article-journal" match="none">
-      <names variable="editor translator" delimiter=". ">
-        <name name-as-sort-order="all" and="symbol" sort-separator=", " delimiter="; " delimiter-precedes-last="never">
-          <name-part name="family"/>
-        </name>
-        <label form="short" prefix=" (" suffix=")"/>
-      </names>
     </if>
   </choose>
 </macro>
