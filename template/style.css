@@ -98,6 +98,11 @@ code {
   text-decoration: none;
 }
 
+.references.hanging-indent {
+  margin-left: 0;
+  text-indent: -1.5em;
+}
+
 .references div {
   background-color: rgba(156, 0, 75, 0.6);
   color: white;
@@ -120,12 +125,7 @@ code {
   text-decoration: none;
 }
 
-.footnotes {
-  margin-top: 4em;
-}
-
 .footnotes::before {
-  content: "❦ ❦ ❦ ❦ ❦ gesammelte Fußnoten und dortige Kurzbelege ❦ ❦ ❦ ❦ ❦ ❦";
   text-align: center;
   display: block;
 }
@@ -136,25 +136,12 @@ code {
 }
 
 .footnotes ol {
-  margin-top: 2em;
-}
-
-.footnotes ol {
-  list-style-type: none;
-  margin-left: 0;
-  display: table;
-}
-
-.footnotes ol > li {
-  counter-increment: customlistcounter;
-  display: table-row;
+  margin-top: 1em;
 }
 
 .footnotes ol > li:before {
-  content: counter(customlistcounter) " ";
   font-weight: bold;
   text-align: right;
-  padding-right: 0.4em;
   display: table-cell;
 }
 
@@ -163,9 +150,6 @@ code {
 }
 
 @media (max-width:768px) {
-  .footnotes::before {
-    content: "❦ ❦ ❦ ❦ Fußnoten und Kurzbelege ❦ ❦ ❦ ❦";
-  }
   .zotero-fields {
     width: calc(100% + 2em);
     margin-left: -1em;
@@ -176,17 +160,14 @@ code {
   html {
     font-size: 92%;
   }
-  .references {
+  .references.hanging-indent {
     width: calc(100% + 2.4em);
-    margin-left: -1.2em
+    margin-left: -1.2em;
   }
   .references div {
     border-radius: 0;
   }
   .footnotes ol {
-    padding-left: 0;
-  }
-  .footnotes::before {
-    content: "❦ Fußnoten und Kurzbelege ❦";
+    /* padding-left: 0; */
   }
 }
