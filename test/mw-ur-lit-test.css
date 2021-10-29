@@ -32,10 +32,20 @@ div.hanging-indent > div {
 
 div.references {
   margin-top: 2.2em;
-  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
   padding-top: 1em;
+  padding-bottom: 4em;
 }
 
 div.csl-entry {
   margin: 1em 0;
+  font-family: monospace;
+  line-height: 1.4;
+}
+
+.footnotes.footnotes-end-of-block {
+  background-color: white;
+  padding: 0.2em 0.2em 0.2em 1em;
+  font-family: monospace;
+  border-radius: 6px;
 }
