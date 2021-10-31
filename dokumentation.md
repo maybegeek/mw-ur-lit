@@ -344,7 +344,7 @@ Abc Defg Hijk Lmno Pqrs.[Besonders bei @bjork:human:2019.]
 * `URL:` `https://youtu.be/p0mRIhK9seg`
 * `Heruntergeladen am:` `2021-09-26`
 * `Extra:` `Artist: Björk`
-* `Extra:` `Mitautorin: Nellee Hooper; Regisseur: Michel Gondry; Release: 1993; One Little Indian Records. [Youtube, Musikvideo]`
+* `Extra:` `Mitautor: Nellee Hooper. Regisseur: Michel Gondry. Release: 1993. One Little Indian Records. [Youtube, Musikvideo]`
 :::
 
 ::: {.kommentar}
