@@ -192,6 +192,6 @@ Thema Thema Thema.[@zahn:oculus:1685, 181.]
 
 Buch mit Kurztitelangabe, Angabe zu Archiv, Archivstandort und Bibliothekskatalog.[@zahn:oculus:1685e.]
 
-Buch mit Kurztitelangabe, Angabe zu Archiv, Archivstandort, Bibliothekskatalog und Seiten. TODO Kursivierung bei Archivname überprüfen TODO.[@zahn:oculus:1685e, 99-100.]
+Buch mit Kurztitelangabe, Angabe zu Archiv, Archivstandort, Bibliothekskatalog und Seiten.[@zahn:oculus:1685e, 99-100.]
 
-Buch mit Kurztitelangabe, Angabe zu Archiv, Archivstandort, Bibliothekskatalog und Seiten. Zudem Fake-DOI und Fake-URL. TODO Kursivierung bei Archivname überprüfen TODO.[@zahn:oculus:1685f, 99-100.]
+Buch mit Kurztitelangabe, Angabe zu Archiv, Archivstandort, Bibliothekskatalog und Seiten. Zudem Fake-DOI und Fake-URL.[@zahn:oculus:1685f, 99-100.]
