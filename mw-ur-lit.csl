@@ -28,7 +28,7 @@
 <locale xml:lang="de">
   <terms>
     <term name="et-al">et al.</term>
-    <term name="and">und&#8239;</term><!-- (temp) Workaround bzgl. `und` in edition -->
+    <term name="and">und&#8239;</term><!-- hack: allowing `und` in edition -->
     <term name="retrieved">Zugriff</term>
     <term name="anonymous" form="short">o.&#8239;A.</term>
     <term name="no date" form="short">o.&#8239;J.</term>
