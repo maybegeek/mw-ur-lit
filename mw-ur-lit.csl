@@ -21,7 +21,7 @@
   <category field="humanities"/>
   <category field="communications"/>
   <summary>mw-ur-lit: Kurz- und Vollbelege im Stile der Gestaltungsrichtlinien der Medienwissenschaft an der Universität Regensburg.</summary>
-  <updated>2021-10-28T18:40:00+02:00</updated>
+  <updated>2021-10-31T23:30:00+02:00</updated>
   <rights license="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 License (CC BY-SA 4.0)</rights>
 </info>
 
@@ -450,9 +450,12 @@
             <text macro="title"/>
             <group>
               <choose>
-                <if variable="container-title archive" match="any">
+                <if variable="container-title" match="any">
                   <text term="in" text-case="capitalize-first" suffix=": "/>
                 </if>
+                <else-if type="article" variable="archive" match="all">
+                  <text term="in" text-case="capitalize-first" suffix=": "/>
+                </else-if>
               </choose>
 
               <text macro="container-contributors"/>
@@ -460,18 +463,23 @@
 
               <group delimiter=" ">
                 <text variable="container-title" font-style="italic"/>
-                <text variable="archive" font-style="italic"/>
                 <choose>
                   <if variable="container-title" match="any">
                     <text macro="series"/>
                   </if>
                 </choose>
               </group>
-              <choose>
-                <if variable="archive_location">
-                  <text variable="archive_location" prefix=". "/>
-                </if>
-              </choose>
+              <group prefix=". " delimiter=". ">
+                <choose>
+                  <if type="article" variable="archive" match="all">
+                    <text variable="archive" font-style="italic"/>
+                  </if>
+                  <else>
+                    <text variable="archive"/>
+                  </else>
+                </choose>
+                <text variable="archive_location"/>
+              </group>
             </group>
             <text macro="edition"/>
             <text variable="note"/>
