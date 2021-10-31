@@ -72,6 +72,10 @@ Fünf Autoren, hier mit *et al.*, da keine weiteren Ununterscheidbarkeiten dadur
 
 Beispiel Beispiel Beispiel Beispiel Beispiel Beispiel Beispiel Beispiel Beispiel Beispiel Beispiel Beispiel Beispiel.[Vgl. die Argumentation diesbezüglich bei @gerhar:strukt:1993, 60-61.]
 
+[@gerhar:strukt:1900.]
+
+[@gerhar:strukt:1900a.]
+
 
 Hier nun die „[d]irekte Textübernahme direkte Textübernahme Textübernahme Textübernahme Textübernahme“[@amento:experi:2003, 60.] eigener Text.
 
@@ -146,34 +150,48 @@ Serie Serienfolge Serie Serienfolge.[Besonders gut gelungen bei @simon:thewi:200
 
 ## Video (auf bspw. Youtube, Vimeo, ...)
 
-Ein Video auf der Plattform Youtube.[Video zu SpaceX und der Übertragung der Landung; Technisches zum Thema:<br>⇉ @primal:howsp:2021, 00:02:50--00:04:10.]
+
+TODO year-suffix sorting TODO
+
+Ein Video auf der Plattform Youtube.[@primal:howsp:2021, 00:02:50--00:04:10.]
+
+Youtubevideo, weiterer Autor/Reg., Studionahme.[@primal:howsp:2010, 00:10:00--00:20:00.]
+
+Youtubevideo, weiterer Autor/Reg., wie oben aber ohne Studionahme.[@primal:howsp:2010a, 00:10:00--00:20:00.]
+
+Youtubevideo, nur ein Name.[@primal:howsp:2010b, 00:10:00--00:20:00.]
 
 
 
 ## Musikvideo, Kunst-Video
 
-Besondere Videos ... .[Besondere Videos:<br>⇉  @bjork:human:2019.]
+Besondere Videos
 
-Video mit vielen bibliogr. Informationen.[@nna:titel:2021.]
+[@bjork:human:2019.]
 
-[@regina:titel:2021]
+Video mit vielen bibliogr. Informationen.[@nna:origin:2021.]
+
+[@regina:origin:2021]
+
+
+TODO bei Film ... schauen, was wirklich vorne stehen soll und nach was sich das `year-suffix` bilden soll. | Film, Film, Reg1, Reg2, Extra-Autor1, Extra-Autor2, Extra-Autor3, Extra-Editor1, Extra-Editor2, Extra-Editor3.[@regina:origin:2021a]
 
 
 ## weitere Quellen
 
 Der Vollständigkeit halber noch die weiteren, in den Gestaltungsrichtlinien verwendeten, Quellen, welche mit dem Zitationsstil der CSL-Datei umgesetzt werden können:
 
-Thema Thema Thema.[Besonders gut zusammengestellt bei:<br>⇉  @bier:typoku:2009.]
+Thema Thema Thema.[@bier:typoku:2009.]
 
-„Direkte Textübernahme direkte Textübernahme ... Test wegen pandoc markdown Seitensuffix und weiterer Ausführung nach `\;` escaped Strichpunkt“[Test wegen pandoc markdown Seitensuffix und weiterer Ausführung nach `\;` escaped Strichpunkt:<br>⇉  @brink:anfert:2013, 159\; Hervorhebungen im Original.] und eigene Einordnung.
+„Direkte Textübernahme direkte Textübernahme ... Test wegen pandoc markdown Seitensuffix und weiterer Ausführung nach `\;` escaped Strichpunkt“[@brink:anfert:2013, 159\; Hervorhebungen im Original.] und eigene Einordnung.
 
-„Direkte Textübernahme direkte Textübernahme“[... :<br>⇉ @anderm:duden:2000, 99.] und eigene Einordnung.
+„Direkte Textübernahme direkte Textübernahme“[@anderm:duden:2000, 99.] und eigene Einordnung.
 
 
-Thema Thema Thema.[Siehe hierzu einschlägig:<br>⇉  @zahn:oculus:1685, 181.]
+Thema Thema Thema.[@zahn:oculus:1685, 181.]
 
-Buch mit Kurztitelangabe, Angabe zu Archiv, Archivstandort und Bibliothekskatalog.[Buch mit Kurztitelangabe, Angabe zu Archiv, Archivstandort und Bibliothekskatalog:<br>⇉  @zahn:oculus:1685e.]
+Buch mit Kurztitelangabe, Angabe zu Archiv, Archivstandort und Bibliothekskatalog.[@zahn:oculus:1685e.]
 
-Buch mit Kurztitelangabe, Angabe zu Archiv, Archivstandort, Bibliothekskatalog und Seiten. TODO Kursivierung bei Archivname überprüfen TODO.[Buch mit Kurztitelangabe, Angabe zu Archiv, Archivstandort, Bibliothekskatalog und Seiten. TODO Kursivierung bei Archivname überprüfen TODO:<br>⇉  @zahn:oculus:1685e, 99-100.]
+Buch mit Kurztitelangabe, Angabe zu Archiv, Archivstandort, Bibliothekskatalog und Seiten. TODO Kursivierung bei Archivname überprüfen TODO.[@zahn:oculus:1685e, 99-100.]
 
-Buch mit Kurztitelangabe, Angabe zu Archiv, Archivstandort, Bibliothekskatalog und Seiten. Zudem Fake-DOI und Fake-URL. TODO Kursivierung bei Archivname überprüfen TODO.[Buch mit Kurztitelangabe, Angabe zu Archiv, Archivstandort, Bibliothekskatalog und Seiten. Zudem Fake-DOI und Fake-URL. TODO Kursivierung bei Archivname überprüfen TODO:<br>⇉  @zahn:oculus:1685f, 99-100.]
+Buch mit Kurztitelangabe, Angabe zu Archiv, Archivstandort, Bibliothekskatalog und Seiten. Zudem Fake-DOI und Fake-URL. TODO Kursivierung bei Archivname überprüfen TODO.[@zahn:oculus:1685f, 99-100.]

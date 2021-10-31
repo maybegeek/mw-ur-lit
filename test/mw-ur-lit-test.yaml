@@ -596,6 +596,55 @@ references:
   type: graphic
   URL: https://w.wiki/6eW
 
+- id: gerhar:strukt:1900
+  author:
+    - family: Gerhards
+      given: Jürgen
+    - family: Neidhardt
+      given: Friedhelm
+  collection-number: '2'
+  collection-title: Studienbücher zur Publizistik- und Kommunikationswissenschaft
+  container-title: Politische Kommunikation. Grundlagen, Strukturen, Prozesse
+  edition: 2., überarb. Auflage
+  editor:
+    - family: Langenbucher
+      given: Wolfgang R.
+  event-place: Wien
+  issued:
+    - year: 1900
+  publisher: Braumüller
+  publisher-place: Wien
+  title: Strukturen und Funktionen moderner Öffentlichkeit
+  type: chapter
+
+- id: gerhar:strukt:1900a
+  archive: Archivname
+  archive_location: Archivstandort
+  author:
+    - family: Gerhards
+      given: Jürgen
+    - family: Neidhardt
+      given: Friedhelm
+    - family: Autorc
+      given: Autorvc
+  call-number: Signatur
+  collection-number: '2'
+  collection-title: Studienbücher zur Publizistik- und Kommunikationswissenschaft
+  container-title: Politische Kommunikation. Grundlagen, Strukturen, Prozesse
+  edition: 2., überarb. Auflage
+  editor:
+    - family: Langenbucher
+      given: Wolfgang R.
+    - family: Hgnb
+      given: Hgvb
+  event-place: Wien
+  issued:
+    - year: 1900
+  publisher: Braumüller
+  publisher-place: Wien
+  title: Strukturen und Funktionen moderner Öffentlichkeit
+  type: chapter
+
 - id: gerhar:strukt:1993
   author:
     - family: Gerhards
@@ -650,7 +699,7 @@ references:
   title: Ästhetik der Materialität
   type: book
 
-- id: nna:titel:2021
+- id: nna:origin:2021
   accessed:
     - year: 2021
       month: 10
@@ -680,8 +729,8 @@ references:
     Bezeichner: Vornamea Nachnamea; Vornameb Nachnameb & Vornamec Nachnamec.
     Weitererbezeichner: Dinge und Sachen
   source: Bibliothekskataloginformationen
-  title: Titel des künstlerisch hochwertigen Werkes
-  title-short: Kurztitel
+  title: Originaltitel [English Title]
+  title-short: Originaltitel
   type: motion_picture
   URL: https://youtu.be/p0mRIhK9seg
 
@@ -721,6 +770,53 @@ references:
   title: Dinge und Sachen
   type: book
 
+- id: primal:howsp:2010
+  accessed:
+    - year: 2021
+      month: 9
+      day: 26
+  director:
+    - literal: Primal Space
+    - family: Nocheinnahme
+      given: Nocheinvornahme
+  issued:
+    - year: 2010
+  note: '[Youtube, Video]'
+  publisher: Studionahme
+  title: How SpaceX Fixed Its Drone Ship Camera
+  type: motion_picture
+  URL: https://youtu.be/Bf4rPsS_fwA
+
+- id: primal:howsp:2010a
+  accessed:
+    - year: 2021
+      month: 9
+      day: 26
+  director:
+    - literal: Primal Space
+    - family: Nocheinnahme
+      given: Nocheinvornahme
+  issued:
+    - year: 2010
+  note: '[Youtube, Video]'
+  title: How SpaceX Fixed Its Drone Ship Camera
+  type: motion_picture
+  URL: https://youtu.be/Bf4rPsS_fwA
+
+- id: primal:howsp:2010b
+  accessed:
+    - year: 2021
+      month: 9
+      day: 26
+  director:
+    - literal: Primal Space
+  issued:
+    - year: 2010
+  note: '[Youtube, Video]'
+  title: How SpaceX Fixed Its Drone Ship Camera
+  type: motion_picture
+  URL: https://youtu.be/Bf4rPsS_fwA
+
 - id: primal:howsp:2021
   accessed:
     - year: 2021
@@ -748,7 +844,7 @@ references:
   title-short: Larmes
   type: graphic
 
-- id: regina:titel:2021
+- id: regina:origin:2021
   accessed:
     - year: 2021
       month: 10
@@ -781,8 +877,50 @@ references:
     Bezeichner: Vornamea Nachnamea; Vornameb Nachnameb & Vornamec Nachnamec.
     Weitererbezeichner: Dinge und Sachen
   source: Bibliothekskataloginformationen
-  title: Titel des künstlerisch hochwertigen Werkes
-  title-short: Kurztitel
+  title: Originaltitel [English Title]
+  title-short: Originaltitel
+  type: motion_picture
+  URL: https://youtu.be/p0mRIhK9seg
+
+- id: regina:origin:2021a
+  accessed:
+    - year: 2021
+      month: 10
+      day: 28
+  archive: Archivinformationen
+  archive_location: Archivstandortinformationen
+  author:
+    - family: Künstlernamea
+      given: Künstlervornamea
+    - family: Künstlernachnameb
+      given: Künstlervornameb
+    - family: Künstlernachnamec
+      given: Künstlervornamec
+  call-number: Signaturinformation
+  dimensions: Laufzeitinformationen
+  director:
+    - family: Reginame
+      given: Regivorname
+    - family: Reginameb
+      given: Regivornameb
+  editor:
+    - family: Nna
+      given: Vna
+    - family: Nnb
+      given: Vnb
+    - family: Nnc
+      given: Vnc
+  genre: Genreinformationen
+  issued:
+    - year: 2021
+  language: Sprachinformationen
+  medium: Formatinformationen
+  note: >-
+    Bezeichner: Vornamea Nachnamea; Vornameb Nachnameb & Vornamec Nachnamec.
+    Weitererbezeichner: Dinge und Sachen TEST
+  source: Bibliothekskataloginformationen
+  title: Originaltitel [English Title]
+  title-short: Originaltitel
   type: motion_picture
   URL: https://youtu.be/p0mRIhK9seg
 
