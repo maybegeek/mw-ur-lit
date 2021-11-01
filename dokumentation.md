@@ -19,7 +19,7 @@ pagetitle: mw-ur-lit (CSL für MW-UR-Gestaltungsrichtlinien)
 
 Kurzbelege und Vollbelege im Stile der [Gestaltungsrichtlinien der Medienwissenschaft](https://www.uni-regensburg.de/sprache-literatur-kultur/medienwissenschaft/medien/pdfs/studium-materialien/mw-gestaltungsrichtlinien.pdf) an der Universität Regensburg. Zur Verwendung in Literaturverwaltungsprogrammen wie [Zotero](https://www.zotero.org/) oder [Mendeley](https://www.mendeley.com/) und zur weiteren Unterstützung im akademischen Schreiben mit Word, Writer, Pandoc &hellip;
 
-Stand: 31. Oktober 2021.
+Stand: 1. November 2021.
 
 
 ## Literaturverwaltung
@@ -258,11 +258,11 @@ Abc defg hi Jklm nop qr St.[Vgl. beispielsweise besonders trefflich realisiert i
 * `Titel:` `Mann und Frau den Mond betrachtend [Mann und Frau in Betrachtung des Mondes]`
 * `Künstler:` `Friedrich, Caspar David`
 * `Medium:` `[Öl auf Leinwand]`
-* `Datum:` `1818/1824`
 * `Kurztitel:` `Mann und Frau den Mond betrachtend`
 * `Archiv:` `Alte Nationalgalerie Berlin`
 * `URL:` `https://w.wiki/6eW`
 * `Heruntergeladen am:` `2019-07-22`
+* `Extra:` `Issued: 1818/1824`
 * `Extra:` `In: Wikipedia, Die freie Enzyklopädie`
 :::
 
