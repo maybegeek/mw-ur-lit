@@ -313,7 +313,7 @@
       </group>
     </if>
     <else>
-      <text variable="edition" suffix=""/>
+      <text variable="edition"/>
     </else>
   </choose>
 </macro>
@@ -418,7 +418,7 @@
           <text variable="year-suffix"/>
         </group>
         <group delimiter=". ">
-        <text macro="author" suffix=""/>
+        <text macro="author"/>
           <group>
             <text macro="container-contributors"/>
             <text macro="secondary-contributors"/>
@@ -442,7 +442,7 @@
       </if>
       <else>
         <group suffix=".">
-          <text macro="author" suffix=""/>
+          <text macro="author"/>
           <group prefix=" (" suffix="). ">
             <text macro="issued"/>
             <text variable="year-suffix"/>
@@ -496,7 +496,7 @@
           </group>
           <choose>
             <if variable="dimensions medium" match="any">
-              <group prefix=" " suffix="">
+              <group prefix=" ">
               <choose>
                 <if variable="medium">
                   <text variable="medium"/>
