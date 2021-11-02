@@ -43,7 +43,7 @@
   <choose>
     <if type="motion_picture graphic" match="any">
       <names variable="director">
-        <name and="symbol" sort-separator=", " delimiter="; " delimiter-precedes-last="never" form="long"/>
+        <name and="symbol" delimiter="; " delimiter-precedes-last="never" form="long"/>
         <substitute>
           <names variable="director"/>
           <names variable="author"/>
