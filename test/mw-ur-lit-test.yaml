@@ -1,5 +1,14 @@
 ---
 references:
+- id: ':buchti:2021'
+  event-place: Orthausen
+  issued:
+    - year: 2021
+  publisher: Derverlag
+  publisher-place: Orthausen
+  title: Buchtitel aber diesemal ohne Urheberangabe
+  type: book
+
 - id: amento:experi:2003
   author:
     - family: Amento
