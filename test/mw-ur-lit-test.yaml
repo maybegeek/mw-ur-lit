@@ -251,6 +251,23 @@ references:
   title-short: A Woman's Face
   type: motion_picture
 
+- id: cukor:woman:1900
+  director:
+    - family: Cukor
+      given: Georges
+    - family: Name2
+      given: Vorname2
+    - family: Name3
+      given: Vorname3
+  issued:
+    - year: 1900
+  medium: '[DVD/2017]'
+  publisher: MGM
+  publisher-place: US
+  title: A Woman's Face [Die Frau mit der Narbe]
+  title-short: A Woman's Face
+  type: motion_picture
+
 - id: dampf:kunstw
   author:
     - family: Dampf
