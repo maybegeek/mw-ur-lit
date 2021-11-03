@@ -21,7 +21,7 @@
   <category field="humanities"/>
   <category field="communications"/>
   <summary>mw-ur-lit: Kurz- und Vollbelege im Stile der Gestaltungsrichtlinien der Medienwissenschaft an der Universität Regensburg.</summary>
-  <updated>2021-11-03T13:50:00+01:00</updated>
+  <updated>2021-11-03T23:45:00+01:00</updated>
   <rights license="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 License (CC BY-SA 4.0)</rights>
 </info>
 
@@ -384,30 +384,31 @@
     <choose>
       <if type="motion_picture graphic" match="any">
         <text macro="title" font-style="italic"/>
-        <group prefix=" (" suffix="). ">
-          <text macro="issued"/>
-          <text variable="year-suffix"/>
-        </group>
         <group delimiter=". ">
-        <text macro="author"/>
-          <group>
-            <text macro="container-contributors"/>
-            <text macro="secondary-contributors"/>
-            <group delimiter=", ">
-              <text variable="container-title" font-style="italic"/>
+          <group prefix=" (" suffix=")">
+            <text macro="issued"/>
+            <text variable="year-suffix"/>
+          </group>
+          <group delimiter=". ">
+          <text macro="author"/>
+            <group>
+              <text macro="container-contributors"/>
+              <text macro="secondary-contributors"/>
+              <group delimiter=", ">
+                <text variable="container-title" font-style="italic"/>
+              </group>
             </group>
           </group>
-        </group>
-        <group delimiter=", " prefix=". ">
           <text macro="publisher"/>
+          <group delimiter=". ">
+            <text variable="archive"/>
+            <text variable="medium"/>
+            <text variable="dimensions"/>
+            <text variable="note"/>
+            <text macro="locators"/>
+          </group>
         </group>
-        <group delimiter=". " prefix=". ">
-          <text variable="archive"/>
-          <text variable="medium"/>
-          <text variable="dimensions"/>
-          <text variable="note"/>
-        </group>
-        <text macro="locators"/>
+
       </if>
       <else>
         <group delimiter=" " suffix=". ">
