@@ -227,26 +227,6 @@
   </choose>
 </macro>
 
-<macro name="event">
-  <choose>
-    <if variable="event">
-      <choose>
-        <if variable="genre" match="none">
-          <text term="presented at" text-case="capitalize-first" suffix=" "/>
-          <text variable="event"/>
-        </if>
-        <else>
-          <group delimiter=" ">
-            <text variable="genre" text-case="capitalize-first"/>
-            <text term="presented at"/>
-            <text variable="event"/>
-          </group>
-        </else>
-      </choose>
-    </if>
-  </choose>
-</macro>
-
 <macro name="issued">
   <choose>
     <if variable="issued">
@@ -392,13 +372,11 @@
 </citation>
 
 <bibliography hanging-indent="true" et-al-min="7" et-al-use-first="6" entry-spacing="1">
-
   <sort>
     <key macro="urauthorortitle"/>
     <key macro="author"/>
     <key macro="issued-year" sort="ascending"/>
   </sort>
-
   <layout suffix=".">
     <choose>
       <if type="motion_picture graphic" match="any">
@@ -418,7 +396,6 @@
           </group>
         </group>
         <group delimiter=", " prefix=". ">
-          <text macro="event"/>
           <text macro="publisher"/>
         </group>
         <group delimiter=". " prefix=". ">
