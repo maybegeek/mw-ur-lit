@@ -21,7 +21,7 @@
   <category field="humanities"/>
   <category field="communications"/>
   <summary>mw-ur-lit: Kurz- und Vollbelege im Stile der Gestaltungsrichtlinien der Medienwissenschaft an der Universität Regensburg.</summary>
-  <updated>2021-11-03T10:00:00+01:00</updated>
+  <updated>2021-11-03T13:50:00+01:00</updated>
   <rights license="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 License (CC BY-SA 4.0)</rights>
 </info>
 
@@ -349,23 +349,23 @@
 </macro>
 
 <citation et-al-min="4" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true">
-
   <sort>
     <key macro="urauthorortitle"/>
     <key macro="author"/>
     <key macro="issued-year" sort="ascending"/>
   </sort>
-
   <layout delimiter="; ">
     <group delimiter=" ">
       <text macro="urauthorortitle"/>
-      <group delimiter=", " prefix="(" suffix=")">
+      <group prefix="(" suffix=")" delimiter=" ">
         <text macro="citation_author_in_movie_and_art"/>
-        <group>
-          <text macro="issued"/>
-          <text variable="year-suffix"/>
+        <group delimiter=", " >
+          <group>
+            <text macro="issued"/>
+            <text variable="year-suffix"/>
+          </group>
+          <text macro="citation-locator"/>
         </group>
-        <text macro="citation-locator"/>
       </group>
     </group>
   </layout>
