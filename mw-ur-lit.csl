@@ -230,7 +230,7 @@
 <macro name="issued">
   <choose>
     <if variable="issued">
-        <group>
+      <group>
         <choose>
           <if type="bill book legal_case report song article-journal paper-conference" match="none">
             <date variable="issued">
@@ -296,6 +296,22 @@
   </choose>
 </macro>
 
+<macro name="page-loc">
+  <choose>
+    <if type="motion_picture">
+      <text variable="locator"/>
+    </if>
+    <else-if variable="locator">
+      <label variable="locator" form="short" suffix="&#8239;"/>
+      <text variable="locator"/>
+    </else-if>
+    <else-if variable="page">
+      <label variable="page" form="short" suffix="&#8239;"/>
+      <text variable="page"/>
+    </else-if>
+  </choose>
+</macro>
+
 <macro name="locators">
   <choose>
     <if type="article-journal">
@@ -306,7 +322,7 @@
         </group>
         <group delimiter=". ">
           <text macro="access"/>
-          <text variable="page" prefix="S.&#8239;"/>
+          <text macro="page-loc"/>
         </group>
       </group>
     </if>
@@ -322,27 +338,14 @@
         </group>
         <group delimiter=". ">
           <text macro="access"/>
-          <text variable="page" prefix="S.&#8239;"/>
+          <text macro="page-loc"/>
         </group>
       </group>
     </else-if>
     <else>
       <group delimiter=". ">
         <text macro="access"/>
-        <text variable="page" prefix="S.&#8239;"/>
-      </group>
-    </else>
-  </choose>
-</macro>
-
-<macro name="citation-locator">
-  <choose>
-    <if type="motion_picture">
-      <text variable="locator"/>
-    </if>
-    <else>
-      <group>
-        <text variable="locator" prefix=" S.&#8239;"/>
+        <text macro="page-loc"/>
       </group>
     </else>
   </choose>
@@ -364,7 +367,7 @@
             <text macro="issued"/>
             <text variable="year-suffix"/>
           </group>
-          <text macro="citation-locator"/>
+          <text macro="page-loc"/>
         </group>
       </group>
     </group>
