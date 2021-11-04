@@ -389,6 +389,17 @@
   </choose>
 </macro>
 
+<macro name="type-sort">
+   <choose>
+     <if type="motion_picture graphic" match="any">
+       <text value="Z"/>
+     </if>
+     <else>
+       <text value="A"/>
+     </else>
+   </choose>
+ </macro>
+
 <citation et-al-min="4" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true">
   <sort>
     <key macro="author-or-title"/>
@@ -414,6 +425,7 @@
 
 <bibliography hanging-indent="true" et-al-min="7" et-al-use-first="6" entry-spacing="1">
   <sort>
+    <key macro="type-sort"/>
     <key macro="author-or-title"/>
     <key macro="author"/>
     <key macro="issued-year" sort="ascending"/>
