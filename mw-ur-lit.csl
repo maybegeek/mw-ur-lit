@@ -432,9 +432,7 @@
             <group>
               <text macro="container-contributors"/>
               <text macro="secondary-contributors"/>
-              <group delimiter=", ">
-                <text variable="container-title" font-style="italic"/>
-              </group>
+              <text variable="container-title" font-style="italic"/>
             </group>
           </group>
           <text macro="publisher"/>
@@ -446,7 +444,6 @@
             <text macro="locators"/>
           </group>
         </group>
-
       </if>
       <else>
         <group delimiter=" " suffix=". ">
@@ -465,7 +462,7 @@
                 <text macro="container-contributors"/>
                 <text macro="secondary-contributors"/>
               </group>
-              <group delimiter=" " suffix="">
+              <group delimiter=" ">
                 <text variable="container-title" font-style="italic"/>
                 <choose>
                   <if variable="container-title" match="any">
