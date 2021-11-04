@@ -371,6 +371,24 @@
     </else-if>
   </choose>
 </macro>
+
+<macro name="archive-archive-location">
+  <choose>
+    <if type="article" variable="archive archive_location" match="all">
+      <group font-style="italic" delimiter=". ">
+        <text variable="archive"/>
+        <text variable="archive_location"/>
+      </group>
+    </if>
+    <else>
+      <group delimiter=". ">
+        <text variable="archive"/>
+        <text variable="archive_location"/>
+      </group>
+    </else>
+  </choose>
+</macro>
+
 <citation et-al-min="4" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true">
   <sort>
     <key macro="urauthorortitle"/>
@@ -456,18 +474,11 @@
                 </choose>
               </group>
             </group>
+            <text macro="archive-archive-location"/>
           </group>
           <group>
             <group delimiter=". ">
-              <choose>
-                <if type="article" variable="archive" match="all">
-                  <text variable="archive" font-style="italic"/>
-                </if>
-                <else>
-                  <text variable="archive"/>
-                </else>
-              </choose>
-              <text variable="archive_location"/>
+
               <text macro="edition"/>
               <text variable="note"/>
               <text variable="dimensions"/>
