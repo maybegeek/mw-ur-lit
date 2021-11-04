@@ -106,7 +106,7 @@
   </choose>
 </macro>
 
-<macro name="citation_author_in_movie_and_art">
+<macro name="author-in-movie-and-art">
   <choose>
     <if type="motion_picture graphic" match="any">
       <choose>
@@ -139,7 +139,7 @@
   </choose>
 </macro>
 
-<macro name="urauthorortitle">
+<macro name="author-or-title">
   <choose>
   <if type="motion_picture graphic" match="any">
     <text variable="title" form="short" font-style="italic"/>
@@ -391,15 +391,15 @@
 
 <citation et-al-min="4" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true">
   <sort>
-    <key macro="urauthorortitle"/>
+    <key macro="author-or-title"/>
     <key macro="author"/>
     <key macro="issued-year" sort="ascending"/>
   </sort>
   <layout delimiter="; ">
     <group delimiter=" ">
-      <text macro="urauthorortitle"/>
+      <text macro="author-or-title"/>
       <group prefix="(" suffix=")" delimiter=" ">
-        <text macro="citation_author_in_movie_and_art"/>
+        <text macro="author-in-movie-and-art"/>
         <group delimiter=", " >
           <group>
             <text macro="issued"/>
@@ -414,7 +414,7 @@
 
 <bibliography hanging-indent="true" et-al-min="7" et-al-use-first="6" entry-spacing="1">
   <sort>
-    <key macro="urauthorortitle"/>
+    <key macro="author-or-title"/>
     <key macro="author"/>
     <key macro="issued-year" sort="ascending"/>
   </sort>
