@@ -172,10 +172,20 @@
 </macro>
 
 <macro name="series">
-  <group prefix=" (=&#8239;" suffix=")" delimiter=", ">
-    <text variable="collection-title"/>
-    <text variable="collection-number"/>
-  </group>
+  <choose>
+    <if variable="archive">
+      <group prefix=" (=&#8239;" suffix="). " delimiter=", ">
+        <text variable="collection-title"/>
+        <text variable="collection-number"/>
+      </group>
+    </if>
+    <else>
+      <group prefix=" (=&#8239;" suffix=")" delimiter=", ">
+        <text variable="collection-title"/>
+        <text variable="collection-number"/>
+      </group>
+    </else>
+  </choose>
 </macro>
 
 <macro name="title">
