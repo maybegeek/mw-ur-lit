@@ -109,13 +109,9 @@
 <macro name="author-in-movie-and-art">
   <choose>
     <if type="motion_picture graphic" match="any">
-      <choose>
-        <if variable="author" match="any">
-          <names variable="author">
-            <name and="symbol" sort-separator=", " delimiter="; " delimiter-precedes-last="never" form="long"/>
-          </names>
-        </if>
-      </choose>
+      <names variable="author">
+        <name and="symbol" sort-separator=", " delimiter="; " delimiter-precedes-last="never" form="long"/>
+      </names>
     </if>
   </choose>
 </macro>
@@ -257,13 +253,9 @@
         <date variable="issued">
           <date-part name="year"/>
         </date>
-        <choose>
-          <if variable="original-date">
-            <date variable="original-date" prefix=" [" suffix="]">
-              <date-part name="year"/>
-            </date>
-          </if>
-        </choose>
+        <date variable="original-date" prefix=" [" suffix="]">
+          <date-part name="year"/>
+        </date>
       </group>
     </if>
     <else>
@@ -283,13 +275,9 @@
       <text term="no date" form="short"/>
     </else>
   </choose>
-  <choose>
-    <if variable="original-date">
-      <date variable="original-date" prefix=" [" suffix="]">
-        <date-part name="year"/>
-      </date>
-    </if>
-  </choose>
+  <date variable="original-date" prefix=" [" suffix="]">
+    <date-part name="year"/>
+  </date>
 </macro>
 
 <macro name="edition">
@@ -487,18 +475,13 @@
           </group>
           <group>
             <group delimiter=". ">
-
               <text macro="edition"/>
               <text variable="note"/>
               <text variable="dimensions"/>
               <text macro="publisher"/>
             </group>
           </group>
-          <choose>
-            <if variable="dimensions medium" match="any">
-              <text variable="medium"/>
-            </if>
-          </choose>
+          <text variable="medium"/>
           <text macro="locators"/>
         </group>
       </else>
