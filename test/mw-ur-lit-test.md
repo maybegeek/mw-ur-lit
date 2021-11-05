@@ -196,3 +196,17 @@ Buch mit Kurztitelangabe, Angabe zu Archiv, Archivstandort und Bibliothekskatalo
 Buch mit Kurztitelangabe, Angabe zu Archiv, Archivstandort, Bibliothekskatalog und Seiten.[@zahn:oculus:1685e, 99-100.]
 
 Buch mit Kurztitelangabe, Angabe zu Archiv, Archivstandort, Bibliothekskatalog und Seiten. Zudem Fake-DOI und Fake-URL.[@zahn:oculus:1685f, 99-100.]
+
+
+## Test: Autor-Info nicht anzeigen
+
+Dinge und Sachen.[Autor-Info wird nicht angezeigt, so kann der Name im Text verwendete werden, hier beispielsweise Zahn und noch weiter getextet werden, um hernach dann eben noch die Informationen noch einzubinden, besonders gut eben nachzulesen in seinem Werk Blablablubb -@zahn:oculus:1685f, 99-100.]
+
+Dinge und Sachen.[Autor-Info wird nicht angezeigt, so kann der Name im Text verwendete werden, hier beispielsweise Björk und noch weiter getextet werden, um hernach dann eben noch die Informationen noch einzubinden, besonders gut eben nachzulesen im Werk Blablablubb -@bjork:human:2019.]
+
+Dinge und Sachen ... Hier zum Vergleich wieder mit Name.[Hier beispielsweise bei @bjork:human:2019.]
+
+
+## Test: Kurzbelege komprimiert darstellen
+
+Kurzbelege bei gleichen Autoren zusammenführen.[Dinge und Sachen @bier:typoku:2009; @zahn:oculus:1685; @zahn:oculus:1685e; @zahn:oculus:1685f; @gerhar:strukt:1900; @gerhar:strukt:1900; @gerhar:strukt:1993 dsfsf dsfsdfsdf sdfsdf sdfsdf.]
