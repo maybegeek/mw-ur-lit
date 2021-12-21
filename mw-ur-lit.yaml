@@ -12,6 +12,7 @@ references:
       given: Deborah
     - family: Schulman
       given: Robert S.
+  citation-key: amento:experi:2003
   container-title: ACM Transactions on Computer-Human Interaction (TOCHI)
   DOI: 10.1145/606658.606661
   issue: '1'
@@ -30,6 +31,7 @@ references:
       given: Martin
     - family: Grätz
       given: Frank
+  citation-key: anderm:duden:2000
   event-place: Mainz
   issued:
     - year: 2000
@@ -44,6 +46,7 @@ references:
   author:
     - family: Benjamin
       given: Walter
+  citation-key: benjam:kleine:1977
   container-title: 'Walter Benjamin: Gesammelte Schriften. Bd. II, 1. Aufsätze, Essays, Vorträge'
   editor:
     - family: Tiedemann
@@ -69,6 +72,7 @@ references:
   author:
     - family: Bier
       given: Christoph
+  citation-key: bier:typoku:2009
   issued:
     - year: 2009
   title: Typokurz – Einige wichtige typografische Regeln
@@ -82,6 +86,7 @@ references:
       day: 26
   author:
     - literal: Björk
+  citation-key: bjork:human:2019
   issued:
     - year: 2019
   note: >-
@@ -95,6 +100,7 @@ references:
   author:
     - family: Brink
       given: Alfred
+  citation-key: brink:anfert:2013
   edition: 4., korr. und akt. Auflage
   event-place: Wiesbaden
   issued:
@@ -107,6 +113,7 @@ references:
   type: book
 
 - id: cukor:awoma:1941
+  citation-key: cukor:awoma:1941
   director:
     - family: Cukor
       given: Georges
@@ -122,6 +129,7 @@ references:
 - id: doppel:sitzna:2007
   author:
     - literal: Doppelherz
+  citation-key: doppel:sitzna:2007
   issued:
     - year: 2007
   note: ARD Radio-Kreativ-Wettbewerb 2007; Broschüre und CD-Rom. [Werbung]
@@ -134,6 +142,7 @@ references:
       given: Bernhard J.
     - family: Roesler-Keilholz
       given: Silke
+  citation-key: dotzle:medien:2017
   event-place: Baden-Baden
   issued:
     - year: 2017
@@ -151,6 +160,7 @@ references:
   author:
     - family: Friedrich
       given: Caspar David
+  citation-key: friedr:mannu:1818
   issued:
     - year: 1818
     - year: 1824
@@ -167,6 +177,7 @@ references:
       given: Jürgen
     - family: Neidhardt
       given: Friedhelm
+  citation-key: gerhar:strukt:1993
   collection-number: '2'
   collection-title: Studienbücher zur Publizistik- und Kommunikationswissenschaft
   container-title: Politische Kommunikation. Grundlagen, Strukturen, Prozesse
@@ -192,6 +203,7 @@ references:
   archive_location: 'R-Nummer: 616'
   author:
     - literal: Gesellschaft zur Förderung der Photographie
+  citation-key: gesell:ohdie:1952
   issued:
     - year: 1952
   note: PROPHOTO vom 12.7.1952. [Werbung, Audio]
@@ -200,6 +212,7 @@ references:
   URL: https://raw.uni-regensburg.de/details.php?r=616
 
 - id: heibac:asthet:2015
+  citation-key: heibac:asthet:2015
   collection-number: '6'
   collection-title: HfG Forschung
   editor:
@@ -223,6 +236,7 @@ references:
   author:
     - family: O’Reilly
       given: Tim
+  citation-key: oreill:whati:2005
   issued:
     - year: 2005
   title: >-
@@ -236,6 +250,7 @@ references:
     - year: 2021
       month: 9
       day: 26
+  citation-key: primal:howsp:2021
   director:
     - literal: Primal Space
   issued:
@@ -249,6 +264,7 @@ references:
   author:
     - family: Ray
       given: Man
+  citation-key: ray:larmes:1930
   issued:
     - year: 1930
   note: >-
@@ -259,6 +275,7 @@ references:
   type: graphic
 
 - id: simon:thewi:2002
+  citation-key: simon:thewi:2002
   director:
     - family: Simon
       given: David
@@ -279,6 +296,7 @@ references:
       day: 28
   author:
     - literal: '@StanfordMed'
+  citation-key: stanfo:animal:2012
   issued:
     - year: 2012
       month: 10
@@ -296,6 +314,7 @@ references:
       given: Christian
     - family: Rausch
       given: Alexander
+  citation-key: stegba:diesc:2001
   container-title: Zeitschrift für Soziologie
   issue: '1'
   issued:
@@ -312,6 +331,7 @@ references:
       day: 26
   author:
     - literal: UR.Regensburg
+  citation-key: ur.reg:furda:2021
   issued:
     - year: 2021
       month: 9
@@ -331,6 +351,7 @@ references:
       day: 22
   author:
     - literal: Wikipedia
+  citation-key: wikipe:univer:2019
   container-title: Wikipedia, Die freie Enzyklopädie
   issued:
     - year: 2019
@@ -345,6 +366,7 @@ references:
   author:
     - family: Zahn
       given: Johannes
+  citation-key: zahn:oculus:1685
   event-place: Würzburg
   issued:
     - year: 1685

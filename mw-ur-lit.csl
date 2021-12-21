@@ -485,4 +485,11 @@
     </choose>
   </layout>
 </bibliography>
+<!-- <intext>
+  <layout>
+    <names variable="author">
+      <name and="text" form="short"/>
+    </names>
+  </layout>
+</intext> -->
 </style>
