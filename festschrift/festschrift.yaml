@@ -1,0 +1,377 @@
+---
+references:
+- id: amento:experi:2003
+  author:
+    - family: Amento
+      given: Brian
+    - family: Terveen
+      given: Loren G.
+    - family: Hill
+      given: William C.
+    - family: Hix
+      given: Deborah
+    - family: Schulman
+      given: Robert S.
+  citation-key: amento:experi:2003
+  container-title: ACM Transactions on Computer-Human Interaction (TOCHI)
+  DOI: 10.1145/606658.606661
+  issue: '1'
+  issued:
+    - year: 2003
+  page: 54-85
+  title: 'Experiments in social data mining: The TopicShop system'
+  type: article-journal
+  volume: '10'
+
+- id: anderm:duden:2000
+  author:
+    - family: Andermann
+      given: Ulrich
+    - family: Drees
+      given: Martin
+    - family: Grätz
+      given: Frank
+  citation-key: anderm:duden:2000
+  event-place: Mainz
+  issued:
+    - year: 2000
+  publisher: Verlag Hermann Schmidt
+  publisher-place: Mainz
+  title: >-
+    Duden. Wie verfasst man wissenschaftliche Arbeiten? Ein Leitfaden für das
+    Studium und die Promotion
+  type: book
+
+- id: benjam:kleine:1977
+  author:
+    - family: Benjamin
+      given: Walter
+  citation-key: benjam:kleine:1977
+  container-title: 'Walter Benjamin: Gesammelte Schriften. Bd. II, 1. Aufsätze, Essays, Vorträge'
+  editor:
+    - family: Tiedemann
+      given: Rolf
+    - family: Schweppenhäuser
+      given: Hermann
+  event-place: Frankfurt am Main
+  issued:
+    - year: 1977
+  original-date:
+    - year: 1931
+  page: 368-385
+  publisher: Suhrkamp
+  publisher-place: Frankfurt am Main
+  title: Kleine Geschichte der Photographie
+  type: chapter
+
+- id: bier:typoku:2009
+  accessed:
+    - year: 2019
+      month: 6
+      day: 29
+  author:
+    - family: Bier
+      given: Christoph
+  citation-key: bier:typoku:2009
+  issued:
+    - year: 2009
+  title: Typokurz – Einige wichtige typografische Regeln
+  type: article
+  URL: https://zvisionwelt.files.wordpress.com/2012/01/typokurz.pdf
+
+- id: bjork:human:2019
+  accessed:
+    - year: 2021
+      month: 9
+      day: 26
+  author:
+    - literal: Björk
+  citation-key: bjork:human:2019
+  issued:
+    - year: 2019
+  note: >-
+    Mitautor: Nellee Hooper. Regisseur: Michel Gondry. Release: 1993. One Little
+    Indian Records. [Youtube, Musikvideo]
+  title: Human Behaviour (HD)
+  type: motion_picture
+  URL: https://youtu.be/p0mRIhK9seg
+
+- id: brink:anfert:2013
+  author:
+    - family: Brink
+      given: Alfred
+  citation-key: brink:anfert:2013
+  edition: 4., korr. und akt. Auflage
+  event-place: Wiesbaden
+  issued:
+    - year: 2013
+  publisher: Springer Fachmedien
+  publisher-place: Wiesbaden
+  title: >-
+    Anfertigung wissenschaftlicher Arbeiten. Ein prozessorientierter Leitfaden
+    zur Erstellung von Bachelor-, Master- und Diplomarbeiten
+  type: book
+
+- id: cukor:awoma:1941
+  citation-key: cukor:awoma:1941
+  director:
+    - family: Cukor
+      given: Georges
+  issued:
+    - year: 1941
+  medium: '[DVD/2017]'
+  publisher: MGM
+  publisher-place: US
+  title: A Woman's Face [Die Frau mit der Narbe]
+  title-short: A Woman's Face
+  type: motion_picture
+
+- id: doppel:sitzna:2007
+  author:
+    - literal: Doppelherz
+  citation-key: doppel:sitzna:2007
+  issued:
+    - year: 2007
+  note: ARD Radio-Kreativ-Wettbewerb 2007; Broschüre und CD-Rom. [Werbung]
+  title: Sitznachbar
+  type: article
+
+- id: dotzle:medien:2017
+  author:
+    - family: Dotzler
+      given: Bernhard J.
+    - family: Roesler-Keilholz
+      given: Silke
+  citation-key: dotzle:medien:2017
+  event-place: Baden-Baden
+  issued:
+    - year: 2017
+  publisher: Nomos
+  publisher-place: Baden-Baden
+  title: Mediengeschichte als Historische Techno-Logie
+  type: book
+
+- id: friedr:mannu:1818
+  accessed:
+    - year: 2019
+      month: 7
+      day: 22
+  archive: Alte Nationalgalerie Berlin
+  author:
+    - family: Friedrich
+      given: Caspar David
+  citation-key: friedr:mannu:1818
+  issued:
+    - year: 1818
+    - year: 1824
+  medium: '[Öl auf Leinwand]'
+  note: 'In: Wikipedia, Die freie Enzyklopädie'
+  title: Mann und Frau den Mond betrachtend [Mann und Frau in Betrachtung des Mondes]
+  title-short: Mann und Frau den Mond betrachtend
+  type: graphic
+  URL: https://w.wiki/6eW
+
+- id: gerhar:strukt:1993
+  author:
+    - family: Gerhards
+      given: Jürgen
+    - family: Neidhardt
+      given: Friedhelm
+  citation-key: gerhar:strukt:1993
+  collection-number: '2'
+  collection-title: Studienbücher zur Publizistik- und Kommunikationswissenschaft
+  container-title: Politische Kommunikation. Grundlagen, Strukturen, Prozesse
+  edition: 2., überarb. Auflage
+  editor:
+    - family: Langenbucher
+      given: Wolfgang R.
+  event-place: Wien
+  issued:
+    - year: 1993
+  page: 52-89
+  publisher: Braumüller
+  publisher-place: Wien
+  title: Strukturen und Funktionen moderner Öffentlichkeit
+  type: chapter
+
+- id: gesell:ohdie:1952
+  accessed:
+    - year: 2013
+      month: 9
+      day: 18
+  archive: Regensburger Archiv für Werbeforschung
+  archive_location: 'R-Nummer: 616'
+  author:
+    - literal: Gesellschaft zur Förderung der Photographie
+  citation-key: gesell:ohdie:1952
+  issued:
+    - year: 1952
+  note: PROPHOTO vom 12.7.1952. [Werbung, Audio]
+  title: Oh die herrlichen Berge
+  type: article
+  URL: https://raw.uni-regensburg.de/details.php?r=616
+
+- id: heibac:asthet:2015
+  citation-key: heibac:asthet:2015
+  collection-number: '6'
+  collection-title: HfG Forschung
+  editor:
+    - family: Heibach
+      given: Christiane
+    - family: Rohde
+      given: Carsten
+  event-place: München
+  issued:
+    - year: 2015
+  publisher: Fink
+  publisher-place: München
+  title: Ästhetik der Materialität
+  type: book
+
+- id: oreill:whati:2005
+  accessed:
+    - year: 2019
+      month: 6
+      day: 29
+  author:
+    - family: O’Reilly
+      given: Tim
+  citation-key: oreill:whati:2005
+  issued:
+    - year: 2005
+  title: >-
+    What Is Web 2.0. Design Patterns and Business Models for the Next Generation
+    of Software
+  type: webpage
+  URL: https://www.oreilly.com/pub/a/web2/archive/what-is-web-20.html
+
+- id: primal:howsp:2021
+  accessed:
+    - year: 2021
+      month: 9
+      day: 26
+  citation-key: primal:howsp:2021
+  director:
+    - literal: Primal Space
+  issued:
+    - year: 2021
+  note: '[Youtube, Video]'
+  title: How SpaceX Fixed Its Drone Ship Camera
+  type: motion_picture
+  URL: https://youtu.be/Bf4rPsS_fwA
+
+- id: ray:larmes:1930
+  author:
+    - family: Ray
+      given: Man
+  citation-key: ray:larmes:1930
+  issued:
+    - year: 1930
+  note: >-
+    In: Rosalind Krauss & Jane Livingston (Hg.) (1985). L’amour fou. Photography
+    and Surrealism. Washington: Abbeville Press. S. 118
+  title: Larmes [Tränen]
+  title-short: Larmes
+  type: graphic
+
+- id: simon:thewi:2002
+  citation-key: simon:thewi:2002
+  director:
+    - family: Simon
+      given: David
+    - family: Colesberry
+      given: Robert F.
+  issued:
+    - year: 2002
+  medium: '[DVD/2010]'
+  publisher: S01E01; HBO
+  publisher-place: US
+  title: 'The Wire: „The Target“'
+  type: motion_picture
+
+- id: stanfo:animal:2012
+  accessed:
+    - year: 2021
+      month: 9
+      day: 28
+  author:
+    - literal: '@StanfordMed'
+  citation-key: stanfo:animal:2012
+  issued:
+    - year: 2012
+      month: 10
+      day: 9
+  note: '[Twitter, Tweet]'
+  title: >-
+    Animal study shows sleeping brain behaves as if it's remembering:
+    http://stan.md/RrqyEt #sleep #neuroscience #research
+  type: webpage
+  URL: https://twitter.com/SUMedicine/status/255644688630046720
+
+- id: stegba:diesc:2001
+  author:
+    - family: Stegbauer
+      given: Christian
+    - family: Rausch
+      given: Alexander
+  citation-key: stegba:diesc:2001
+  container-title: Zeitschrift für Soziologie
+  issue: '1'
+  issued:
+    - year: 2001
+  page: 48-64
+  title: Die schweigende Mehrheit – „Lurker“ in internetbasierten Diskussionsforen
+  type: article-journal
+  volume: '30'
+
+- id: ur.reg:furda:2021
+  accessed:
+    - year: 2021
+      month: 9
+      day: 26
+  author:
+    - literal: UR.Regensburg
+  citation-key: ur.reg:furda:2021
+  issued:
+    - year: 2021
+      month: 9
+      day: 23
+  note: '[Facebook, Status Update]'
+  title: >-
+    Für das Wintersemester 2021/22 ist die lang erwartete Rückkehr zu einem
+    möglichst weitreichenden Präsenzlehrbetrieb geplant
+  type: webpage
+  URL: >-
+    https://www.facebook.com/UR.Regensburg/photos/a.714984458891629/1739632266426838/
+
+- id: wikipe:univer:2019
+  accessed:
+    - year: 2019
+      month: 7
+      day: 22
+  author:
+    - literal: Wikipedia
+  citation-key: wikipe:univer:2019
+  container-title: Wikipedia, Die freie Enzyklopädie
+  issued:
+    - year: 2019
+      month: 7
+      day: 11
+  title: Universität Regensburg
+  type: entry-encyclopedia
+  URL: >-
+    https://de.wikipedia.org/w/index.php?title=Universit%C3%A4t_Regensburg&oldid=190335453
+
+- id: zahn:oculus:1685
+  author:
+    - family: Zahn
+      given: Johannes
+  citation-key: zahn:oculus:1685
+  event-place: Würzburg
+  issued:
+    - year: 1685
+  publisher: Quirin Heil
+  publisher-place: Würzburg
+  title: Oculus Artificialis Teledioptricus Sive Telescopium
+  type: book
+...
