@@ -2,11 +2,11 @@
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" demote-non-dropping-particle="sort-only" default-locale="de-DE">
 
 <info>
-  <title>festschrift</title>
-  <title-short>festschrift</title-short>
-  <id>https://maybegeek.github.io/mw-ur-lit/festschrift</id>
-  <link href="https://maybegeek.github.io/mw-ur-lit/festschrift/festschrift.csl" rel="self"/>
-  <link href="https://maybegeek.github.io/mw-ur-lit/festschrift/" rel="documentation"/>
+  <title>explorationen</title>
+  <title-short>explorationen</title-short>
+  <id>https://maybegeek.github.io/mw-ur-lit/explorationen</id>
+  <link href="https://maybegeek.github.io/mw-ur-lit/explorationen/explorationen.csl" rel="self"/>
+  <link href="https://maybegeek.github.io/mw-ur-lit/explorationen/" rel="documentation"/>
   <author>
     <name>Christoph Pfeiffer</name>
     <email>christoph.pfeiffer@ur.de</email>
@@ -20,8 +20,8 @@
   <category citation-format="note"/>
   <category field="humanities"/>
   <category field="communications"/>
-  <summary>festschrift</summary>
-  <updated>2021-12-21T10:40:00+01:00</updated>
+  <summary>explorationen</summary>
+  <updated>2021-12-22T15:40:00+01:00</updated>
   <rights license="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 License (CC BY-SA 4.0)</rights>
 </info>
 

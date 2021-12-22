@@ -1,23 +1,23 @@
 ---
 lang: de-DE
-bibliography: festschrift.yaml
-csl: festschrift.csl
+bibliography: explorationen.yaml
+csl: explorationen.csl
 css: ../template/style.css
-pagetitle: festschrift
+pagetitle: explorationen
 ---
 
 [//]: # (
-  pandoc --from=markdown festschrift.md --citeproc --lua-filter ../template/section-refs.lua --metadata=section-refs-level:2 --include-in-header=../template/festschrift-meta.htm --output=index.htm -s --to=html5 --reference-location=block
+  pandoc --from=markdown explorationen.md --citeproc --lua-filter ../template/section-refs.lua --metadata=section-refs-level:2 --include-in-header=../template/explorationen-meta.htm --output=index.htm -s --to=html5 --reference-location=block
   )
 
-# festschrift
+# explorationen
 
-Vorgaben zur Zitierweise für die Festschrift zur Verwendung in Literaturverwaltungsprogrammen wie Zotero oder Mendeley.
+Vorgaben zur Zitierweise der *explorationen* zur Verwendung in Literaturverwaltungsprogrammen wie Zotero oder Mendeley.
 
-Stand: 21. Dezember 2021 / Version 1.0
+Stand: 22. Dezember 2021 / Version 1.0
 
 
-Die vorgefertigte [CSL-Datei (festschrift.csl)](https://maybegeek.github.io/mw-ur-lit/festschrift/festschrift.csl){.button}
+Die vorgefertigte [CSL-Datei (explorationen.csl)](https://maybegeek.github.io/mw-ur-lit/explorationen/explorationen.csl){.button}
 
 Beispielhaft nun die unterstützten Quellentypen, die jeweils zu befüllenden Felder in Zotero sowie ein Beispielsatz mit Kurzbeleg in der Fußnote (Fußnotenapparat am Ende der Seite) und Vollbeleg im heidenelkenroten Kästchen.
 

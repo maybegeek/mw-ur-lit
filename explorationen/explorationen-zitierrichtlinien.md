@@ -1,15 +1,15 @@
 ---
-title: 'festschrift'
+title: 'explorationen'
 ur-kolumnentitel: ''
 ur-stand: 'Dezember 2021'
 lang: de-DE
 author: 'CF & CP'
-subject: 'festschrift'
+subject: 'explorationen'
 ---
 
 
 [//]: # (
-  pandoc --standalone --pdf-engine=xelatex --template=layout/mwmd.tex --metadata-file=layout/mwmd.yaml festschrift-zitieren.md -o festschrift-zitieren.pdf
+  pandoc --standalone --pdf-engine=xelatex --template=layout/mwmd.tex --metadata-file=layout/mwmd.yaml explorationen-zitierrichtlinien.md -o explorationen-zitierrichtlinien.pdf
   )
 
 
