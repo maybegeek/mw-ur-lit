@@ -1,0 +1,50 @@
+---
+numbersections: true
+papersize: a4
+documentclass: scrartcl
+link-citations: true
+graphics: true
+classoption:
+- headings=standardclasses
+- fontsize=11pt
+mainfont: Vollkorn-Regular.otf
+mainfontoptions:
+- Path=./layout/vollkorn-4-105/PS-OTF/
+- UprightFont=Vollkorn-Regular
+- BoldFont=Vollkorn-Bold
+- ItalicFont=Vollkorn-Italic
+- BoldItalicFont=Vollkorn-BoldItalic
+- Numbers=Lining
+header-includes:
+- \setcounter{tocdepth}{4}
+- \RedeclareSectionCommand[beforeskip=-10pt plus -2pt minus -1pt,afterskip=1sp plus -1sp minus 1sp]{paragraph}
+- \renewenvironment{quote}
+  {\list{}{\leftmargin=32pt\rightmargin=0pt\small}\item[]}
+  {\endlist}
+- \usepackage{titling}
+- \usepackage{hanging}
+- \deffootnote[2em]{2em}{2.2em}{\thefootnotemark\ }
+- \usepackage[]{scrlayer-scrpage}
+- \clearpairofpagestyles
+- \ihead{}
+- \ohead{}
+- \ifoot{}
+- \cfoot{\pagemark}
+- \ofoot{}
+- \makeatletter\def\maketitle{}\makeatother
+- \usepackage{ragged2e}
+- \usepackage{setspace}\spacing{1.17}
+- \widowpenalty=80000
+- \clubpenalty=80000
+- \setlength{\footnotesep}{10pt}
+- \usepackage[format=plain,font=footnotesize,labelfont=it]{caption}
+- \renewcaptionname{ngerman}{\figurename}{Abbildung}
+- \renewcommand{\tightlist}{\RaggedRight\setlength{\itemsep}{-0.3\baselineskip}}
+- \newcommand{\kurz}[1]{\hspace*{0pt}\marginpar{\hfill\raisebox{1pt}{\scriptsize{Kurzbeleg\,\,▷}}}\hspace*{0pt}}
+- \newcommand{\voll}[1]{\hspace*{0pt}\marginpar{\hfill\raisebox{1pt}{\scriptsize{Vollbeleg\,\,▶}}}\hspace*{0pt}}
+- \newcommand{\qvzstart}{\begin{hangparas}{1.6em}{1}\RaggedRight\small}
+- \newcommand{\qvzend}{\end{hangparas}\null}
+- \reversemarginpar
+- \usepackage[left=34mm,right=32mm,top=32mm,bottom=40mm]{geometry}
+- \hypersetup{pdfborderstyle={/S/U/W 0.5},linkbordercolor=white,urlbordercolor=0.4 0.4 0.4}
+---
