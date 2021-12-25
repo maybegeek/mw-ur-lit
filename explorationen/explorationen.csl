@@ -21,7 +21,7 @@
   <category field="humanities"/>
   <category field="communications"/>
   <summary>explorationen</summary>
-  <updated>2021-12-22T15:40:00+01:00</updated>
+  <updated>2021-12-25T12:12:00+01:00</updated>
   <rights license="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 License (CC BY-SA 4.0)</rights>
 </info>
 
@@ -389,8 +389,7 @@
  </macro>
 
 <citation et-al-min="4" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true" collapse="year">
-  <sort>
-  </sort>
+  <!--<sort></sort>-->
   <layout delimiter="; ">
     <group delimiter=" ">
       <text macro="author-or-title"/>

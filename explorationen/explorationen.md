@@ -14,7 +14,7 @@ pagetitle: explorationen
 
 Vorgaben zur Zitierweise der *explorationen* zur Verwendung in Literaturverwaltungsprogrammen wie Zotero oder Mendeley.
 
-Stand: 22. Dezember 2021 / Version 1.0
+Stand: 25. Dezember 2021 / Version 1.1
 
 
 Die vorgefertigte [CSL-Datei (explorationen.csl)](https://maybegeek.github.io/mw-ur-lit/explorationen/explorationen.csl){.button}
