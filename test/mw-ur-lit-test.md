@@ -5,7 +5,7 @@ pagetitle: mw-ur-lit.csl tests
 ---
 
 [//]: # (
-  pandoc --from=markdown test/mw-ur-lit-test.md -C --biblio test/mw-ur-lit-test.yaml --lua-filter template/section-refs.lua --metadata=section-refs-level:2 --to=html5 -s -o test/mw-ur-lit-test.htm --csl mw-ur-lit.csl --reference-location=block
+  pandoc --from=markdown test/mw-ur-lit-test.md --citeproc --biblio=test/mw-ur-lit-test.yaml --lua-filter=template/section-refs.lua --metadata=section-refs-level:2 --to=html5 --standalone --output=test/mw-ur-lit-test.htm --csl=mw-ur-lit.csl --reference-location=block --wrap=none
   )
 
 # mw-ur-lit.csl Referenz

@@ -7,19 +7,14 @@ pagetitle: mw-ur-lit (CSL für MW-UR-Gestaltungsrichtlinien)
 ---
 
 [//]: # (
-  pandoc --from=markdown dokumentation.md \
-  --to=html5 output=index.htm -s \
-  --citeproc \
-  --lua-filter template/section-refs.lua \
-  --metadata=section-refs-level:2 \
-  --include-in-header=template/dokumentation-meta.htm
+  pandoc --from=markdown dokumentation.md --to=html5 --output=index.htm --standalone --citeproc --lua-filter=template/section-refs.lua --metadata=section-refs-level:2 --include-in-header=template/dokumentation-meta.htm --wrap=none --reference-location=block
   )
 
 # mw-ur-lit
 
 Kurzbelege und Vollbelege im Stile der [Gestaltungsrichtlinien der Medienwissenschaft](https://www.uni-regensburg.de/sprache-literatur-kultur/medienwissenschaft/medien/pdfs/studium-materialien/mw-gestaltungsrichtlinien.pdf) an der Universität Regensburg. Zur Verwendung in Literaturverwaltungsprogrammen wie [Zotero](https://www.zotero.org/) oder [Mendeley](https://www.mendeley.com/) und zur weiteren Unterstützung im akademischen Schreiben mit Word, Writer, Pandoc &hellip;
 
-Stand: 25. Dezember 2021.
+Stand: 2. Februar 2023.
 
 ## Literaturverwaltung
 
