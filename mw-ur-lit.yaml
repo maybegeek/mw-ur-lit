@@ -209,7 +209,7 @@ references:
   note: PROPHOTO vom 12.7.1952. [Werbung, Audio]
   title: Oh die herrlichen Berge
   type: article
-  URL: https://raw.uni-regensburg.de/details.php?r=616
+  URL: https://raw.ur.de/details.php?r=616
 
 - id: heibac:asthet:2015
   citation-key: heibac:asthet:2015
@@ -245,20 +245,20 @@ references:
   type: webpage
   URL: https://www.oreilly.com/pub/a/web2/archive/what-is-web-20.html
 
-- id: primal:howsp:2021
+- id: nasa:apollo11:2014
   accessed:
-    - year: 2021
-      month: 9
-      day: 26
-  citation-key: primal:howsp:2021
+    - year: 2023
+      month: 4
+      day: 28
+  citation-key: nasa:apollo11:2014
   director:
-    - literal: Primal Space
+    - literal: NASA
   issued:
-    - year: 2021
+    - year: 2014
   note: '[Youtube, Video]'
-  title: How SpaceX Fixed Its Drone Ship Camera
+  title: Restored Apollo 11 Moonwalk – Original NASA EVA Mission Video – Walking on the Moon
   type: motion_picture
-  URL: https://youtu.be/Bf4rPsS_fwA
+  URL: https://youtu.be/S9HdPi9Ikhk
 
 - id: ray:larmes:1930
   author:
@@ -304,7 +304,7 @@ references:
   note: '[Twitter, Tweet]'
   title: >-
     Animal study shows sleeping brain behaves as if it's remembering:
-    http://stan.md/RrqyEt #sleep #neuroscience #research
+    https://stan.md/RrqyEt #sleep #neuroscience #research
   type: webpage
   URL: https://twitter.com/SUMedicine/status/255644688630046720
 

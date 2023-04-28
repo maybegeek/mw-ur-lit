@@ -14,7 +14,7 @@ pagetitle: mw-ur-lit (CSL für MW-UR-Gestaltungsrichtlinien)
 
 Kurzbelege und Vollbelege im Stile der [Gestaltungsrichtlinien der Medienwissenschaft](https://www.uni-regensburg.de/assets/sprache-literatur-kultur/medienwissenschaft/pdfs/studium-materialien/mw-gestaltungsrichtlinien.pdf) an der Universität Regensburg. Zur Verwendung in Literaturverwaltungsprogrammen wie [Zotero](https://www.zotero.org/) oder [Mendeley](https://www.mendeley.com/) und zur weiteren Unterstützung im akademischen Schreiben mit Word, Writer, Pandoc &hellip;
 
-Stand: 2. Februar 2023.
+Stand: 28. April 2023.
 
 ## Literaturverwaltung
 
@@ -309,8 +309,7 @@ Serie Serienfolge Serie Serienfolge.[Besonders gut gelungen bei @simon:thewi:200
 
 ## Video (auf bspw. Youtube, Vimeo, ...)
 
-Ein Video auf der Plattform Youtube.[Video zu SpaceX und der Übertragung der Landung; Technisches zum Thema: @primal:howsp:2021, 00:02:50--00:04:10.]
-
+Ein Video auf der Plattform Youtube. Aufnahmen der Apollo 11-Mission aus 1969; wiederaufbereitet.[Besonders der angegebene, fiktive Zeitraum der Aufnahme zeigt Dinge und Sachen eindrucksvoll, @nasa:apollo11:2014, 00:02:50--00:04:10.]
 
 ::: {.kommentar}
 * In Anlehnung an die willentliche Unterscheidung aller Bewegtbild/Kunstwerk-Quellen im Gegensatz zur Notation konventioneller Quellentypen führt hier der Titel die Kurz- und Vollbelege an.*
@@ -318,10 +317,10 @@ Ein Video auf der Plattform Youtube.[Video zu SpaceX und der Übertragung der La
 
 ::: {.zotero-fields}
 * `Eintragsart:` `Videoaufnahme`
-* `Titel:` `How SpaceX Fixed Its Drone Ship Camera`
-* `Regisseur:` `Primal Space`
-* `URL:` `https://youtu.be/Bf4rPsS_fwA`
-* `Heruntergeladen am:` `2021-09-26`
+* `Titel:` `Restored Apollo 11 Moonwalk – Original NASA EVA Mission Video – Walking on the Moon `
+* `Regisseur:` `NASA`
+* `URL:` `https://youtu.be/S9HdPi9Ikhk`
+* `Heruntergeladen am:` `2023-04-28`
 * `Extra:` `[Youtube, Video]`
 :::
 
