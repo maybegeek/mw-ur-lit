@@ -11,8 +11,11 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
@@ -209,6 +212,7 @@ Benjamin, Walter (1977 [1931]). Kleine Geschichte der Photographie. In: Tiedeman
 <li><code>Titel:</code> <code>Die schweigende Mehrheit – „Lurker“ in internetbasierten Diskussionsforen</code></li>
 <li><code>Autor:</code> <code>Stegbauer, Christian</code></li>
 <li><code>Autor:</code> <code>Rausch, Alexander</code></li>
+<li><code>Publikation:</code> <code>Zeitschrift für Soziologie</code></li>
 <li><code>Band:</code> <code>30</code></li>
 <li><code>Ausgabe:</code> <code>1</code></li>
 <li><code>Seiten:</code> <code>48-64</code></li>

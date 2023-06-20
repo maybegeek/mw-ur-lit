@@ -134,6 +134,7 @@ Dinge und Sachen Dinge und Sachen Dinge und Sachen Dinge und Sachen besonders be
 * `Titel:` `Die schweigende Mehrheit – „Lurker“ in internetbasierten Diskussionsforen`
 * `Autor:` `Stegbauer, Christian`
 * `Autor:` `Rausch, Alexander`
+* `Publikation:` `Zeitschrift für Soziologie`
 * `Band:` `30`
 * `Ausgabe:` `1`
 * `Seiten:` `48-64`
